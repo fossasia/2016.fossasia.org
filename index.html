@@ -36,23 +36,8 @@
      ga('create', 'UA-17146009-5', 'auto');
      ga('send', 'pageview');
     </script>
-  
-
-
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Meetup</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/pe-icon-7-stroke.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/theme-lava.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
     </head>
+
     <body class="no-loader">
     
     	<div class="loader">
@@ -299,25 +284,28 @@
 				
 					<div class="row">
 						<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-							<form class="email-subscribe mail-list-signup">
-								<div class="col-sm-7">
-									<input class="form-email signup-email-field" placeholder="Enter your email address" type="text">
+							<form class="email-subscribe" action="http://news.fossasia.org/subscribe" method="POST" accept-charset="utf-8">
+                                                                <div class="col-sm-3">
+                                                                        <input class="form-email signup-email-field" placeholder="Name" type="text" name="name" id="name">
+                                                                </div>
+								<div class="col-sm-6">
+									<input class="form-email signup-email-field" placeholder="Enter your email address" type="text" name="email" id="email">
 								</div>
-							
-								<div class="col-sm-5">
-									<input class="btn" value="Subscribe" type="submit">
+			    
+								<div class="col-sm-3">
+									<input class="btn" value="Subscribe" type="submit" name="submit" id="submit"> 
+									<input type="hidden" name="list" value="A8fchTRvBw2wap1ojIfjyQ">
 								</div>
 							
 								<div class="col-sm-12 text-center">
 									<span>*We never share your email with 3rd parties</span>
 								</div>
-								<iframe class="mail-list-form" srcdoc="<form action=&quot;http://fossasia.createsend.com/t/t/s/krihdd/&quot; method=&quot;post&quot;>     <p>         <label for=&quot;fieldName&quot;>Name</label><br />         <input id=&quot;fieldName&quot; name=&quot;cm-name&quot; type=&quot;text&quot; />     </p>     <p>         <label for=&quot;fieldEmail&quot;>Email</label><br />         <input id=&quot;fieldEmail&quot; name=&quot;cm-krihdd-krihdd&quot; type=&quot;email&quot; required />     </p>     <p>         <button type=&quot;submit&quot;>Subscribe</button>     </p> </form>">
-								</iframe>
 							</form>
+	    				
+    	
 						</div>
 					</div>
 				</div>
-				
 			
 			</section>
 			
@@ -765,7 +753,7 @@
 				</div>
 			
 				<div class="map-holder col-md-6 col-sm-4">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7977.592881951232!2d103.7864741!3d1.2967915!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a4fd6113e5f%3A0xee13a6607940fc4d!2sPlug-In%40Blk71!5e0!3m2!1sde!2sde!4v1413933805322"></iframe>
+					<iframe src="http://www.openstreetmap.org/export/embed.html?bbox=103.72413396835327%2C1.3267809354152884%2C103.74808073043822%2C1.3399738304430953&amp;layer=mapnik&amp;marker=1.3333666658366883%2C103.73610734939575"></iframe>
 				</div>
 			</section>
 		</div>
@@ -792,7 +780,7 @@
 							<ul class="contact-methods">
 								<li><i class="icon pe-7s-mail"></i><span>contact@fossasia.org</span></li>
 								<li><i class="icon pe-7s-phone"></i><span>+65 83435672</span></li>
-								<li><i class="icon pe-7s-map-marker"></i><span>NUS Plug-In@Blk71,<br>71 Ayer Rajah Crescent, 139951 Singapore</span></li>
+								<li><i class="icon pe-7s-map-marker"></i><span>Science Center Singapore <br>15 Science Centre Rd<br>609081&nbsp;Singapore</span></li>
 							</ul>
 						</div>
 					</div>
@@ -826,4 +814,3 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
-				
