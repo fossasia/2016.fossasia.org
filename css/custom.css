@@ -16,7 +16,30 @@
 }
 
 .schedule a:visited {
-  color: #B82300;
+  color: white;
   text-decoration: none;
   border: none;
+}
+
+.tweets-feed {
+  color: #FFFFFF;
+  line-height: 36px;
+  font-size: 30px;
+  transition: opacity 0.2s linear;
+  margin-bottom: 20px;
+}
+
+.tweets-feed a {
+  color: #FFFFFF;
+  text-decoration: underline;
+  font-weight:700;
+}
+
+.tweets-feed a:hover {
+  color: #FFFFFF;
+}
+
+.tweets-feed .dateTweeted {
+  font-size: 15px;
+  display: block;
 }
