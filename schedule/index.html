@@ -1,347 +1,101 @@
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-<style type="text/css">
-li:hover{cursor:pointer;}
-.list-group-item:hover{background-color:#f5f5f5;}
-</style>
-<script type="text/javascript">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="FOSSASIA 2016 Schedule">
+    <meta name="author" content="Joerg Henning <henning.joerg@gmail.com>">
+    <link rel="icon" href="favicon.ico">
 
-var KEY = 'd/1JSYeGWAo-IMQkxeZq3CBUzasRfgW6vIBxuRAd_u57_U';
-var WORKSHEETS = 'https://spreadsheets.google.com/feeds/worksheets/' + KEY + '/public/basic?alt=json';
+    <title>FOSSASIA 2016 Schedule</title>
 
-var TITLE_VERSIONS = 'Versioning';
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" 
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+      integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" 
+      crossorigin="anonymous">
 
-var tracks = new Array();
-var num_tracks = -1, loaded_tracks = 0;
-
-function append(nodename, innerhtml, parent) {
-  var e = document.createElement(nodename);
-  if (innerhtml)
-    e.innerHTML = innerhtml;
-  if (!parent)
-    parent = document.getElementById('container');
-  return parent.appendChild(e);
-}
-
-function toggle(parent) {
-  var i, n;
-
-  for (i = 0; i < parent.childNodes.length && !n; i++)
-    if ('P' == parent.childNodes[i].nodeName) {
-      n = parent.childNodes[i];
-      n.style.display = ('none' == n.style.display ? 'block' : 'none');
-    }
-}
-
-function status(str) {
-  var s = document.getElementById('status');
-  if (str)
-    s.innerHTML = str;
-  return s;
-}
-
-function errmsg(msg) {
-  m = "Sorry, that didn't work. :\\ Please try reloading the page.";
-  m += '<hr/>';
-  m += '<span class="label label-danger">Error</span> ' + msg;
-  status(m).setAttribute('class', 'alert alert-danger');
-  return false;
-}
-
-function httpreq() {
-  var noreq = 'Local error: XMLHTTP not available.';
-  if (typeof(window.XMLHttpRequest) != 'undefined') {
-    try {
-      return new XMLHttpRequest();
-    } catch(e) {
-      return errmsg(noreq);
-    }
-  }
-
-  if (window.ActiveXObject) {
-    try {
-      return new ActiveXObject("Msxml2.XMLHTTP");
-    } catch(f) {
-      try {
-        return new ActiveXObject("Microsoft.XMLHTTP");
-      } catch(g) {
-        return errmsg(noreq);
+    <!-- Custom styles for this template -->
+    <style type="text/css">     
+      body {
+        min-height: 2000px; /* change this */
+        padding-top: 70px;
       }
-    }
-  }
+    </style>
 
-  return errmsg(noreq);
-}
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
 
-function httpget(url, func, wait) {
-  var req = httpreq();
-  if (!req)
-    return false;
+  <body>
 
-  req.onreadystatechange = function() {
-    if (req.readyState !== 4)
-      return;
-    if (req.status == 200)
-      func(req, url);
-    else
-      errmsg('XHR ' + req.status + ' ' + req.statusText + ' ');
-  }
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="//2016.fossasia.org">FOSSASIA</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown">
+              <a href="#" 
+                class="dropdown-toggle dropdown-day" 
+                data-toggle="dropdown" 
+                role="button" 
+                aria-haspopup="true" 
+                aria-expanded="false">Day 0 - March 17 <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#/2016-03-17">Day 0 - March 17</a></li>
+                <li><a href="#/2016-03-18">Day 1 - March 18</a></li>
+                <li><a href="#/2016-03-19">Day 2 - March 19</a></li>
+                <li><a href="#/2016-03-20">Day 3 - March 20</a></li>
+                <!-- <li role="separator" class="divider"></li> -->
+                <!-- <li class="dropdown-header">Nav header</li> -->
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-  req.open('GET', url, !wait);
-  req.send('');
-  return true;
-}
+    <div id="container">
+    </div> <!-- /container -->
 
-function rowcol(entry) {
-  var rc = /^R([0-9]*)C([0-9]+)$/;
-  var a1 = /^([A-Z]+)([0-9]+)$/;
-  var ret = new Object;
-  var mat = rc.exec(entry.title.$t);
+    <div class="shadow" style="display: none">
+      <div id="session-list-tpl">
+        <div class="track-list">
+        </div>
+      </div>
 
-  if (mat) {
-    ret.row = parseInt(mat[1]);
-    ret.col = parseInt(mat[2]);
-  } else {
-    mat = a1.exec(entry.title.$t);
-    if (!mat)
-      return mat;
-    ret.row = parseInt(mat[2]);
-    ret.col = mat[1];
-  }
+      <div id="session-list-per-track-tpl">
+        <h2 class="track-title">$track-title</h2>
+        <ul class="session-list">
+        </ul>
+      </div>
 
-  return ret;
-}
+      <li id="session-tpl">
+        <span class="session-title">$session-title</span>
+      </li>
+    </div>
 
-function feed_json(req, name) {
-  var resp = req.responseText;
-  if (!resp)
-    return errmsg('No data available for ' + name + ' feed.');
-
-  try {
-    var ws = JSON.parse(resp + '');
-  } catch(e) {
-    return errmsg('Can not parse ' + name + ' feed response.<br/>' + e);
-  }
-
-  if (!ws.feed)
-    return errmsg('No ' + name + ' feed received.');
-
-  ws.feed.linkhref = function(entry, anchor) {
-    for (var i = 0; i < this.entry[entry].link.length; i++)
-      if ('http://schemas.google.com/spreadsheets/2006#' + anchor == this.entry[entry].link[i].rel)
-        return this.entry[entry].link[i].href + '?alt=json';
-    return false;
-  }
-
-
-  ws.feed.make_table = function() {
-    var i, lastrc, rc, r;
-
-    this.rows = new Array;
-    this.cols = new Object;
-
-    this.cell = function(row, col, debug) {
-      var c = this.cols[col] ? this.cols[col] : col;
-      if (this.rows[row].c[c])
-        return this.entry[this.rows[row].c[c]].content.$t.trim();
-      return '';
-    }
-
-    for (i = 0; rowcol(this.entry[i]).row == 1; i++)
-      this.cols[this.entry[i].content.$t] = rowcol(this.entry[i]).col;
-
-    for (lastrc = rowcol(this.entry[i - 1]); i < this.entry.length; i++) {
-      rc = rowcol(this.entry[i]);
-
-      if (rc.row != lastrc.row) {
-        if (r)
-          this.rows.push(r);
-        r = new Object;
-        r.c = new Object;
-      }
-
-      r.c[rc.col] = i;
-      lastrc = rc;
-    }
-
-    if (r)
-      this.rows.push(r);
-
-    return this;
-  }
-
-  return ws.feed;
-}
-
-function track_done(ret) {
-  if (num_tracks == -1)
-    return ret;
-
-  ++loaded_tracks;
-
-  var loaded = loaded_tracks.toString();
-  var tracks = ' track' + (1 == num_tracks ? '' : 's') + '.';
-
-  if (loaded_tracks < num_tracks) {
-    loaded += ' of ' + num_tracks;
-    tracks += '..'
-  }
-
-  var s = status();
-  if (s.getAttribute('class') != 'alert alert-danger') {
-    status('Loaded ' + loaded + tracks);
-    if (loaded_tracks == num_tracks) {
-      s.setAttribute('class', 'alert alert-success');
-      setTimeout("status('').setAttribute('style', 'display:none')", 500);
-    }
-  }
-
-  return ret;
-}
-
-function get_track(name, cellsfeed, pos) {
-  httpget(cellsfeed, function(req) {
-    var i;
-    var time, title, abstract, gn, fn, speaker, org;
-    var html, li, p;
-    var t = feed_json(req, name).make_table();
-    if (!t)
-      return track_done(t);
-
-    for (i = 0; i < t.rows.length; i++) {
-      time = t.cell(i, 'Time');
-      title = t.cell(i, 'Session Topic');
-      abstract = t.cell(i, 'Abstract of talk or project');
-
-      gn = t.cell(i, 'Given Name');
-      fn = t.cell(i, 'Family Name');
-      if (gn && fn)
-        speaker = gn + ' ' + fn;
-      else if (gn)
-        speaker = gn;
-      else if (fn)
-        speaker = fn;
-      else
-        speaker = '';
-
-      org = t.cell(i, 'Organization');
-
-      if (title == speaker)
-        speaker = '';
-      if (title == org)
-        org = '';
-      if (speaker == org)
-        org = '';
-
-      html = '<div class="row">';
-      html += '<div class="col-xs-1"><span class="label label-primary">' + time + '</span></div>';
-      html += '<div class="col-xs-11">' + title;
-
-      if (speaker || org) {
-        html += ' - ';
-        if (speaker) {
-          html += speaker;
-          if (org)
-            html += ', ';
-        }
-        if (org)
-          html += org;
-      }
-
-      html += '</div>';
-
-      li = append('li', html, tracks[pos]);
-      li.setAttribute('class', 'list-group-item');
-      li.setAttribute('onclick', 'toggle(this)');
-
-      p = append('p', abstract, li);
-      p.setAttribute('class', 'list-group-item-text');
-      p.setAttribute('style', 'display:none');
-    }
-
-    return track_done();
-  });
-}
-
-function got_versions(req) {
-  var i, name = 'Versioning', col;
-  var t = feed_json(req, name).make_table();
-  if (!t)
-    return t;
-
-  if (!t.cols['Track'] || !t.cols['GID']) {
-    if (!t.cols['Track'] && !t.cols['GID'])
-      col = 'Track and no column named GID';
-    else if (!t.cols['Track'])
-      col = 'Track';
-    else
-      col = 'GID';
-
-    return errmsg('Worksheet ' + name + ' has no column named ' + col + '.');
-  }
-
-  num_tracks = t.rows.length;
-  if (num_tracks)
-    status('Loaded 0 of ' + num_tracks + ' track' + (num_tracks != 1 ? 's' : '') + '...');
-  else
-    status('Loaded 0 tracks.').setAttribute('class', 'alert alert-warning');
-
-  for (i = 0; i < num_tracks; i++) {
-    tracks[i] = append('ul');
-    tracks[i].setAttribute('class', 'list-group');
-    tracks[i].setAttribute('gid', t.cell(i, 'GID'));
-    append('h3', t.cell(i, 'Track'), tracks[i]);
-  }
-}
-
-function got_worksheets(req) {
-  var i, j, re;
-  var name = 'worksheets';
-  var t = feed_json(req, name);
-  if (!t)
-    return t;
-
-  for (i = 0; i < t.entry.length; i++)
-    if (TITLE_VERSIONS == t.entry[i].title.$t)
-      break;
-
-  if (i == t.entry.length)
-    return errmsg('No ' + TITLE_VERSIONS + ' worksheet found.');
-
-  httpget(t.linkhref(i, 'cellsfeed'), got_versions, true);
-
-  for (i = 0; i < num_tracks; i++) {
-    re = new RegExp('\\?gid=' + tracks[i].getAttribute('gid') + '&');
-
-    for (j = 0; j < t.entry.length; j++) {
-      if (!re.test(t.linkhref(j, 'exportcsv')))
-        continue;
-      get_track(tracks[i].childNodes[0].innerHTML, t.linkhref(j, 'cellsfeed'), i);
-      break;
-    }
-
-    if (j == t.entry.length)
-      return errmsg('Worksheet for ' + tracks[i].childNodes[0].innerHTML + ' (gid=' + tracks[i].getAttribute('gid') + ') not found.');
-  }
-}
-
-function go() {
-  status('Loading...');
-  httpget(WORKSHEETS, got_worksheets);
-}
-</script>
-</head>
-<body onload="go()">
-<div class="container" id="container">
-<div class="jumbotron" style="text-align:center">
-<h2>FOSSASIA 2016</h2>
-<p>Friday, March 18 - Sunday, March 20<br/>Science Centre Singapore</p>
-</div>
-<div id="status" class="alert alert-info">
-<noscript>Please enable JavaScript to view the program.</noscript>
-</div>
-</div>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="./main.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+      integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" 
+      crossorigin="anonymous"></script>
+  </body>
 </html>
