@@ -1,0 +1,347 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+<style type="text/css">
+li:hover{cursor:pointer;}
+.list-group-item:hover{background-color:#f5f5f5;}
+</style>
+<script type="text/javascript">
+
+var KEY = '1NY3YC1AWC8xotzD2X0dMZuBSGS5ErjEtkYboGwKuZWc';
+var WORKSHEETS = 'https://spreadsheets.google.com/feeds/worksheets/' + KEY + '/public/basic?alt=json';
+
+var TITLE_VERSIONS = 'Versioning';
+
+var tracks = new Array();
+var num_tracks = -1, loaded_tracks = 0;
+
+function append(nodename, innerhtml, parent) {
+  var e = document.createElement(nodename);
+  if (innerhtml)
+    e.innerHTML = innerhtml;
+  if (!parent)
+    parent = document.getElementById('container');
+  return parent.appendChild(e);
+}
+
+function toggle(parent) {
+  var i, n;
+
+  for (i = 0; i < parent.childNodes.length && !n; i++)
+    if ('P' == parent.childNodes[i].nodeName) {
+      n = parent.childNodes[i];
+      n.style.display = ('none' == n.style.display ? 'block' : 'none');
+    }
+}
+
+function status(str) {
+  var s = document.getElementById('status');
+  if (str)
+    s.innerHTML = str;
+  return s;
+}
+
+function errmsg(msg) {
+  m = "Sorry, that didn't work. :\\ Please try reloading the page.";
+  m += '<hr/>';
+  m += '<span class="label label-danger">Error</span> ' + msg;
+  status(m).setAttribute('class', 'alert alert-danger');
+  return false;
+}
+
+function httpreq() {
+  var noreq = 'Local error: XMLHTTP not available.';
+  if (typeof(window.XMLHttpRequest) != 'undefined') {
+    try {
+      return new XMLHttpRequest();
+    } catch(e) {
+      return errmsg(noreq);
+    }
+  }
+
+  if (window.ActiveXObject) {
+    try {
+      return new ActiveXObject("Msxml2.XMLHTTP");
+    } catch(f) {
+      try {
+        return new ActiveXObject("Microsoft.XMLHTTP");
+      } catch(g) {
+        return errmsg(noreq);
+      }
+    }
+  }
+
+  return errmsg(noreq);
+}
+
+function httpget(url, func, wait) {
+  var req = httpreq();
+  if (!req)
+    return false;
+
+  req.onreadystatechange = function() {
+    if (req.readyState !== 4)
+      return;
+    if (req.status == 200)
+      func(req, url);
+    else
+      errmsg('XHR ' + req.status + ' ' + req.statusText + ' ');
+  }
+
+  req.open('GET', url, !wait);
+  req.send('');
+  return true;
+}
+
+function rowcol(entry) {
+  var rc = /^R([0-9]*)C([0-9]+)$/;
+  var a1 = /^([A-Z]+)([0-9]+)$/;
+  var ret = new Object;
+  var mat = rc.exec(entry.title.$t);
+
+  if (mat) {
+    ret.row = parseInt(mat[1]);
+    ret.col = parseInt(mat[2]);
+  } else {
+    mat = a1.exec(entry.title.$t);
+    if (!mat)
+      return mat;
+    ret.row = parseInt(mat[2]);
+    ret.col = mat[1];
+  }
+
+  return ret;
+}
+
+function feed_json(req, name) {
+  var resp = req.responseText;
+  if (!resp)
+    return errmsg('No data available for ' + name + ' feed.');
+
+  try {
+    var ws = JSON.parse(resp + '');
+  } catch(e) {
+    return errmsg('Can not parse ' + name + ' feed response.<br/>' + e);
+  }
+
+  if (!ws.feed)
+    return errmsg('No ' + name + ' feed received.');
+
+  ws.feed.linkhref = function(entry, anchor) {
+    for (var i = 0; i < this.entry[entry].link.length; i++)
+      if ('http://schemas.google.com/spreadsheets/2006#' + anchor == this.entry[entry].link[i].rel)
+        return this.entry[entry].link[i].href + '?alt=json';
+    return false;
+  }
+
+
+  ws.feed.make_table = function() {
+    var i, lastrc, rc, r;
+
+    this.rows = new Array;
+    this.cols = new Object;
+
+    this.cell = function(row, col, debug) {
+      var c = this.cols[col] ? this.cols[col] : col;
+      if (this.rows[row].c[c])
+        return this.entry[this.rows[row].c[c]].content.$t.trim();
+      return '';
+    }
+
+    for (i = 0; rowcol(this.entry[i]).row == 1; i++)
+      this.cols[this.entry[i].content.$t] = rowcol(this.entry[i]).col;
+
+    for (lastrc = rowcol(this.entry[i - 1]); i < this.entry.length; i++) {
+      rc = rowcol(this.entry[i]);
+
+      if (rc.row != lastrc.row) {
+        if (r)
+          this.rows.push(r);
+        r = new Object;
+        r.c = new Object;
+      }
+
+      r.c[rc.col] = i;
+      lastrc = rc;
+    }
+
+    if (r)
+      this.rows.push(r);
+
+    return this;
+  }
+
+  return ws.feed;
+}
+
+function track_done(ret) {
+  if (num_tracks == -1)
+    return ret;
+
+  ++loaded_tracks;
+
+  var loaded = loaded_tracks.toString();
+  var tracks = ' track' + (1 == num_tracks ? '' : 's') + '.';
+
+  if (loaded_tracks < num_tracks) {
+    loaded += ' of ' + num_tracks;
+    tracks += '..'
+  }
+
+  var s = status();
+  if (s.getAttribute('class') != 'alert alert-danger') {
+    status('Loaded ' + loaded + tracks);
+    if (loaded_tracks == num_tracks) {
+      s.setAttribute('class', 'alert alert-success');
+      setTimeout("status('').setAttribute('style', 'display:none')", 500);
+    }
+  }
+
+  return ret;
+}
+
+function get_track(name, cellsfeed, pos) {
+  httpget(cellsfeed, function(req) {
+    var i;
+    var time, title, abstract, gn, fn, speaker, org;
+    var html, li, p;
+    var t = feed_json(req, name).make_table();
+    if (!t)
+      return track_done(t);
+
+    for (i = 0; i < t.rows.length; i++) {
+      time = t.cell(i, 'Time');
+      title = t.cell(i, 'Session Topic');
+      abstract = t.cell(i, 'Abstract of talk or project');
+
+      gn = t.cell(i, 'Given Name');
+      fn = t.cell(i, 'Family Name');
+      if (gn && fn)
+        speaker = gn + ' ' + fn;
+      else if (gn)
+        speaker = gn;
+      else if (fn)
+        speaker = fn;
+      else
+        speaker = '';
+
+      org = t.cell(i, 'Organization');
+
+      if (title == speaker)
+        speaker = '';
+      if (title == org)
+        org = '';
+      if (speaker == org)
+        org = '';
+
+      html = '<div class="row">';
+      html += '<div class="col-xs-1"><span class="label label-primary">' + time + '</span></div>';
+      html += '<div class="col-xs-11">' + title;
+
+      if (speaker || org) {
+        html += ' - ';
+        if (speaker) {
+          html += speaker;
+          if (org)
+            html += ', ';
+        }
+        if (org)
+          html += org;
+      }
+
+      html += '</div>';
+
+      li = append('li', html, tracks[pos]);
+      li.setAttribute('class', 'list-group-item');
+      li.setAttribute('onclick', 'toggle(this)');
+
+      p = append('p', abstract, li);
+      p.setAttribute('class', 'list-group-item-text');
+      p.setAttribute('style', 'display:none');
+    }
+
+    return track_done();
+  });
+}
+
+function got_versions(req) {
+  var i, name = 'Versioning', col;
+  var t = feed_json(req, name).make_table();
+  if (!t)
+    return t;
+
+  if (!t.cols['Track'] || !t.cols['GID']) {
+    if (!t.cols['Track'] && !t.cols['GID'])
+      col = 'Track and no column named GID';
+    else if (!t.cols['Track'])
+      col = 'Track';
+    else
+      col = 'GID';
+
+    return errmsg('Worksheet ' + name + ' has no column named ' + col + '.');
+  }
+
+  num_tracks = t.rows.length;
+  if (num_tracks)
+    status('Loaded 0 of ' + num_tracks + ' track' + (num_tracks != 1 ? 's' : '') + '...');
+  else
+    status('Loaded 0 tracks.').setAttribute('class', 'alert alert-warning');
+
+  for (i = 0; i < num_tracks; i++) {
+    tracks[i] = append('ul');
+    tracks[i].setAttribute('class', 'list-group');
+    tracks[i].setAttribute('gid', t.cell(i, 'GID'));
+    append('h3', t.cell(i, 'Track'), tracks[i]);
+  }
+}
+
+function got_worksheets(req) {
+  var i, j, re;
+  var name = 'worksheets';
+  var t = feed_json(req, name);
+  if (!t)
+    return t;
+
+  for (i = 0; i < t.entry.length; i++)
+    if (TITLE_VERSIONS == t.entry[i].title.$t)
+      break;
+
+  if (i == t.entry.length)
+    return errmsg('No ' + TITLE_VERSIONS + ' worksheet found.');
+
+  httpget(t.linkhref(i, 'cellsfeed'), got_versions, true);
+
+  for (i = 0; i < num_tracks; i++) {
+    re = new RegExp('\\?gid=' + tracks[i].getAttribute('gid') + '&');
+
+    for (j = 0; j < t.entry.length; j++) {
+      if (!re.test(t.linkhref(j, 'exportcsv')))
+        continue;
+      get_track(tracks[i].childNodes[0].innerHTML, t.linkhref(j, 'cellsfeed'), i);
+      break;
+    }
+
+    if (j == t.entry.length)
+      return errmsg('Worksheet for ' + tracks[i].childNodes[0].innerHTML + ' (gid=' + tracks[i].getAttribute('gid') + ') not found.');
+  }
+}
+
+function go() {
+  status('Loading...');
+  httpget(WORKSHEETS, got_worksheets);
+}
+</script>
+</head>
+<body onload="go()">
+<div class="container" id="container">
+<div class="jumbotron" style="text-align:center">
+<h2>OpenTechSummit 2015</h2>
+<p>Thursday, May 14<br/>Kalkscheune, Johannisstraße 2, 10117 Berlin</p>
+</div>
+<div id="status" class="alert alert-info">
+<noscript>Please enable JavaScript to view the program.</noscript>
+</div>
+</div>
+</body>
+</html>
