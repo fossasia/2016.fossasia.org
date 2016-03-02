@@ -14,11 +14,7 @@
 
   function NavbarCtrl(sessionStore) {
     var elem = document.getElementById('navbar')
-    var dropdownDay = elem.querySelector('.dropdown-day .lbl')
-
     sessionStore.on('change', function() {
-      var currentDate = sessionStore.currentDate()
-      dropdownDay.textContent = moment(currentDate).format('YYYY-MM-DD')
     })
   }
 
@@ -109,6 +105,7 @@
       
       elem = clone(tpl)
       elem.querySelector('.session-title').textContent = params.title
+      elem.querySelector('.session-type').textContent = params.type
       elem.querySelector('.session-speakers').textContent = speakers.join(', ')
       elem.querySelector('.session-start').textContent = params.start_time.format('h:mm a')
       elem.querySelector('.session-end').textContent = params.end_time.format('h:mm a')
@@ -216,7 +213,7 @@
   }
 
   function actionSelectDay() {
-    var hash = window.location.hash.replace(/^#\//, '') || '2016-03-17'
+    var hash = window.location.hash.replace(/^#\//, '') || '2016-03-18'
     var date = moment(hash).toDate()
     store.selectDay(date)
   }

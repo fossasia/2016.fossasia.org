@@ -49,25 +49,10 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
-            <li class="dropdown">
-              <a href="#" 
-                class="dropdown-toggle dropdown-day" 
-                data-toggle="dropdown" 
-                role="button" 
-                aria-haspopup="true" 
-                aria-expanded="false">
-                <span class="lbl">Day 0 - March 17</span> <span class="caret"></span>
-              </a>
-              <ul class="dropdown-menu">
-                <li><a href="#/2016-03-17">Day 0 - March 17</a></li>
-                <li><a href="#/2016-03-18">Day 1 - March 18</a></li>
-                <li><a href="#/2016-03-19">Day 2 - March 19</a></li>
-                <li><a href="#/2016-03-20">Day 3 - March 20</a></li>
-                <!-- <li role="separator" class="divider"></li> -->
-                <!-- <li class="dropdown-header">Nav header</li> -->
-              </ul>
-            </li>
+            <li><a href="#/2016-03-17">March 17</a></li>
+            <li><a href="#/2016-03-18">March 18</a></li>
+            <li><a href="#/2016-03-19">March 19</a></li>
+            <li><a href="#/2016-03-20">March 20</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -88,14 +73,16 @@
           <h2 class="track-title">$track-title</h2>
           <table class="table">
             <thead>
-            <th>Title</th>
-            <th>Speaker</th>
-            <th>Start</th>
-            <th>End</th>
+            <th style="width: 50%">Title</th>
+            <th style="width: 15%">Type</th>
+            <th style="width: 21%">Speaker</th>
+            <th style="width: 7%">Start</th>
+            <th style="width: 7%">End</th>
             </thead>
             <tbody class="session-list">
               <tr class="session-tpl">
                 <td class="session-title">$session-title</td>
+                <td class="session-type">$session-type</td>
                 <td class="session-speakers">$session-speakers</td>
                 <td class="session-start">$session-start</td>
                 <td class="session-end">$session-end</td>

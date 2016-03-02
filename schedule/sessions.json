@@ -1,9 +1,9 @@
-{"sessions":[  
+{ "sessions":[
   {
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 2,
+        "id": 1,
         "name": "Manan  Wason"
       }
     ],
@@ -13,30 +13,17 @@
       "id": 1,
       "name": "Tech Kids I"
     },
-    "start_time": "2016-03-18T13:30:00",
-    "end_time": "2016-03-18T14:00:00",
+    "start_time": "2016-03-18T05:30:00+00:00",
+    "session_id": "TK1-01",
+    "end_time": "2016-03-18T07:30:00+00:00",
     "type": "Workshop of 2 hours"
   },
   {
     "py/object": "models.Session",
     "speakers": [
-    ],
-    "description": "",
-    "title": "Pub Crawl",
-    "track": {
-      "id": 1,
-      "name": "Tech Kids I"
-    },
-    "start_time": "2016-03-18T19:00:00",
-    "end_time": "2016-03-18T22:00:00",
-    "type": ""
-  },
-  {
-    "py/object": "models.Session",
-    "speakers": [
       {
-        "id": 5,
-        "name": "Praveen (Gnovi) Patil "
+        "id": 2,
+        "name": "Praveen (Gnovi) Patil"
       }
     ],
     "description": "Pocket Science Lab is yet another ambitious project from FOSSASIA  with the objective to develop open source hardware and software technology to improve science education by changing the way we teach and learn. PSL@FOSSASIA   aims to deliver low-cost lab equipments to millions of students and young scientists and enable them to learn science by experimenting and exploring.  The main components of PSL are  ExpEYES: Experiments for Young Engineers and Scientists [1] and MicroHope: Micro-controllers for Hobby Projects and Education [2] , projects by Dr. Ajith Kumar B P of IUAC, New Delhi [3].  ExpEYES is an Open Hardware and Free Software framework for developing science experiments, classroom demonstrations and projects without getting in to the details of electronics or computer programming. It converts your PC into a portable science laboratory.   In this workshop participants will be able to do hands-on science experiments  covering various concepts like electricity, electromagnetic induction, sound, interference, oscillations etc...  This workshop is for kids of any age [10 to 100 years :) ] who are interested in science hacks :)  [1] ExpEYES: http://www.expeyes.in  [2] MicroHope:  http://www.microhope.org [3] IUAC:  http://iuac.res.in/ [4] PSL: http://fossasia.github.io/pslab.fossasia.org/ ",
@@ -45,43 +32,16 @@
       "id": 1,
       "name": "Tech Kids I"
     },
-    "start_time": "2016-03-19T10:30:00",
-    "end_time": "2016-03-19T11:00:00",
+    "start_time": "2016-03-19T02:30:00+00:00",
+    "session_id": "TK1-02",
+    "end_time": "2016-03-19T04:00:00+00:00",
     "type": "Workshop of 2 hours"
   },
   {
     "py/object": "models.Session",
     "speakers": [
-    ],
-    "description": "",
-    "title": "Group Photo",
-    "track": {
-      "id": 1,
-      "name": "Tech Kids I"
-    },
-    "start_time": "2016-03-19T12:00:00",
-    "end_time": "2016-03-19T12:15:00",
-    "type": ""
-  },
-  {
-    "py/object": "models.Session",
-    "speakers": [
-    ],
-    "description": "",
-    "title": "Lunch",
-    "track": {
-      "id": 1,
-      "name": "Tech Kids I"
-    },
-    "start_time": "2016-03-19T12:15:00",
-    "end_time": "2016-03-19T13:30:00",
-    "type": ""
-  },
-  {
-    "py/object": "models.Session",
-    "speakers": [
       {
-        "id": 8,
+        "id": 3,
         "name": "Martin B\u00e4hr"
       }
     ],
@@ -91,15 +51,16 @@
       "id": 1,
       "name": "Tech Kids I"
     },
-    "start_time": "2016-03-19T13:30:00",
-    "end_time": "2016-03-19T14:00:00",
+    "start_time": "2016-03-19T05:30:00+00:00",
+    "session_id": "TK1-03",
+    "end_time": "2016-03-19T07:30:00+00:00",
     "type": "Workshop of 2 hours"
   },
   {
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 9,
+        "id": 4,
         "name": "Jigyasa Grover"
       }
     ],
@@ -109,29 +70,16 @@
       "id": 1,
       "name": "Tech Kids I"
     },
-    "start_time": "2016-03-19T15:30:00",
-    "end_time": "2016-03-19T16:00:00",
+    "start_time": "2016-03-19T07:30:00+00:00",
+    "session_id": "TK1-04",
+    "end_time": "2016-03-19T09:30:00+00:00",
     "type": "Workshop of 2 hours"
   },
   {
     "py/object": "models.Session",
     "speakers": [
-    ],
-    "description": "",
-    "title": "Social Event",
-    "track": {
-      "id": 1,
-      "name": "Tech Kids I"
-    },
-    "start_time": "2016-03-19T18:00:00",
-    "end_time": "2016-03-19T18:30:00",
-    "type": ""
-  },
-  {
-    "py/object": "models.Session",
-    "speakers": [
       {
-        "id": 2,
+        "id": 1,
         "name": "Manan  Wason"
       }
     ],
@@ -141,15 +89,16 @@
       "id": 1,
       "name": "Tech Kids I"
     },
-    "start_time": "2016-03-20T10:00:00",
-    "end_time": "2016-03-20T10:30:00",
+    "start_time": "2016-03-20T02:00:00+00:00",
+    "session_id": "TL1-05",
+    "end_time": "2016-03-20T04:00:00+00:00",
     "type": "Workshop of 2 hours"
   },
   {
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 11,
+        "id": 5,
         "name": "Elda Webb"
       }
     ],
@@ -159,26 +108,1136 @@
       "id": 1,
       "name": "Tech Kids I"
     },
-    "start_time": "2016-03-20T13:00:00",
-    "end_time": "2016-03-20T13:30:00",
+    "start_time": "2016-03-20T05:00:00+00:00",
+    "session_id": "TL1-06",
+    "end_time": "2016-03-20T06:00:00+00:00",
     "type": "Workshop of 1 hour"
   },
   {
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 12,
-        "name": "Ulrich Norbisrath"
+        "id": 6,
+        "name": "Jamen Loh"
       }
     ],
-    "description": "Ulrich Norbisrath, PhD has more than 20 years of industrial and academic experience in Software Engineering and Systems Integration. He has supported the start-up of several software development companies as well as consulted tech companies in questions of Systems Integration, Mobile, and Cloud Computing. He provides a deep technical understanding of mobile technologies and their integration with cloud services -- both from an academic as well as an industrial perspective. He raised significant grants on Cloud, Mobile, and High Performance Computing at universities in Europe and Central Asia. He is a published book author in the area of Software and Requirements Engineering. Being connected through his immediate family to US Diplomatic services, he is very well traveled and can call on a worldwide network of international experts. He is currently employed as a professor at the University Applied Sciences Upper Austria in their Mobile Computing program.",
-    "title": "Tech Kids",
+    "description": "In this 2 hour workshop, we will be introducing the idea of Design Making and how it can be relevant to Education today.Design Making is an approach to problem solving with a focus on making-and-iterating. Tapping on the idea of Design Thinking, making turns concepts into actual prototypes and getting it to market for feedback allows robust iterations to happen for a better product-demand fit.  ",
+    "title": "Design Making Program",
     "track": {
-      "id": 1,
-      "name": "Tech Kids I"
+      "id": 2,
+      "name": "Tech Kids II"
     },
-    "start_time": "2016-03-20T13:30:00",
-    "end_time": "2016-03-20T14:00:00",
-    "type": "Make your Internet of Things Espressive"
+    "start_time": "2016-03-18T05:30:00+00:00",
+    "session_id": "TK2-01",
+    "end_time": "2016-03-18T07:30:00+00:00",
+    "type": "Workshop of 2 hours"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 7,
+        "name": "Gabriel Perumal"
+      }
+    ],
+    "description": "Teaching kids electronics",
+    "title": "Electronics Made Easy",
+    "track": {
+      "id": 2,
+      "name": "Tech Kids II"
+    },
+    "start_time": "2016-03-19T02:30:00+00:00",
+    "session_id": "TK2-02",
+    "end_time": "2016-03-19T04:00:00+00:00",
+    "type": "Workshop of 2 hours"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 8,
+        "name": "Wilfred Wong"
+      }
+    ],
+    "description": "Introducing kids to different types of digital fabrication techniques. (3D printing, laser cutting, CNC milling.)",
+    "title": "Digital Fabrication For Kids",
+    "track": {
+      "id": 2,
+      "name": "Tech Kids II"
+    },
+    "start_time": "2016-03-19T05:30:00+00:00",
+    "session_id": "TK2-03",
+    "end_time": "2016-03-19T07:30:00+00:00",
+    "type": "Workshop of 2 hours"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 9,
+        "name": "Syabiqah Phang"
+      }
+    ],
+    "description": "Our smart nation of tomorrow starts up planting seeds of education today. A future of authentic learning is already here as we work with microcontrollers, sensors and connectivity to learn about our environment and make smarter decisions. Explore how the potpurri of sensors, big data and deep learning for kids can make everyday learning part of future education.",
+    "title": "IoT for kids",
+    "track": {
+      "id": 2,
+      "name": "Tech Kids II"
+    },
+    "start_time": "2016-03-19T07:30:00+00:00",
+    "session_id": "TK2-04",
+    "end_time": "2016-03-19T09:30:00+00:00",
+    "type": "Workshop of 2 hours"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 10,
+        "name": "Hong Phuc Dang"
+      }
+    ],
+    "description": "",
+    "title": "Grand Opening",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-18T02:00:00+00:00",
+    "session_id": "OT-01",
+    "end_time": "2016-03-18T02:30:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 11,
+        "name": "Mario Behling"
+      }
+    ],
+    "description": "",
+    "title": "What is the program? What is the focus?",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-18T02:05:00+00:00",
+    "session_id": "OT-02",
+    "end_time": "2016-03-18T02:35:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 12,
+        "name": "Harish Pillay"
+      }
+    ],
+    "description": "RedHat is great",
+    "title": "RedHat",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-18T02:10:00+00:00",
+    "session_id": "OT-03",
+    "end_time": "2016-03-18T02:40:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 13,
+        "name": "Bunnie Huang"
+      }
+    ],
+    "description": "Last year at Burning Man 2015, we demonstrated an open hardware & software, 900 MHz radio-connected platform based on our Orchard IoT platform in the form of a conference badge. The badges bore a circular set of LEDs which would flash in a pattern unique to that badge. Attendees with other badges customized their light patterns by finding badges with patterns they like and \"having sex\" with them. The description of the light patterns is based on a diploid genome, and the process of breeding lights is modeled after the biological process of having sex. The overall protocol to exchange light genomes was designed to require explicit consent of both parties, thus layering a social experiment on top of a hardware experiment. By requiring explicit consent, the badges also served as an icebreaker and a seed for many fun conversations.",
+    "title": "Sex, Circuits, and Deep House",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-18T02:30:00+00:00",
+    "session_id": "OT-04",
+    "end_time": "2016-03-18T03:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 14,
+        "name": "Lennart Poettering"
+      }
+    ],
+    "description": "systemd is a core component of most Linux distributions and the Linux platform. If you run any of today's bigger distribution you'll come into contact with it. In this talk I'd like to give an overview over recent additions and changes.",
+    "title": "What's new in systemd in 2016?",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-18T02:50:00+00:00",
+    "session_id": "OT-05",
+    "end_time": "2016-03-18T03:20:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 15,
+        "name": "Davide Storti  ITO Misako"
+      }
+    ],
+    "description": "The YouthMobile Initiative builds on the experience of many worldwide initiatives that introduce young people to computer science programming (learning-to-code) and problem solving (coding-to-learn). It also seeks to build on experiences targeting young women who are vastly underrepresented in this field. Finally it builds on the consideration that for millions of young people, the smartphone in their pocket is a very powerful computer, it will be their only computer, and they use it for nearly every aspect of their lives: communicating, learning, taking pictures, and playing games.",
+    "title": "UNESCO YouthMobile",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-18T03:10:00+00:00",
+    "session_id": "OT-06",
+    "end_time": "2016-03-18T03:40:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 16,
+        "name": "Nerfetiti Nerfetiti"
+      }
+    ],
+    "description": "",
+    "title": "",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-18T03:30:00+00:00",
+    "session_id": "OT-07",
+    "end_time": "2016-03-18T04:00:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 17,
+        "name": "Cat Allman"
+      }
+    ],
+    "description": "provide later ",
+    "title": "Science and Open Source Program at Google",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-18T03:50:00+00:00",
+    "session_id": "OT-08",
+    "end_time": "2016-03-18T04:20:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [],
+    "description": "",
+    "title": "Lunch",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-18T04:10:00+00:00",
+    "session_id": "L-01",
+    "end_time": "2016-03-18T04:40:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 18,
+        "name": "Mike McQuaid"
+      }
+    ],
+    "description": "Homebrew is a popular package manager for OS X. Compared to most Linux package managers we have some pretty major differences from how we run the project (pull-requests on GitHub) to how we interact with the system (try to use system-provided libraries when possible) and use of root (we actively refuse to use it). Come and hear about how we'd do Homebrew differently if we were starting it from scratch today and what other package managers can learn from our failures and successes.",
+    "title": "Managing A Healthy GitHub Community",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-17T17:30:00+00:00",
+    "session_id": "OT-09",
+    "end_time": "2016-03-17T18:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 19,
+        "name": "Meng Weng Wong"
+      }
+    ],
+    "description": "Legalese helps entrepreneurs take the law into their own hands, by turning contracts into templates, configuration, and code \u2013\u00a0all on Github. Instead of paying lawyers for access to their proprietary precedents, founders and freelancers can use opensource tools to draft their own NDAs, ESOPs, and angel/seed investment agreements. After a short demo of the system we escalate quickly into a review of the 30-year history of legal informatics, deontic calculi, and programming language theory which Legalese is now productizing with its own DSL.",
+    "title": "Legalese.io: smart contracts, dumb lawyers, and you",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-18T06:00:00+00:00",
+    "session_id": "OT-10",
+    "end_time": "2016-03-18T06:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 20,
+        "name": "David  Crellin"
+      }
+    ],
+    "description": "ScienceScope Ltd is a tier 1 partner in the BBC micro:bit development program. This novel coding device will be delivered to every 11 year old students in the UK in the next month. It features sensors, Bluetooth Smart and a 5x5 matrix led display. This development will be a game changer in inspiring students to engage with technology.",
+    "title": "BBC micro:bit - Next generation teaching tools",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-17T18:30:00+00:00",
+    "session_id": "OT-11",
+    "end_time": "2016-03-17T19:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 21,
+        "name": "Praveen Patil"
+      }
+    ],
+    "description": "This presentation is about the Sensor Plug-ins developed for ExpEYES : Pocket Science Lab as a part of my GSoC-2015 project with FOSSASIA.  We have added many new sensors plug-ins to measure a variety of parameters like temperature, pressure, humidity, wind speed, acceleration, tilt angle, magnetic field etc.  With this development we at FOSSASIA  are aiming to  provide low-cost, effective and open source laboratory equipment to students all over the world.  I will also be talking about the low-cost weather data-acquisition system developed and interfacing Gas sensors with ExpEYES. A Poster covering details of GSoC work will also be displayed at the venue.  In the end I will add little about my experience of GSoC journey with my mentors Mario Behling, Hong Phuc Dang and Andre Rebentisch, with some critical piece of knowledge or a new lesson to learn everyday\u2026..this may encourage and help future GsoC students.",
+    "title": "ExpEYES: Pocket Science Lab - Developing Open Source Science Experiments with FOSSASIA  ",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-18T07:00:00+00:00",
+    "session_id": "OT-12",
+    "end_time": "2016-03-18T07:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 22,
+        "name": "William Hooi"
+      }
+    ],
+    "description": "Introducing our very own Espresso Lite V2, the latest Arduino-compatible ESP8266 Wi-Fi development board for makers and novice learners to build their very own Internet-of-Things (IoT) projects.",
+    "title": "IOT with Espert",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-17T19:30:00+00:00",
+    "session_id": "OT-13",
+    "end_time": "2016-03-17T20:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 23,
+        "name": "Justin Lee"
+      }
+    ],
+    "description": "The Hyperledger Project is a collaborative effort created to advance blockchain technology by identifying and addressing important features and currently missing requirements, for a cross-industry open standard for distributed ledgers that can transform the way business transactions are conducted globally. This session discusses the underpinning technology focuses, future possibilities, and a quick demo to show a use case of Hyperledger.",
+    "title": "Hyperledger - The Open Source Blockchain",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-18T08:00:00+00:00",
+    "session_id": "OT-14",
+    "end_time": "2016-03-18T08:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [],
+    "description": "",
+    "title": "Pub Crawl",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-18T11:00:00+00:00",
+    "session_id": "SC-01",
+    "end_time": "2016-03-18T11:30:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 24,
+        "name": "Stephanie  Taylor"
+      }
+    ],
+    "description": "provide later",
+    "title": "Google Summer of Code and Google Code-In ",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T01:30:00+00:00",
+    "session_id": "OT-15",
+    "end_time": "2016-03-19T02:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 25,
+        "name": "Stephan Wissel"
+      }
+    ],
+    "description": "Observe - Reflect - Make' is the mantra for software success. Getting software requirement and intends right is a complex challenge. One approach to tackle the complexity is the discipline called 'Design Thinking' as promoted by IBM. The talk will introduce into 'Design Thinking', what it is, how it works, how it helps to create better software. Where does it fit into the greater scheme of things and how can it be adopted in your development.",
+    "title": "You got Design with that? Design Thinking for your projects",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T02:00:00+00:00",
+    "session_id": "OT-16",
+    "end_time": "2016-03-19T02:30:00+00:00",
+    "type": "Can do 20 or 60 min - choose. 60 prefered "
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 26,
+        "name": "Steve Feiner"
+      }
+    ],
+    "description": "At A Better Florist, we're redefining customer service and on-demand logistics in Singapore. We're the 5th guys to import flowers in Singapore, I'll be discussing how we do it and how we're able to grow in scale in a short amount of time. We're principally customer centric, making logistics core to our business. Being a flower delivery service, the key issues we face include the difficulty involved in getting reliable and accountable third party providers (despite being somewhere infrastructurally savvy) to streamline the logistics process. This is an implication that when we grow to expand in geographies less forgiving than Singapore, we will be facing a much larger problem, it is therefore critical to find what mechanisms we need to implement in order to avoid such problems. ",
+    "title": "From Google to Flowers - Delighting Customers on Demand",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T02:30:00+00:00",
+    "session_id": "OT-17",
+    "end_time": "2016-03-19T03:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 27,
+        "name": "Michael Christen"
+      }
+    ],
+    "description": "Self-made twitter, Internet of Things and large-scale social graph for everyone",
+    "title": "Big Data with Short Messages",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T03:00:00+00:00",
+    "session_id": "OT-18",
+    "end_time": "2016-03-19T03:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 28,
+        "name": "Elizabeth Joseph"
+      }
+    ],
+    "description": "Using only open source tools, the OpenStack Infrastructure team operates a code review driven infrastructure for the OpenStack project. This talk will highlight the tooling used to accomplish this and how using code review and testing in our DevOps work has made us a more effective team.",
+    "title": "Code Review for DevOps",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T03:30:00+00:00",
+    "session_id": "OT-19",
+    "end_time": "2016-03-19T04:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [],
+    "description": "",
+    "title": "Group Photo",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T04:00:00+00:00",
+    "session_id": "SC-02",
+    "end_time": "2016-03-19T04:30:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [],
+    "description": "",
+    "title": "Lunch",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T04:15:00+00:00",
+    "session_id": "L-02",
+    "end_time": "2016-03-19T04:45:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 29,
+        "name": "Lightning Talks"
+      }
+    ],
+    "description": "",
+    "title": "",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T05:30:00+00:00",
+    "session_id": "OT-20",
+    "end_time": "2016-03-19T06:00:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 30,
+        "name": "Sarvesh Ranjan"
+      }
+    ],
+    "description": "Anomaly detection is very important problem and extensive research has been done about it\u2019s various applications and domains. In this report I\u2019ve documented my research on anomaly detection in cloud computing architectures like OpenStack, Microsoft Azure & Amazon Web Services(AWS). Cloud computing systems create a big jungle of Logs and Metrics and these can provide a cloud operator tremendous insight into the systems and answer the most important questions about architecture\u2019s health. My research shows that cloud computing architectures face completely different types of anomalies than discussed in other domains and these metrics are not very useful if used in single dimension but if we perform anomaly detection on multiple dimensions together and correlate thus generated insights with Logs we can increase our efficiency and decrease false positive cases by a huge margin. When dealing with this amount of logs and metrics we need to come up with novel distributed architectures. In this research I\u2019ve focused on multiple dimensional anomaly detection on storm like distributed system using locality sensitive hashing and sequence mining. I hope that this research will provide us with a better understanding of different directions in which research and implementations have been done on the domain of anomaly detection, and how techniques which are proposed and implemented for a domain can be applied in different domains for which it was not initially intended to begin with.",
+    "title": "Distributed Multi Dimensional Anomaly Detection in OpenStack Logs",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T05:30:00+00:00",
+    "session_id": "OT-21",
+    "end_time": "2016-03-19T06:00:00+00:00",
+    "type": "Lightning Talk (5-10 minutes)"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 31,
+        "name": "Mayank  Sharma"
+      }
+    ],
+    "description": "A quick introduction on how developers can set up an OAuth2 Authorization Server and start managing/monitoring the interactions of third party applications with their system/API's. Spring Security makes it really easy to protect endpoints, authorize requests and implement RBAC. The talk will quickly run through the different aspects of Spring Security and OAuth2 and how to customize your Authorization Server",
+    "title": "Become an OAuth2 provider using Spring Security",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T05:36:00+00:00",
+    "session_id": "OT-22",
+    "end_time": "2016-03-19T06:06:00+00:00",
+    "type": "Lightning Talk (5-10 minutes)"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 32,
+        "name": "Dong Ma"
+      }
+    ],
+    "description": "This talk aims to introduce the Continuous Integration and Continuous Delivery workflow for the Open Source projects FOSSology and OpenStack. Attendees will learn about the benefits of CI/CD and also how CI/CD works through problems faced on these two projects. They will learn to leverage the Continuous Integration and Continuous Delivery workflow into their Open Source and Free Software development.  * Introduction      * What's CI/CD      * Why important for Open Source and Free Software development * Typical Workflow      * Use FOSSology project as example to introduce the typical workflow and tools      * Problems: typical workflow don't scale to large open source projects * OpenStack Workflow     * OpenStack workflow and tools     * OpenStack infrastructure     * Problems solved * How to leverage the OpenStack way",
+    "title": "Continuous Integration and Continuous Delivery for Open Source and Free Software Development",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T05:42:00+00:00",
+    "session_id": "OT-23",
+    "end_time": "2016-03-19T06:12:00+00:00",
+    "type": "Lightning Talk (5-10 minutes)"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 33,
+        "name": "Garvit Khatri"
+      }
+    ],
+    "description": "The talk will be started with a brief introduction about KDE and Labplot. Following that I will demonstrate the final result of integration between LabPlot and Cantor. I will demonstrate with the help of few python and maxima scripts what a user can do using the LabPlot. I will also give a brief about what will be its future, how this functionality will eventually help users and how can others start contributing to the code. I will then put some light on the other two projects. Firstly, Ming Ngo added visualization of 3D-data to LabPlot using the powerful VTK library. This helped data to be visualized as  points in 3D-space, curves and surfaces. Another project by Ankit Wagarde, he added a very useful tool to LabPlot that allows users to extract data from images. After importing of an image and setting the reference points, the user starts to select the data points on the image that get automatically converted into numbers.",
+    "title": "LabPlot, interactive graphing and analysis of scientific data",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T05:48:00+00:00",
+    "session_id": "OT-24",
+    "end_time": "2016-03-19T06:18:00+00:00",
+    "type": "Lightning Talk (5-10 minutes)"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 34,
+        "name": "Damini Satya Kammakomati"
+      }
+    ],
+    "description": "FarmMind Technologies ==================== 1        PROBLEM STATEMENT ---------------------------------------------- This smart centralized system will help farmers to take a step into precision agriculture being monitored by wireless sensors in and around their farms. This covers problems like irrigation management, crop maintenance, soil fertility maintenance, crop yield improvement, pesticide management in compliance with good agricultural practices.  2        WORK FLOW  ---------------------------- The innovation focuses on developing a smart centralized system to control different requirements for a farm per crop being grown. An IoT based system integrates the cloud AI services with that of the hardware and sensors in the farms / fields which constantly stream real-time information to the servers. Depending on various other parameters like humidity, temperature and other meteorological data, predictions of the requirements of the farm is calculated and the hardware device which automatically opens the valves for irrigation / warns the farmer about doing a scheduled check in the localized language is made via SMS. This provides a centralized GIS collection of the soil data allowing extensive research and work by the agricultural scientists to guide the farmers in a given area for the crop they're growing. Simultaneously it provides the data for governments to optimize on the water irrigation routes / canals so that other drought struck areas can ensure water in times of need. The hardware solution consists of various sensors connected to the GSM chip module on board which allows the farmers to irrigate the farms when needed or transmit data to the required scientists/soil experts in the area who could help.  \u2022        It keeps updating the data base on parameters such as soil temperature, humidity, air temperature, determine frost and heat events, forecast harvest time. \u2022        It maps the fields from phone using GPS and input field sampling information.  \u2022        This systems aims for mobile first and cloud first implementation. \u2022        It integrates pest management system by observing, inspecting, and identifying certain trends in the pests and pesticides. It keeps the track record. \u2022        Last but not the least, it proposes high yielding plans and best crop management plans even under disasters.  3        FIELDS ARE THE NEW OFFICES AND DATA IS DRIVING THE TRACTORS  -------------------------------------------------------------------------------------------------------------------------- We are trying to use the emerging Cloud based technologies in AI, machine learning and big data to solve important problems as well as to get the problem notified to the related person in real time. This system allows farmers to monitor and maintain the quality of their farms by sitting at their home just using simple services like SMS in case there is no internet connectivity present in the area or by using the app built for android phones. The hardware is also sending data of the farm to the agricultural scientists who can use it to make data driven decisions. Integrations with the other meteorological information helps to offer the best advice for irrigation. This system can also be used to inform the farmers in a particular area in case of an agricultural outbreak risk in that area. The other solutions include animal breeding and maintaining the data informing the farmers about the required medication needed for the cattle. Mainly focuses on reliable, safety, interoperable, low cost implementation. ",
+    "title": "FarmMind Technologies",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T05:54:00+00:00",
+    "session_id": "OT-25",
+    "end_time": "2016-03-19T06:24:00+00:00",
+    "type": "Lightning Talk (5-10 minutes)"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 35,
+        "name": "Eugene Teo"
+      }
+    ],
+    "description": "Talk about PyData Singapore meetups",
+    "title": "PyData Singapore",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T06:00:00+00:00",
+    "session_id": "OT-26",
+    "end_time": "2016-03-19T06:30:00+00:00",
+    "type": "Lightning Talk (5-10 minutes)"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 36,
+        "name": "Rajat Ujawane"
+      }
+    ],
+    "description": "Real time tracking systems are expensive and difficult to maintain, at the same time they take a lot of network resources like 4G/3G/2G data for the mapping to a real world location. In developing countries like India where the internet is still expensive. This is exactly where our IoT platform steps in, with a mission to build a scalable and extensible real time tracking system.   We would be having a small IoT device installed in your vehicle which would able to transfer data back and forth to the server. It will help in tracking different vehicles in real time. It would be scalable to any possible vehicle runs on the road. For example, Truck owner would able to track his Trucks travelling in different part of the country, it will give him power to not only track his vehicles but also notifies him during vehicle accident. This technology is the future of the Shipping Industry, Land-Cargo Industry and also for personal use for tracking your vehicle or in the case of car-theft. ",
+    "title": "Building Real time Tracking System using IoT and Django",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T06:06:00+00:00",
+    "session_id": "OT-27",
+    "end_time": "2016-03-19T06:36:00+00:00",
+    "type": "Lightning Talk (5-10 minutes)"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 37,
+        "name": "Faris Muhamad Ali Fadloli"
+      }
+    ],
+    "description": "ExpressJS is one of the best NodeJS web application framework that provides a robust set of features for web and mobile applications. Lots of NodeJS developer use it as their main web application framework. They have their own coding-style for the application route and also its middleware.   Now, imagine if there are several backend engineers, developing a big web application and they never write any code documentation, only in several function/method. If there's a new engineer join the development, he/she has been given tasks by their lead engineer to enhance several endpoints and they don't know the flow of the endpoint. Hence, it will consume more time for new engineer to read other engineers code.  That's why PipaJS come to the rescue. PipaJS is a module for ExpressJS which will help developers to understand the flow of each route by just reading the route and its middleware flow. ",
+    "title": "PipaJS - a module for ExpressJS",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T06:12:00+00:00",
+    "session_id": "OT-28",
+    "end_time": "2016-03-19T06:42:00+00:00",
+    "type": "Lightning Talk (5-10 minutes)"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 38,
+        "name": "Kranthi Kiran Guduru"
+      }
+    ],
+    "description": "Tracking fuel level in a gas cylinder is still an unexplored area where age old practices are followed to measure and track in developing countries like India, China, Pakistan, Bangladesh and many more. Gas-o-Gauge is an IoT based application which uses a Load sensor and a GPRS module in an embedded system to track and poll level of fuel to a server on cloud. It enables users and vendors to track and decide gas cylinder stock in a smart way.  With the increasing interconnection between people\u2019s lives and the devices that they interact with in their daily lives, this IoT device is a scalable platform that allows users to integrate their daily kitchen needs and consumption to provide real time data for business intelligence to gas agencies and vendors as well as integrate daily requirements like ordering groceries, recipe trackers, restaurants listing during a low gas level as well as instructions and resources to drive/ride to the location. This prototype has been the runner up at the Indian School of Business, engineering design awards.  Link for Opensource Repository: https://github.com/kranthikiran01/Gas-o-Gauge.git",
+    "title": " GoG(gas-o-gauge) - A smart IoT based solution for tracking fuel levels and Kitchen Intelligence",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T06:18:00+00:00",
+    "session_id": "OT-29",
+    "end_time": "2016-03-19T06:48:00+00:00",
+    "type": "Lightning Talk (5-10 minutes)"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 39,
+        "name": "Kukuh Syafaat"
+      }
+    ],
+    "description": "This talk tells about how to contribute F/OSS project with Inkscape (icons, splash, wallpaper and other artwork stuff)",
+    "title": "Contributing to F/OSS Project with Inkscape",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T06:24:00+00:00",
+    "session_id": "OT-30",
+    "end_time": "2016-03-19T06:54:00+00:00",
+    "type": "Lightning Talk (5-10 minutes)"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 40,
+        "name": "Sudheesh Singanamalla"
+      }
+    ],
+    "description": "I was a GSoC 2015 Student with FOSSASIA working on the distributed tweet search server and scraper Loklak.  In this talk i'd be talking about the architecture, the functionality and the features that loklak offers in comparison to the twitter API, At the same time I'd also be talking about the p2p functionality and the ability for building applications centered around the tweets obtained from twitter, specifically for customer services.  At the same time i'd also be talking about the timeline search and navigation system in loklak.net and how the features offered in them would be game changers to the way conferences are held and allowing users to share maps.",
+    "title": "Loklak - Building the twitter integration to Distributed tweet search server and endless possibilities",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T06:30:00+00:00",
+    "session_id": "OT-31",
+    "end_time": "2016-03-19T07:00:00+00:00",
+    "type": "Lightning Talk (5-10 minutes)"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 41,
+        "name": "Trilok Tourani"
+      }
+    ],
+    "description": "The talk will explain all about the project that I have done in the summer based on the enhancement of command line tools for sTeam collaboration platform and aware the people about the open source programming language called Pike. This will take the audience through the advantages/disadvantages to pick up this language as well as what difficulties(technical) I faced while learning this in a short time. This talk will also target the functioning of sTeam and how these \"enhancements\" were done (code wise) and the strategies applied to get it to work. Lastly, it will also encourage students to take up GSoC and Google code-in to boost their knowledge domain and be a part of the open source community.",
+    "title": "Have you met Pike?",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T06:36:00+00:00",
+    "session_id": "OT-33",
+    "end_time": "2016-03-19T07:06:00+00:00",
+    "type": "Lightning Talk (5-10 minutes)"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 42,
+        "name": "Gloria Chiang"
+      }
+    ],
+    "description": "What we can learn about coffee culture",
+    "title": "Kopi or Coffee",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T06:42:00+00:00",
+    "session_id": "OT-34",
+    "end_time": "2016-03-19T07:12:00+00:00",
+    "type": "Lightning Talk (5-10 minutes)"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 43,
+        "name": "Saif Niazi"
+      }
+    ],
+    "description": "Many problems of recent interest in the banks are detection of fraud analysis as well as insurance analysis that can be put in the framework of convex optimization. Due to the explosion in size and complexity of modern datasets, it is increasingly important to be able to solve problems with a very large number of fea- tures or training examples. As a result, both the decentralized collection or storage of these datasets as well as accompanying distributed solution methods are either necessary or at least highly desirable.  H2O makes it possible for anyone to easily apply math and predictive analytics to solve today\u2019s most challenging business problems. Combine the power of highly advanced algorithms, the freedom of open source, and the capacity of truly scalable in-memory processing for big data on one or many nodes. These capabilities make it faster, easier, and more cost effective to harness big data to maximum benefit for the business. Some Key features of using H2O are  Easy-to-use WebUI and Familiar Interfaces \u2013 Set up and get started quickly using either H2O\u2019s intuitive Web-based user interface or familiar programming environ- ments like R, Java, Scala, Python, JSON, and through our powerful APIs. Massively Scalable Big Data Analysis \u2013 Train a model on complete data sets, not just small samples, and iterate and develop models in real-time with H2O\u2019s rapid in-memory distributed parallel processing. Real-time Data Scoring \u2013 Use the Nanofast Scoring Engine to score data against models for accurate predictions in just nanoseconds in any environment. Enjoy 10X faster scoring.",
+    "title": "Data Science in financial Institutes",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T06:48:00+00:00",
+    "session_id": "OT-35",
+    "end_time": "2016-03-19T07:18:00+00:00",
+    "type": "Lightning Talk (5-10 minutes)"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 4,
+        "name": "Jigyasa Grover"
+      }
+    ],
+    "description": "My journey in FOSS with Pharo & FOSSASIA aims to walk through the speaker's involvement in Open Source especially FOSSASIA with programs like Google Summer of Code and Google Code-in and the Pharo Community. The session will have a special emphasis on describing the not widely known but a powerful environment of Pharo. Attendees shall get to know more about Pharo/Smalltalk, its projects and how to kick-start contributing to it apart from the vast range of opportunities available in the world of open source ranging from coding to documentation, training, outreach and research. The session aims to inspire budding open source developers.",
+    "title": "My journey in FOSS with Pharo & FOSSASIA",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "session_id": "OT-36",
+    "type": "Lightning Talk (5-10 minutes)"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 44,
+        "name": "Masakazu Takasu"
+      }
+    ],
+    "description": "A lot of DIY track maker in Japan. They have several hundred professional quality DIY tune, these are enjoyed people such as KARAOKE every day. That unique culture born from not only technology, need unique ecosystem. Most famous Voice synthesizers called HATSUNE MIKU. That software is proprietary, but some open source voice synthesizers are common also. This session is talk about DIY music technology, community, and ecosystem in Japan.",
+    "title": "Open Source Voice synthesizer and DIY Pop music in Japan",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T07:00:00+00:00",
+    "session_id": "OT-37",
+    "end_time": "2016-03-19T07:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 45,
+        "name": "Tim Oxley"
+      }
+    ],
+    "description": "The Node.JS & npm ecosystem is oft praised for it's \"culture of extreme modularity\", which has led to the proliferation of hundreds of thousands packages on npm. How do modular patterns translate into the construction of evolving, real-world applications? Many functional programming learning resources will teach you to write functional code, but it's often highly indirect, deeply abstracted, requires understanding complex relationships between custom library calls, and doesn't represent the reality of how people actually write JavaScript. The goal of this workshop is to create realistic problems that can be solved using terse, vanilla, idiomatic JavaScript.",
+    "title": "Modular vs Monolith \u2013 The Structure of Node.JS Applications",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T07:30:00+00:00",
+    "session_id": "OT-38",
+    "end_time": "2016-03-19T08:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 46,
+        "name": "Roland Turner"
+      }
+    ],
+    "description": "Funding models for open technology projects are often quite different to those for closed projects. It is desirable for everyone involved in the open technology community to have an understanding of options for funding projects in order to increase our ability to bring these projects to life. This panel will explore a number of different models that are already in use by real projects.",
+    "title": "Funding FOSS Panel Discussion",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T08:00:00+00:00",
+    "session_id": "OT-39",
+    "end_time": "2016-03-19T08:30:00+00:00",
+    "type": "40 minute panel"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 47,
+        "name": "Rafal  Kowalski"
+      }
+    ],
+    "description": "Are you wondering how to create an app which allow us to manage all conferences events? Open Event consist of three components(web, android and server). I will explain how I developed an Open event orga server project, which framework and language I used. Easly running your Orga Server by your own on local enviroment using Vagrant.  ",
+    "title": "Open Event Orga Server Project",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T09:10:00+00:00",
+    "session_id": "OT-40",
+    "end_time": "2016-03-19T09:40:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 48,
+        "name": "Daniel Pocock"
+      }
+    ],
+    "description": "At FOSDEM 2013, leading developers of free real-time communications software dared to get up on stage and ask the question \"Can we replace Skype, Viber, Twitter and Facebook?\". Was this the right question and how does it relate to free software development today and in the future? Pocock talks about what has changed since then and where things are going in this domain in the year ahead, especially with the emergence of WebRTC and the ubiquity of browsers that support it and the opportunities this has created for the world of web development and interaction with other open systems.  Can you imagine a world where phone communication works with all the benefits of email (but without spam)? Per-minute charges eliminated, flexibility for developers to customize the experience with standard scripting languages like Python or JavaScript and organizations of any size able to assert their identity and brand securely using SIP and XMPP addresses?  Is this a worthwhile vision? What do each of us - developers, sysadmins and end users - need to do to make it happen? What will be the alternative outcome - for both society in general and fans of free technology in particular - if we stand back and allow proprietary solutions to run rampant?  This session will survey some of the free software solutions that exist today and ways you can participate in their improvement and deployment to help realize this vision.",
+    "title": "Free Communication with Free Software",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T09:30:00+00:00",
+    "session_id": "OT-41",
+    "end_time": "2016-03-19T10:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [],
+    "description": "",
+    "title": "Social Event",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-19T10:00:00+00:00",
+    "session_id": "SC-02",
+    "end_time": "2016-03-19T10:30:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 5,
+        "name": "Elda Webb"
+      }
+    ],
+    "description": "This is a lead up talk for the Creative Confidence Innovation depends on developing creative solutions for the complicated challenges we will be facing, but what happens if we want to start innovating but we believe that we are not creative? During this talk I will share some of the lessons I've learned along the way and how Making helped me increase my creative confidence and how others could increase theirs. The talk will gravitate around 3 key points: Breaking free from the \"I'm not creative mentality\". What would happen if we all increase our creative confidence?",
+    "title": "Creative Confidence ",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-20T02:00:00+00:00",
+    "session_id": "OT-42",
+    "end_time": "2016-03-20T02:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 49,
+        "name": "Fran\u00e7ois Cartegnie"
+      }
+    ],
+    "description": "VLC \"plays everything\" ? Well, we're trying to. This talk will introduce the landscape and challenges of opensource multimedia for the most popular and versatile media player, and will highlight some of the upcoming VLC 3.0 features and new platforms.",
+    "title": "Yes we Cone",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-20T02:30:00+00:00",
+    "session_id": "OT-43",
+    "end_time": "2016-03-20T03:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 50,
+        "name": "Matthew Treinish"
+      }
+    ],
+    "description": "One common misconception about a lot of Open Source projects is that the quality is variable and/or is of a secondary concern. This is supported to a certain degree by a lot of projects which do minimal testing upstream and rely on downstream consumers, vendors, or distros to do an additional set of testing after a release. But, there is no reason that an open project can not also do QA in the open as part of the community.   While the term QA will likely evoke a combination of fear, disdain, or any of a plethora of negative emotions from anyone who has worked in a traditional enterprise development environment and probably scare them off. The top down approach, strict bureaucracy, and other issues which are often synonymous with QA teams doesn't have to be the case. There can be real benefits to having a dedicated QA effort on an open source project. It enables transparency in how testing is done, lets anyone contribute and collaborate, and can signal to consumers the stability of a project. Larger projects can especially reap a lot of benefit from having people working on the QA side of a project upstream.  This talk will use OpenStack as an case study to explore how a large open source project can do QA in an open manner and the potential benefits it can provide. It'll cover how the OpenStack community does QA, how it's evolved over time, and share lessons of some best practices which have been learned over time.",
+    "title": "QA in the Open",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-20T03:00:00+00:00",
+    "session_id": "OT-44",
+    "end_time": "2016-03-20T03:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 51,
+        "name": "Barry Threw"
+      }
+    ],
+    "description": "HELP US PRESERVE THE ENDANGERED CULTURAL HERITAGE OF SYRIA BY CREATING A VIRTUAL #NEWPALMYRA DIGITAL TOOLS TO BUILD THE FUTURE FROM THE PAST #NEWPALMYRA is:  A Digital Archaeology project, collecting data from international partners, analyzing it, creating a reconstruction of Palmyra in virtual space, and sharing the models and data in the public domain. We are using digital tools to preserve the heritage sites being actively deleted by ISIS.  A Cultural Development project, hosting live workshops and building a network of artists, technologists, archaeologists, architects, and others to research, construct models, and create artistic works.  A Curatorial project, creating exhibitions and experiences in museums and institutions globally, celebrating the cultural heritage of Syria and the world through the lens of architecture embodying culture and power.  Together with our international affiliates, #NEWPALMYRA sources archaeological and historical data, shares it with the community, and outputs art exhibitions, salons, and creative works using this data to carry the rich history of Palmyra forward to new generations.",
+    "title": "#NEWPALMYRA, #FREEBASSEL, and the Preservation of Cultural Heritage",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-20T03:30:00+00:00",
+    "session_id": "OT-45",
+    "end_time": "2016-03-20T04:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 52,
+        "name": "Toma\u017e Vajngerl"
+      }
+    ],
+    "description": "LibreOffice 5 is the newest series of LibreOffice releases. It introduced the usual code cleanups, refactoring and new features as other releases however it also introduced some new directions - a more active UX team that resulted in many user experience improvements, development of LibreOffice for Android and a cloud office suite LibreOffice Online. In my talk I will highlight the changes done in the LibreOffice 5 series until now.",
+    "title": "LibreOffice 5 and beyond",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-20T05:00:00+00:00",
+    "session_id": "OT-46",
+    "end_time": "2016-03-20T05:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 53,
+        "name": "Bernard Leong"
+      }
+    ],
+    "description": "The story of how SingPost built the drone delivery system & gain global coverage in 3 months.",
+    "title": "Rethinking drone delivery with open source",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-20T05:30:00+00:00",
+    "session_id": "OT-47",
+    "end_time": "2016-03-20T06:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 54,
+        "name": "Lorenz Gerber"
+      }
+    ],
+    "description": "Scientific Data is in general freely available. This applies also to experimental data in chemical / biological research. There is however often a barrier preventing the re-use and re-analysis of obtained raw data due to expensive proprietary instrument software. In the field of Imaging Mass Spectrometry, we started an open source project to solve this problem. The project is now hosted on https://www.bioconductor.org, a large repository for open source life science software in the programming language R.",
+    "title": "Open Source Imaging Mass Spectrometry Software",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-20T06:00:00+00:00",
+    "session_id": "OT-48",
+    "end_time": "2016-03-20T06:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 55,
+        "name": "Delynn  Ho"
+      }
+    ],
+    "description": "According to a Forrester Research in 2014, smartphone penetration across the Asia Pacific region will reach 36 percent of the entire population in 2015. With higher smartphone penetration, the number of mobile apps , also increases at an alarming rate. This heats up the pressure on individual mobile developers to find ways to stand out from the crowd and generate revenues. While a great app is a good start, developers who wants to build a serious business also need a solid monetization strategy.  ",
+    "title": "Tips for successful app monetization for developers",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-20T06:30:00+00:00",
+    "session_id": "OT-49",
+    "end_time": "2016-03-20T07:00:00+00:00",
+    "type": "40 min"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 56,
+        "name": "George Goh"
+      }
+    ],
+    "description": "Word processors are good for basic documents, but are distracting when you're messing about with fonts, alignment issues, and other problems. I've been using Asciidoc for a few consulting projects and have found that its great for creating uniform documents that are free from common problems that come with a WYSIWG word processor. In this talk, I'll share my Asciidoc journey.",
+    "title": "How I left my word processor and embraced Asciidoc",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-20T07:00:00+00:00",
+    "session_id": "OT-50",
+    "end_time": "2016-03-20T07:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 57,
+        "name": "Michael Cannon"
+      }
+    ],
+    "description": "Distributed teams are a necessity in today's globally connected environment. No longer are our customers, people, and offices all locally located. In fact, they might not even be on the same continent much less the same side of the world. To promote a healthy environment and ensure clients and products are getting the results needed, sustainable management of distributed teams is a requirement. This presentation will cover the understanding for forming, storming, norming, and performing of remote teams.",
+    "title": "Successfully Managing Distributed Teams",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-20T07:30:00+00:00",
+    "session_id": "OT-51",
+    "end_time": "2016-03-20T08:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [],
+    "description": "Winning teams announced & given awards/medals in main hall",
+    "title": "Outcome Science Hack Day",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-20T08:00:00+00:00",
+    "session_id": "OT-52",
+    "end_time": "2016-03-20T08:30:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 58,
+        "name": "Hong Phuc Dang, Justin Lee"
+      }
+    ],
+    "description": "",
+    "title": "Closing Notes",
+    "track": {
+      "id": 3,
+      "name": "OpenTech and IoT"
+    },
+    "start_time": "2016-03-20T08:30:00+00:00",
+    "session_id": "OT-53",
+    "end_time": "2016-03-20T09:00:00+00:00",
+    "type": ""
   }
 ]}
