@@ -56,7 +56,8 @@
                 data-toggle="dropdown" 
                 role="button" 
                 aria-haspopup="true" 
-                aria-expanded="false">Day 0 - March 17 <span class="caret"></span>
+                aria-expanded="false">
+                <span class="lbl">Day 0 - March 17</span> <span class="caret"></span>
               </a>
               <ul class="dropdown-menu">
                 <li><a href="#/2016-03-17">Day 0 - March 17</a></li>
@@ -76,26 +77,40 @@
     </div> <!-- /container -->
 
     <div class="shadow" style="display: none">
-      <div id="session-list-tpl">
+
+      <div id="session-list-tpl" class="container">
         <div class="track-list">
         </div>
       </div>
 
-      <div id="session-list-per-track-tpl">
-        <h2 class="track-title">$track-title</h2>
-        <ul class="session-list">
-        </ul>
+      <div id="session-list-per-track-tpl" class="row">
+        <div class="col-md-12">
+          <h2 class="track-title">$track-title</h2>
+          <table class="table">
+            <thead>
+            <th>Title</th>
+            <th>Speaker</th>
+            <th>Start</th>
+            <th>End</th>
+            </thead>
+            <tbody class="session-list">
+              <tr class="session-tpl">
+                <td class="session-title">$session-title</td>
+                <td class="session-speakers">$session-speakers</td>
+                <td class="session-start">$session-start</td>
+                <td class="session-end">$session-end</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
-
-      <li id="session-tpl">
-        <span class="session-title">$session-title</span>
-      </li>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="./main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
       integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" 
       crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
