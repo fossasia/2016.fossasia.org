@@ -7,14 +7,20 @@
     return elem
   }
 
-    function clear(node) {
-      while(node.firstChild)
-        node.removeChild(node.firstChild)
-    }
+  function clear(node) {
+    while(node.firstChild)
+      node.removeChild(node.firstChild)
+  }
 
   function NavbarCtrl(sessionStore) {
     var elem = document.getElementById('navbar')
     sessionStore.on('change', function() {
+      var strDay = moment(sessionStore.currentDate()).format('YYYY-MM-DD')
+      var list = elem.querySelectorAll('#navbar .nav li')
+      for (var i = 0; i < list.length; i++) {
+        list.item(i).className = ''
+      }
+      document.getElementById('nav-' + strDay).className = 'active'
     })
   }
 
@@ -104,6 +110,7 @@
       })
       
       elem = clone(tpl)
+      elem.setAttribute('data-session-id', params.session_id)
       elem.querySelector('.session-title').textContent = params.title
       elem.querySelector('.session-type').textContent = params.type
       elem.querySelector('.session-speakers').textContent = speakers.join(', ')
@@ -157,7 +164,6 @@
       Object.keys(obj).forEach(function(key) {
         result.push(obj[key])
       })
-      console.log(result)
       return result
     }
 
