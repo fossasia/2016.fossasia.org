@@ -289,7 +289,7 @@
     "speakers": [
       {
         "id": 15,
-        "name": "Davide Storti  ITO Misako"
+        "name": "Davide Storti, ITO Misako"
       }
     ],
     "description": "The YouthMobile Initiative builds on the experience of many worldwide initiatives that introduce young people to computer science programming (learning-to-code) and problem solving (coding-to-learn). It also seeks to build on experiences targeting young women who are vastly underrepresented in this field. Finally it builds on the consideration that for millions of young people, the smartphone in their pocket is a very powerful computer, it will be their only computer, and they use it for nearly every aspect of their lives: communicating, learning, taking pictures, and playing games.",
@@ -308,7 +308,7 @@
     "speakers": [
       {
         "id": 16,
-        "name": "Nerfetiti Nerfetiti"
+        "name": "Nerfetiti"
       }
     ],
     "description": "",
@@ -1239,5 +1239,386 @@
     "session_id": "OT-53",
     "end_time": "2016-03-20T09:00:00+00:00",
     "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [],
+    "description": "",
+    "title": "Group Photo",
+    "track": {
+      "id": 4,
+      "name": "OpenTech Workshops"
+    },
+    "start_time": "2016-03-19T04:00:00+00:00",
+    "session_id": "SC01",
+    "end_time": "2016-03-19T04:30:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [],
+    "description": "",
+    "title": "Lunch",
+    "track": {
+      "id": 4,
+      "name": "OpenTech Workshops"
+    },
+    "start_time": "2016-03-19T04:15:00+00:00",
+    "session_id": "L01",
+    "end_time": "2016-03-19T04:45:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 59,
+        "name": "Ishan Khanna"
+      }
+    ],
+    "description": "As developers these days follow agile processes and hence want automation of repetitive tasks. This is an opportunity for them to leverage the power of IntelliJ IDEA SDK to build plugins for IntelliJ Idea and Android Studio in Java.  This will be a hands on training session in which developers will :  -> setup the dev environment for plugin development -> get an overview of plugin architecture, manifests etc. -> Write a couple of plugins and will be able to deploy them on their IDEs.  ",
+    "title": "Writing Plugins for IntelliJ IDEA",
+    "track": {
+      "id": 4,
+      "name": "OpenTech Workshops"
+    },
+    "start_time": "2016-03-19T05:30:00+00:00",
+    "session_id": "OTW-01",
+    "end_time": "2016-03-19T06:30:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 60,
+        "name": "Mike Anderson"
+      }
+    ],
+    "description": "Functional programming provides a powerful set of tools for procedural generation of content for games, art and product design. In this workshop we will explore the use of the Clojure programming language to create a wide range of visual effects, from game textures to procedurally generated animations.",
+    "title": "Procedural Content Generation with Clojure",
+    "track": {
+      "id": 4,
+      "name": "OpenTech Workshops"
+    },
+    "start_time": "2016-03-19T06:30:00+00:00",
+    "session_id": "OTW-02",
+    "end_time": "2016-03-19T07:30:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 61,
+        "name": "Mike McQuaid McQuaid"
+      },
+      {
+        "id": 62,
+        "name": "Sahil Bajaj"
+      }
+    ],
+    "description": "A GitHub Workshop: This is a self-directed and hands-on workshop for people who want to learn Git, GitHub, or GitHub Pages. You\u2019ll leave with a merged Pull Request, a square on your contributions graph, and confidence to get more involved in the open source community. If you\u2019re an experienced GitHub user, we\u2019d love for you to join the session as a mentor.",
+    "title": "GitHub Workshop",
+    "track": {
+      "id": 4,
+      "name": "OpenTech Workshops"
+    },
+    "start_time": "2016-03-20T02:00:00+00:00",
+    "session_id": "OTW-03",
+    "end_time": "2016-03-20T04:00:00+00:00",
+    "type": "Workshop of 2 hours"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 63,
+        "name": "Sherman Chen"
+      }
+    ],
+    "description": "We are going to explore the vast galaxy of native app development, but not on iOS, Android or Windows. But on the very familiar JavaScript framework. NativeScript is fully open sourced, so developers now have an option to build truly native mobile applications without the need to code in many different languages. We will get some hands on during this workshop to play with NativeScript and explore some of its amazing capabilities.",
+    "title": "Building Truly Native Apps with NativeScript",
+    "track": {
+      "id": 4,
+      "name": "OpenTech Workshops"
+    },
+    "start_time": "2016-03-20T05:00:00+00:00",
+    "session_id": "OTW-04",
+    "end_time": "2016-03-20T07:00:00+00:00",
+    "type": "Workshop of 2 hours"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 64,
+        "name": "Martin Andrews"
+      }
+    ],
+    "description": "Deep Learning is a hot topic, but it can be a little daunting to get started. Provisional outline :  * The workshop will start from the very basics (with a little mathematics), and quickly progress to getting hands-on with open source software (ending the first hour with training a deep network on a simple problem) * The second hour will build on a much larger pre-trained model, and show participants applications in both e-commerce and generative art.  ",
+    "title": "Deep Learning: From Inception to Dreams",
+    "track": {
+      "id": 4,
+      "name": "OpenTech Workshops"
+    },
+    "start_time": "2016-03-20T07:00:00+00:00",
+    "session_id": "OTW-05",
+    "end_time": "2016-03-20T09:00:00+00:00",
+    "type": "Workshop of 2 hours"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 65,
+        "name": "Abdul Rauf"
+      }
+    ],
+    "description": "What if you could \u201cfile a bug on the internet\u201d in a public space where developers, users and browser vendors could be made aware of compatibility issues? You can report issues to browser vendors today, through bug trackers or other feedback mechanisms, some public and some not. But frequently you cannot see the results of such a report\u2014or see what related issues others have reported. It can feel like a black hole experience. This talk is about introduction to webcompat.com, where we provide simple, open interface to web compatibility issues that affect us all as users of the web, regardless of our browsers or devices of choice. Perhaps more importantly, we hope to foster and enable a community of people who are passionate about a web for everyone to help out.",
+    "title": "Introduction to webcompat.com",
+    "track": {
+      "id": 5,
+      "name": "WebTech"
+    },
+    "start_time": "2016-03-19T02:00:00+00:00",
+    "session_id": "WT-01",
+    "end_time": "2016-03-19T02:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 66,
+        "name": "Hai An DANG"
+      }
+    ],
+    "description": "FOSSASIA API is a set of tools and interfaces designed to collect and visualize  data from ASIA open-source communities. In this talk I want to present the history, the design, the challenge and usefulness of collecting communities data in a distributed manner. Then, let's see what are ways of evolving & promoting FOSSASIA API so that it can reach out to more users and developers.",
+    "title": "A look at FOSSASIA API",
+    "track": {
+      "id": 5,
+      "name": "WebTech"
+    },
+    "start_time": "2016-03-19T02:30:00+00:00",
+    "session_id": "WT-02",
+    "end_time": "2016-03-19T03:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 67,
+        "name": "Dan Tran"
+      }
+    ],
+    "description": "Chat bots ",
+    "title": "Chat bots ",
+    "track": {
+      "id": 5,
+      "name": "WebTech"
+    },
+    "start_time": "2016-03-19T03:00:00+00:00",
+    "session_id": "WT-03",
+    "end_time": "2016-03-19T03:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 68,
+        "name": "Hans Bakker"
+      }
+    ],
+    "description": "Why it is changing? 1. modifyable by end user companies themselves. 2. transforming all companies into IT companies. 3. available for any size of company. 4. complete independence of your vendor. 5. Interfacing easily with other systems. 6. contunuously adapted to the changing business. 7. Yes slowly because businesses are very conservative 8. Total open source for every part of the total installation. 9. data bases sharable. 10. devops for continuous deployment and more.....",
+    "title": "How open source ERP is slowly changing the business world",
+    "track": {
+      "id": 5,
+      "name": "WebTech"
+    },
+    "start_time": "2016-03-19T03:30:00+00:00",
+    "session_id": "WT-04",
+    "end_time": "2016-03-19T04:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 69,
+        "name": "Group Photo"
+      }
+    ],
+    "description": "",
+    "title": "",
+    "track": {
+      "id": 5,
+      "name": "WebTech"
+    },
+    "start_time": "2016-03-19T04:00:00+00:00",
+    "session_id": "SC-01",
+    "end_time": "2016-03-19T04:30:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 70,
+        "name": "Lunch"
+      }
+    ],
+    "description": "",
+    "title": "",
+    "track": {
+      "id": 5,
+      "name": "WebTech"
+    },
+    "start_time": "2016-03-19T04:15:00+00:00",
+    "session_id": "L-01",
+    "end_time": "2016-03-19T04:45:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 71,
+        "name": "Robert Reyes"
+      }
+    ],
+    "description": "Will talk about the current efforts of Mozilla on Connected Devices (IoT), MozVR (Virtual Reality for the Open Web), and Firefox Developer Tools.",
+    "title": "Mozilla on Connected Devices, MozVR & Firefox Developer Tools",
+    "track": {
+      "id": 5,
+      "name": "WebTech"
+    },
+    "start_time": "2016-03-19T05:30:00+00:00",
+    "session_id": "WT-05",
+    "end_time": "2016-03-19T06:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 48,
+        "name": "Daniel Pocock"
+      }
+    ],
+    "description": "Is there any credible way to build a trustworthy communications platform without using free software?  At FOSDEM 2013, leading developers of free real-time communications software dared to get up on stage and ask the question \"Can we replace Skype, Viber, Twitter and Facebook?\". Was this the right question and how does it relate to free software development today and in the future? Pocock talks about what has changed since then and where things are going in this domain in the year ahead, especially with the emergence of WebRTC and the ubiquity of browsers that support it and the opportunities this has created for the world of web development and interaction with other open systems.",
+    "title": "Free Real-time Communications (SIP, XMPP, WebRTC)",
+    "track": {
+      "id": 5,
+      "name": "WebTech"
+    },
+    "start_time": "2016-03-19T06:00:00+00:00",
+    "session_id": "WT-06",
+    "end_time": "2016-03-19T07:30:00+00:00",
+    "type": "Workshop of 1.5 hours"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 72,
+        "name": "Ningxin Hu"
+      }
+    ],
+    "description": "The HTML5/Web is becoming the most popular programming language for mobile app development. Crosswalk is a HTML5 runtime, built on open source foundations. Crosswalk supports apps on both Android and Windows. Crosswalk powers 8K+ apps in Google Play and several of them have over 10M installations. Crosswalk is adopted by mainstream HTML5 app frameworks, e.g. Google Mobile Chrome Apps, Adobe PhoneGap/Cordova, Sencha, Famo.us, , Construct2, Ludei, etc; On the other hand, the mobile platform is evolving very fast with new capabilities, such as new sensors and parallel execution unit etc., Using Crosswalk not only allows you to use state-of-the-art W3C recommended HTML5 APIs, but also allows you to access the advanced platform technologies via JavaScript. With these new platform technologies, the performance and user experience of your mobile app will be enhanced.   The topics of the workshop include: - What, why and current status of Crosswalk - How to use Crosswalk to develop mobile web app - Accessing Advanced Platform Technology via Crosswalk   * Exploiting platform parallelism by SIMD.JS and WebCL,    * Enabling innovative user experience by 3D camera API - Crosswalk next steps and opportunities to mobile web app",
+    "title": "Enhancing Mobile Web App with Advanced Platform Technology",
+    "track": {
+      "id": 5,
+      "name": "WebTech"
+    },
+    "start_time": "2016-03-19T07:30:00+00:00",
+    "session_id": "WT-07",
+    "end_time": "2016-03-19T08:00:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [],
+    "description": "",
+    "title": "",
+    "track": {
+      "id": 5,
+      "name": "WebTech"
+    },
+    "start_time": "2016-03-19T08:00:00+00:00",
+    "session_id": "WT-08",
+    "end_time": "2016-03-19T08:30:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 73,
+        "name": "Mark Clarke"
+      }
+    ],
+    "description": "The talk will introduce React the JavaScript framework from Facebook. It will explain the unique approach adopted by React to ease development of JavaScript based web applications. It unpack React with examples and demonstrations to equip the audience with the  a conceptual model that will enable them to understand the essence of React and adopt it more easily in their projects.",
+    "title": "Introduction to React JavaScript Framework",
+    "track": {
+      "id": 5,
+      "name": "WebTech"
+    },
+    "start_time": "2016-03-19T08:30:00+00:00",
+    "session_id": "WT-09",
+    "end_time": "2016-03-19T09:30:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 74,
+        "name": "Soares Chen"
+      },
+      {
+        "id": 45,
+        "name": "Tim Oxley"
+      },
+      {
+        "id": 75,
+        "name": "Sebastiaan  Deckers"
+      },
+      {
+        "id": 76,
+        "name": "J\u00f6rg Henning"
+      }
+    ],
+    "description": "If you want to increase your skills with either JavaScript or Node.js, NodeSchool is easily the best way to do it. We will be hosting hands-on workshops for both beginners and experienced node developers. This event is for both newcomers and prior attendees!",
+    "title": "NodeSchool",
+    "track": {
+      "id": 5,
+      "name": "WebTech"
+    },
+    "start_time": "2016-03-20T02:00:00+00:00",
+    "session_id": "WT-10",
+    "end_time": "2016-03-20T07:00:00+00:00",
+    "type": "Workshop of 5 hours"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 77,
+        "name": "Chinmay Pendharkar"
+      }
+    ],
+    "description": "An intro to the Web Audio API through a series of self-guided workshops.  We'll be using WebAudio School, which is a NodeSchool style interactive workshop, led by a mentor. We will go through interactive lessons in a browser, and learn the WebAudio API (Javascript) which allows real-time synthesis and analysis of sound in a browser. We will primarily focus on using the Web Audio API for music, but the concepts here could be applied to game sound and other creative uses.  Reminder to participants : Bring headphones.",
+    "title": "WebAudio School",
+    "track": {
+      "id": 5,
+      "name": "WebTech"
+    },
+    "start_time": "2016-03-20T07:30:00+00:00",
+    "session_id": "WT-11",
+    "end_time": "2016-03-20T08:00:00+00:00",
+    "type": "Workshop of 1.5 hours"
   }
 ]}
