@@ -343,20 +343,6 @@
   },
   {
     "py/object": "models.Session",
-    "speakers": [],
-    "description": "",
-    "title": "Lunch",
-    "track": {
-      "id": 3,
-      "name": "OpenTech and IoT"
-    },
-    "start_time": "2016-03-18T04:10:00+00:00",
-    "session_id": "L-01",
-    "end_time": "2016-03-18T04:40:00+00:00",
-    "type": ""
-  },
-  {
-    "py/object": "models.Session",
     "speakers": [
       {
         "id": 18,
@@ -588,22 +574,8 @@
       "name": "OpenTech and IoT"
     },
     "start_time": "2016-03-19T04:00:00+00:00",
-    "session_id": "SC-02",
+    "session_id": "PHOTO",
     "end_time": "2016-03-19T04:30:00+00:00",
-    "type": ""
-  },
-  {
-    "py/object": "models.Session",
-    "speakers": [],
-    "description": "",
-    "title": "Lunch",
-    "track": {
-      "id": 3,
-      "name": "OpenTech and IoT"
-    },
-    "start_time": "2016-03-19T04:15:00+00:00",
-    "session_id": "L-02",
-    "end_time": "2016-03-19T04:45:00+00:00",
     "type": ""
   },
   {
@@ -1242,34 +1214,6 @@
   },
   {
     "py/object": "models.Session",
-    "speakers": [],
-    "description": "",
-    "title": "Group Photo",
-    "track": {
-      "id": 4,
-      "name": "OpenTech Workshops"
-    },
-    "start_time": "2016-03-19T04:00:00+00:00",
-    "session_id": "SC01",
-    "end_time": "2016-03-19T04:30:00+00:00",
-    "type": ""
-  },
-  {
-    "py/object": "models.Session",
-    "speakers": [],
-    "description": "",
-    "title": "Lunch",
-    "track": {
-      "id": 4,
-      "name": "OpenTech Workshops"
-    },
-    "start_time": "2016-03-19T04:15:00+00:00",
-    "session_id": "L01",
-    "end_time": "2016-03-19T04:45:00+00:00",
-    "type": ""
-  },
-  {
-    "py/object": "models.Session",
     "speakers": [
       {
         "id": 59,
@@ -1310,11 +1254,11 @@
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 61,
-        "name": "Mike McQuaid McQuaid"
+        "id": 18,
+        "name": "Mike McQuaid"
       },
       {
-        "id": 62,
+        "id": 61,
         "name": "Sahil Bajaj"
       }
     ],
@@ -1333,7 +1277,7 @@
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 63,
+        "id": 62,
         "name": "Sherman Chen"
       }
     ],
@@ -1352,7 +1296,7 @@
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 64,
+        "id": 63,
         "name": "Martin Andrews"
       }
     ],
@@ -1371,7 +1315,7 @@
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 65,
+        "id": 64,
         "name": "Abdul Rauf"
       }
     ],
@@ -1390,7 +1334,7 @@
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 66,
+        "id": 65,
         "name": "Hai An DANG"
       }
     ],
@@ -1409,7 +1353,7 @@
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 67,
+        "id": 66,
         "name": "Dan Tran"
       }
     ],
@@ -1428,7 +1372,7 @@
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 68,
+        "id": 67,
         "name": "Hans Bakker"
       }
     ],
@@ -1447,45 +1391,7 @@
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 69,
-        "name": "Group Photo"
-      }
-    ],
-    "description": "",
-    "title": "",
-    "track": {
-      "id": 5,
-      "name": "WebTech"
-    },
-    "start_time": "2016-03-19T04:00:00+00:00",
-    "session_id": "SC-01",
-    "end_time": "2016-03-19T04:30:00+00:00",
-    "type": ""
-  },
-  {
-    "py/object": "models.Session",
-    "speakers": [
-      {
-        "id": 70,
-        "name": "Lunch"
-      }
-    ],
-    "description": "",
-    "title": "",
-    "track": {
-      "id": 5,
-      "name": "WebTech"
-    },
-    "start_time": "2016-03-19T04:15:00+00:00",
-    "session_id": "L-01",
-    "end_time": "2016-03-19T04:45:00+00:00",
-    "type": ""
-  },
-  {
-    "py/object": "models.Session",
-    "speakers": [
-      {
-        "id": 71,
+        "id": 68,
         "name": "Robert Reyes"
       }
     ],
@@ -1523,7 +1429,7 @@
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 72,
+        "id": 69,
         "name": "Ningxin Hu"
       }
     ],
@@ -1535,28 +1441,14 @@
     },
     "start_time": "2016-03-19T07:30:00+00:00",
     "session_id": "WT-07",
-    "end_time": "2016-03-19T08:00:00+00:00",
-    "type": "Workshop of 1 hour"
-  },
-  {
-    "py/object": "models.Session",
-    "speakers": [],
-    "description": "",
-    "title": "",
-    "track": {
-      "id": 5,
-      "name": "WebTech"
-    },
-    "start_time": "2016-03-19T08:00:00+00:00",
-    "session_id": "WT-08",
     "end_time": "2016-03-19T08:30:00+00:00",
-    "type": ""
+    "type": "Workshop of 1 hour"
   },
   {
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 73,
+        "id": 70,
         "name": "Mark Clarke"
       }
     ],
@@ -1575,7 +1467,7 @@
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 74,
+        "id": 71,
         "name": "Soares Chen"
       },
       {
@@ -1583,16 +1475,16 @@
         "name": "Tim Oxley"
       },
       {
-        "id": 75,
+        "id": 72,
         "name": "Sebastiaan  Deckers"
       },
       {
-        "id": 76,
+        "id": 73,
         "name": "J\u00f6rg Henning"
       }
     ],
     "description": "If you want to increase your skills with either JavaScript or Node.js, NodeSchool is easily the best way to do it. We will be hosting hands-on workshops for both beginners and experienced node developers. This event is for both newcomers and prior attendees!",
-    "title": "NodeSchool",
+    "title": "Nodeschool",
     "track": {
       "id": 5,
       "name": "WebTech"
@@ -1606,7 +1498,7 @@
     "py/object": "models.Session",
     "speakers": [
       {
-        "id": 77,
+        "id": 74,
         "name": "Chinmay Pendharkar"
       }
     ],
@@ -1620,5 +1512,2082 @@
     "session_id": "WT-11",
     "end_time": "2016-03-20T08:00:00+00:00",
     "type": "Workshop of 1.5 hours"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 75,
+        "name": "Shivam  Verma"
+      }
+    ],
+    "description": "Dynamix enables mobile apps and Web apps to fluidly interact with the physical world through advanced sensing, control and actuation plug-ins that can be installed into the user\u2019s Android device on-demand. A Dynamix-enabled device can also serve as a gateway between mutually incompatible smart devices that are situated in the user\u2019s environment. 1. Overview of the Framework 2. Features 3. Plugin Development Overview 4. Web Integration 5. Simple Demo",
+    "title": "Ambient Dynamix: Adaptive gateway to IoT",
+    "track": {
+      "id": 7,
+      "name": "Hardware and IoT"
+    },
+    "start_time": "2016-03-18T05:30:00+00:00",
+    "session_id": "H-01",
+    "end_time": "2016-03-18T06:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 76,
+        "name": "Akhil Pandey"
+      }
+    ],
+    "description": "The project deals with the usage of open hardware and combining the effort with javascript in helping build file servers,  media servers etc. The concentration of the project would be more about optimizing existing core node modules.",
+    "title": "Javascript and IOT",
+    "track": {
+      "id": 7,
+      "name": "Hardware and IoT"
+    },
+    "start_time": "2016-03-18T06:00:00+00:00",
+    "session_id": "H-02",
+    "end_time": "2016-03-18T06:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 46,
+        "name": "Roland Turner"
+      }
+    ],
+    "description": "Satellite communication is moderately difficult. It can be achieved with handheld antennas but (a) this is more difficult than it needs to be and (b) this limits your ability to communicate in marginal conditions. Building a rotator/elevator that is capable of automatically tracking a satellite across the sky frees up one hand which simplifies the process and increases pointing precision, meaning that you're better able to communicate in marginal conditions than you would be with a handheld antenna. In this talk I'll describe my build of the \"Tricked-Out WRAPS\" system and, if we're really lucky, demonstrate it live.",
+    "title": "Building an open-source satellite tracker to talk via satellites",
+    "track": {
+      "id": 7,
+      "name": "Hardware and IoT"
+    },
+    "start_time": "2016-03-18T06:30:00+00:00",
+    "session_id": "H-03",
+    "end_time": "2016-03-18T07:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 77,
+        "name": "Kushal Das"
+      }
+    ],
+    "description": "Micro Bit (or micro:bit) is an ARM-based embedded system designed by the BBC for use in computer education in the UK. It will be given to every 11 year old student in UK.   MicroPython is an \"official\" solution for the micro:bit. The Python Software Foundation are one of the partners in the project and the BBC asked us to provide such a solution (ntoll is leading the efforts from the PSF side of things).   \"Mu\" is a community generated (i.e. from the Python community) editor that *initially* targets the micro:bit. In the wider Python context, there's been talk of a kid/teacher/beginner friendly editor that's recommended for Python \"in general\". Plans are afoot to make \"mu\" meet this requirement.",
+    "title": "BBC micro:bit and Python",
+    "track": {
+      "id": 7,
+      "name": "Hardware and IoT"
+    },
+    "start_time": "2016-03-18T07:00:00+00:00",
+    "session_id": "H-04",
+    "end_time": "2016-03-18T07:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 78,
+        "name": "Parmeshwr Prasad Vishwakarma"
+      }
+    ],
+    "description": "NVDIMM is very hot topic now a days. It has many fabulous features. One of them is namespaces. NVDIMM support block and persistent memory name spaces. Both has different advantages and use cases. Namespaces may have attributes unavailable through other means, like different block sizes for block devices, the choice of powerfail write atomicity, and the ability. Let\u2019s understand block window, BTT, SPA and their challenges in this session. I will cover how NVDIMM is solving modern memory requirement. Based on its ability to fill the gap between cache memory and SSD. I will cover how Linux community is proceeding to solve namespaces in NVDIMM. ",
+    "title": "Unleash the potential of NVDIMM Namespaces",
+    "track": {
+      "id": 7,
+      "name": "Hardware and IoT"
+    },
+    "start_time": "2016-03-18T07:30:00+00:00",
+    "session_id": "H-05",
+    "end_time": "2016-03-18T08:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 79,
+        "name": "Shwetank Dixit"
+      }
+    ],
+    "description": "The number of electronic devices we have around us is gigantic. We need a new interaction model to deal with all these devices, and having a separate native app for each device is impractical. The concept of the \u2018Physical Web\u2019 attempts to assign devices with their very own URL, which can be accessed by everyone using their web browser.   This opens up a lot of possibilities for developers to create new and amazing applications, taking the user\u2019s immediate physical presence into play. We\u2019ll take a look at some use cases, including, but not limited to treasure hunts, contact sharing and indoor navigation. We\u2019ll dive deep into how JavaScript can be used along with Bluetooth-LE and the Eddystone protocol to create great web apps, and understand  the concepts at hand.",
+    "title": "Treasure Hunts, Indoor Navigation and the Physical Web: Adventures in JavaScript and Bluetooth Beacons",
+    "track": {
+      "id": 7,
+      "name": "Hardware and IoT"
+    },
+    "start_time": "2016-03-18T08:00:00+00:00",
+    "session_id": "H-06",
+    "end_time": "2016-03-18T08:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 80,
+        "name": "Maxime Pourrat"
+      }
+    ],
+    "description": "https://youtu.be/HNrfr4Mp-Wk",
+    "title": "Why are we (Still) wasting food? How technology can help",
+    "track": {
+      "id": 7,
+      "name": "Hardware and IoT"
+    },
+    "start_time": "2016-03-19T02:30:00+00:00",
+    "session_id": "H-07",
+    "end_time": "2016-03-19T03:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 81,
+        "name": "Saad Chinoy"
+      }
+    ],
+    "description": "Just how easy is it to make a thing move from anywhere in the world?",
+    "title": "#IoT REX: Kinetic Origami",
+    "track": {
+      "id": 7,
+      "name": "Hardware and IoT"
+    },
+    "start_time": "2016-03-19T03:00:00+00:00",
+    "session_id": "H-08",
+    "end_time": "2016-03-19T03:30:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 82,
+        "name": "Kenji Shimono"
+      }
+    ],
+    "description": "Hacking with various ARM deivces on Linux, Android, RaspberryPi and Chromebook. In this session, I will talk ARM Linux with the user point of view. Let's play Linux with customized.",
+    "title": "Hacking with ARM devices on Linux",
+    "track": {
+      "id": 7,
+      "name": "Hardware and IoT"
+    },
+    "start_time": "2016-03-19T05:30:00+00:00",
+    "session_id": "H-09",
+    "end_time": "2016-03-19T06:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 83,
+        "name": "Carsten Haitzler"
+      }
+    ],
+    "description": "Tizen is an open source operating system for consumer electronics such as Mobile, Wearables, TVs, Vehicles, Cameras, the world of IoT & much more. It is heavily supported and worked on today by Samsung Electronics and community. It has already shipped several million products and is expanding. The goal is for it to be a real community effort between OEMs and all other interested parties to have a truly free and open operating system that can be used to develop products without restrictions.  This will introduce what Tizen is, some of its history and where it is going, but will try and aim to be more of an interactive session to answer questions and gather feedback.  Bring your curiosity and positivity and perhaps we can all build a better future for our gadgets together.",
+    "title": "Tizen - An open platform for consumer electronics - What is it & what do you want it to be",
+    "track": {
+      "id": 7,
+      "name": "Hardware and IoT"
+    },
+    "start_time": "2016-03-19T06:00:00+00:00",
+    "session_id": "H-10",
+    "end_time": "2016-03-19T06:30:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 84,
+        "name": "Deepak Karki Aishwarya Kaliki"
+      }
+    ],
+    "description": "Over the past one year, me and my teammate worked on developing a rapid prototyping framework for the Internet of Things. Repository can be found at: https://github.com/kres/zygote The idea was to make IoT development as simple as Lego, i.e. connecting blocks to build a system. In this case the system is made out of sensors, actuators and are connected to the cloud. The user visualizes all the sensor and actuator endpoints as simple building blocks on the browser. Interconnecting these blocks virtually on the browser creates a actual data flow in the real world (basically over the air configuration of all sensors and actuators). The user can then add triggers, events, timers, filters to the flow to create more complex IoT systems.  The top three highlights of the framework: * Setting up the IoT application can be completely visual. i.e. no programming required. (But code can be added if the user wants to) * The system can work over any wired/wireless medium - like bluetooth, WiFi, Zigbee, etc. * The framework is platform neutral. Though it is been developed on the Beaglebone Black, it will run fine on Raspberry Pi, Cubie board, etc. Not limited by the hardware.  During the proposed talk I will be talking about design and implementation of the project including the challenges we faced, sample application and future work. This work was presented at an International IEEE conference held in IIT Madras earlier this year.",
+    "title": "Project Zygote - Lego for the Internet of Things",
+    "track": {
+      "id": 7,
+      "name": "Hardware and IoT"
+    },
+    "start_time": "2016-03-19T07:00:00+00:00",
+    "session_id": "H-11",
+    "end_time": "2016-03-19T07:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 85,
+        "name": "Dr. Udaykumar Khadke"
+      }
+    ],
+    "description": "Recently the applications of radioactivity in the industry and medical fields are on the rise but the education in this area has not shown any progress. Nuclear physics experiments are included in undergraduate and graduate Physics syllabus  of many Indian universities. However, the required facilities are scarce due to high cost of the equipment and difficulties in obtaining radioactive sources.  To provide an effective solution to this problem Phoenix project of IUAC, New Delhi (www.iuac.res.in) has developed some open source set-ups for nuclear physics experiments. In this presentation we will be discussing about Alpha Spectrometer, Multi Channel Analyser Radiation Detection System and USB Geiger M\u00fcller Counter. All the development is open sourced and major part of the software is written in python.",
+    "title": "Open Source Hardware and Software for Radiation Physics",
+    "track": {
+      "id": 7,
+      "name": "Hardware and IoT"
+    },
+    "start_time": "2016-03-19T07:30:00+00:00",
+    "session_id": "H-12",
+    "end_time": "2016-03-19T08:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 86,
+        "name": "Abhishek Mishra"
+      }
+    ],
+    "description": "Autonomous robotics is a hot field of research, spanning various applications. In this talk, I will discuss about our autonomous robot, and how I integrated various modalities in an embedded setup, aimed for indoor surveillance applications. The robot features modules for 3D scanning using Intel RealSense, object recognition on cloud, and autonomous navigation algorithm using cylon.js through Intel Edison board. I invite you to attend and hear about how to develop embedded robotics applications using state of art technologies.",
+    "title": "Autonomous embedded robotics",
+    "track": {
+      "id": 7,
+      "name": "Hardware and IoT"
+    },
+    "start_time": "2016-03-19T08:00:00+00:00",
+    "session_id": "H-13",
+    "end_time": "2016-03-19T08:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 87,
+        "name": "Jiin Joo Ong"
+      }
+    ],
+    "description": "Get your hands dirty with various open source software for working with drones, including DroneKit, MAVLink, and Mission Planner.",
+    "title": "Open Source Drones",
+    "track": {
+      "id": 7,
+      "name": "Hardware and IoT"
+    },
+    "start_time": "2016-03-19T08:30:00+00:00",
+    "session_id": "H-14",
+    "end_time": "2016-03-19T09:00:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 21,
+        "name": "Praveen Patil"
+      }
+    ],
+    "description": "Understanding of basic concepts in science, math and technology is the most important thing in every students life. But sometimes science lectures aren't just boring, they are ineffective too and result in loss of interest among students. Learning science can be fun if we could visualize the concepts and relate them with the real world. Python programming language has the potential to change a dull teaching learning process in to more stimulating active learning. Equations in physics and maths always look dull and boring. With the power of python one can see the beauty behind those equations and can find real world connections. With the effective use of python programs a  teacher can actively engage the students and help them visualize the concepts and have better understanding. In this presentation I will talk about my teaching experiments with Python in Physics with live demo of some scientific python programs.",
+    "title": "Python in my Science Classroom",
+    "track": {
+      "id": 8,
+      "name": "Python"
+    },
+    "start_time": "2016-03-19T02:30:00+00:00",
+    "session_id": "PY-01",
+    "end_time": "2016-03-19T03:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 88,
+        "name": "Sayan Chowdhury"
+      }
+    ],
+    "description": "This talk will be showcasing the various projects within the Fedora Infrastructure.  Even though this talk is in the Python track, this talk will interest the people who are interested in the tracks DevOps and Open Source and Free Software.  My talk will divided into 2-3 minutes chunks, where I would be talking about architecture, functionality of various projects (pagure, fmn, bodhi etc) within the Fedora Infrastructure. My primary focus would to enlighten the participants on how this various applications interact within themselves so that the contributors can visualize the infrastructure as a whole. I also intent to speak on Federated Message Bus (fedmsg) within the infra through which the message passing takes place.  At the end of the talk I plan to tell them on how to pick their first bug and the communication channels through which they can contact the Fedora upstream.",
+    "title": "Dive deep into Fedora Infra",
+    "track": {
+      "id": 8,
+      "name": "Python"
+    },
+    "start_time": "2016-03-19T03:00:00+00:00",
+    "session_id": "PY-02",
+    "end_time": "2016-03-19T03:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 77,
+        "name": "Kushal Das"
+      }
+    ],
+    "description": "Tunir is CI made for developers in mind. It is very simple and easy to configure. Each job only takes a json file, and .txt file as configuration.   It can boot up cloud image on any laptop/server or can use Vagrant images to test any project. One of the latest feature is about testing on AWS EC2 instances. For any given AMI & authentication details, it can spin up the instance, and execute the tests on it.  Currently Fedora Project is using tunir to automatically test its own cloud, atomic, and Vagrant images. We write the test cases using Python 3 unittest module. The documentation of the project can be found at https://tunir.readthedocs.org/en/latest/",
+    "title": "Tunir the simple CI",
+    "track": {
+      "id": 8,
+      "name": "Python"
+    },
+    "start_time": "2016-03-19T03:30:00+00:00",
+    "session_id": "PY-03",
+    "end_time": "2016-03-19T04:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 89,
+        "name": "Shadab Zafar"
+      }
+    ],
+    "description": "Python has a tonne of packages related to designing a nice command line interface. There's the stdlib's argparse and various other packages like docopt, clint, click, etc. This talk will talk about when to use each of these packages and when to not. I'll also talk about some of the DOs and DON'Ts of creating a good CLI application.",
+    "title": "Command Line Application Design in Python",
+    "track": {
+      "id": 8,
+      "name": "Python"
+    },
+    "start_time": "2016-03-19T05:30:00+00:00",
+    "session_id": "PY-04",
+    "end_time": "2016-03-19T06:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 90,
+        "name": "Sundeep Anand"
+      }
+    ],
+    "description": "Zanata Python client is a client that communicates with a Zanata server [http://zanata.org/] to push text for translation (from publican documents or gettext-based software), and pull translated text back for inclusion in software or documentation builds. It also provides support for creating projects/versions in Zanata and retrieving information about projects.",
+    "title": "Using Python Client to talk with Zanata Server",
+    "track": {
+      "id": 8,
+      "name": "Python"
+    },
+    "start_time": "2016-03-19T06:00:00+00:00",
+    "session_id": "PY-05",
+    "end_time": "2016-03-19T06:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 91,
+        "name": "Ivan Zimine"
+      }
+    ],
+    "description": "Test driven development (TDD) is a very useful software development strategy, but it is not yet taught and practiced as widely as it should. Learning TDD practice in Python can be challenging because there are several \"competing\" packages without an obvious \"best way\" to do it. Simplicity and readability are core concepts of Python, and in this talk I will try to show how it can be applied to testing by doing a side-by-side comparison of unittest/selenium vs pytest/splinter in a simple web application development context.",
+    "title": "Test driven development with pytest",
+    "track": {
+      "id": 8,
+      "name": "Python"
+    },
+    "start_time": "2016-03-19T06:30:00+00:00",
+    "session_id": "PY-06",
+    "end_time": "2016-03-19T07:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 92,
+        "name": "Yask Srivastava"
+      }
+    ],
+    "description": "I will be giving a talk about my GSoC'15 project which I successfully completed for Moin Moin Wiki Engine(Python Software Foundation).",
+    "title": "Building a proper UI/UX for the wiki engine (GSoC'15 Project) ",
+    "track": {
+      "id": 8,
+      "name": "Python"
+    },
+    "start_time": "2016-03-19T07:00:00+00:00",
+    "session_id": "PY-07",
+    "end_time": "2016-03-19T07:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 88,
+        "name": "Sayan Chowdhury"
+      }
+    ],
+    "description": "ircb1 is a IRC Bouncer as a service, made for humans. It's currently functional as a basic IRC bouncer, however, unlike mainstream IRC bouncers, it supports multiple client connections for the same IRC network connection for a user. It aims to provide a scalable bouncer service along with easy setup, deployment and management. It also envisions to provide a low barrier entry point for users, where users can join and start using the service in an automated fashion, without going through manual processes.  Although, ircb is a standalone product, it is also one of the core components of waartaa2. waartaa is our attempt to create an open source SAAS communication and collaboration tool, around IRC. We also participated in GSoC under the Fedora umbrella. However, we hit various roadblocks with the initial code base given to it's monolithic structure. So, we started breaking down the app into micro services. Thus, ircb, the scalable IRC bouncer to empower waartaa, was born.  IRC networks limit the number of connections for an IP, and this limit has to be manually negotiated, and the process takes time. We came to know of this during maintaining a demo instance of waartaa on a single node, when Freenode will stop rejecting IRC connections from our IP. That's why we are looking forward to have a multi node model for ircb, where we can intelligently distribute the IRC network connections, as needed. We are also brainstorming to figure out an intelligent way to load balance connections from IRC clients to the bouncer service in a stateless fashion. You can find some insight about it in our initial design docs3. We are also trying to develop a reactive store layer to empower realtime applications, in our case, waartaa. ",
+    "title": "ircb - A versatile, scalable IRC Bouncer, as a service, for humans",
+    "track": {
+      "id": 8,
+      "name": "Python"
+    },
+    "start_time": "2016-03-19T07:30:00+00:00",
+    "session_id": "PY-08",
+    "end_time": "2016-03-19T08:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 77,
+        "name": "Kushal Das"
+      }
+    ],
+    "description": "This is a workshop targeting existing Python developers, and any new programmer in Python world. We will go through the basics of Python 3 while keeping an eye for the changes from Python 2 in various parts of the language. ",
+    "title": "Python 3 101",
+    "track": {
+      "id": 8,
+      "name": "Python"
+    },
+    "start_time": "2016-03-19T08:00:00+00:00",
+    "session_id": "PY-09",
+    "end_time": "2016-03-19T09:30:00+00:00",
+    "type": "Workshop of 2 hours"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 38,
+        "name": "Kranthi Kiran Guduru"
+      }
+    ],
+    "description": "Micro Social networks and messaging platforms are playing a huge role in shaping up the major internet usage in the world. There is a tremendous potential of using these platforms, these platforms already provide high security levels ensuring that the over head of security can be safely taken a step later and the developers can lay their core focus only on the main prototype. In this workshop we can explore the possibilities of using these message platforms in various ways, to control IOT at home and business as well as to create artificial intelligence to build better and more engaging customer experiences",
+    "title": "Leveraging Telegram API and nltk to implement interactive user interfaces for businesses",
+    "track": {
+      "id": 8,
+      "name": "Python"
+    },
+    "start_time": "2016-03-20T02:00:00+00:00",
+    "session_id": "PY-10",
+    "end_time": "2016-03-20T03:00:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 40,
+        "name": "Sudheesh Singanamalla"
+      }
+    ],
+    "description": "Loklak's APIs are very powerful, To make the utilization of these APIs much more, i had created the python-loklak-api which works as the main bridge to build the telegram bots in python as well as the main backbone behind the software solution called GEAR (Govt. Enhanced Administrative Resource) which is a dedicated open source software for tracking complaints registered with the government's. Started in 2014 December, this software is now being pilot tested in the states of Andhra Pradesh and Telangana and the loklak API serves as the main tool for the governments to interact with citizens, A rant on twitter can now be taken seriously by the governments to improve the way they function.",
+    "title": "Building user centric applications using the Loklak and Twitter API - An example of Complaint registrations",
+    "track": {
+      "id": 8,
+      "name": "Python"
+    },
+    "start_time": "2016-03-20T03:00:00+00:00",
+    "session_id": "PY-11",
+    "end_time": "2016-03-20T04:00:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 93,
+        "name": "Sahil Shekhawat"
+      }
+    ],
+    "description": "In this workshop, attendees will learn how to derive, simulate, control, and visualize the motion of a multibody dynamic system with Python tools. These methods and techniques play an important role in the design and understanding of robots, vehicles, spacecraft, manufacturing machines, human motion, etc. In particular, the attendees will develop code to simulate the motion of a human balancing while standing using specific Joints.  We have found that a broad audience enjoys the topic. Attendees should be familiar with the basics of the SciPy stack, in particular NumPy, SciPy, SymPy, and IPython and have some familiarity with classical mechanics specially common joints like pin joint and sliding joints.",
+    "title": "Multibody Dynamics and Control with Python",
+    "track": {
+      "id": 8,
+      "name": "Python"
+    },
+    "start_time": "2016-03-20T05:00:00+00:00",
+    "session_id": "PY-12",
+    "end_time": "2016-03-20T06:00:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 94,
+        "name": "Amit Kumar JHA"
+      }
+    ],
+    "description": "In this tutorial I will introduce attendees to SymPy, a computer aided algebra system (CAS) written in Python. I will show the basics of constructing and manipulating mathematical expressions in SymPy, the most common issues and differences from other computer algebra systems, and how to deal with them. In the last part of this tutorial, I will show how to solve practical problems with SymPy. This will include showing how to interface SymPy with popular numeric libraries like NumPy.",
+    "title": "Symbolic Computation with Python using SymPy",
+    "track": {
+      "id": 8,
+      "name": "Python"
+    },
+    "start_time": "2016-03-20T06:00:00+00:00",
+    "session_id": "PY-13",
+    "end_time": "2016-03-20T08:00:00+00:00",
+    "type": "Workshop of 2 hours"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 95,
+        "name": "Bruce Momjian"
+      }
+    ],
+    "description": "This presentation highlights the challenges of motivating and managing an open source team of volunteers. Topics include motivation, communication, and project management. This talk is useful for anyone active in open source. ",
+    "title": "Building Open Source Teams",
+    "track": {
+      "id": 9,
+      "name": "Databases"
+    },
+    "start_time": "2016-03-19T03:00:00+00:00",
+    "session_id": "DB-03",
+    "end_time": "2016-03-19T03:30:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 96,
+        "name": "Mayank Prasad"
+      }
+    ],
+    "description": "The MySQL Performance Schema is a feature for monitoring Oracle's MySQL Server execution at a low level. This versatile and tightly integrated component collects performance and session data from various subsystems within the server during runtime with minimal impact on overall server performance.  This feature was introduced in MySQL 5.5 and MySQL 5.7 GA has been released with great enhancements in it for performance monitoring and tuning.This talk aims to give an overview of Performance Schema and how/what statistical information user is provided with using Performance Schema. With the help pf few use cases, it also explains how that information can be used for monitoring and trouble shooting to track an issue back to the relevant file and line of code in source file.   This talk also aims to give a glimpse of new interesting features/monitoring information added in MySQL 5.7 GA.  This talk is targeted to many database users which includes DBA, Database Application developers, Database developers, Students etc. ",
+    "title": "MySQL Performance Schema - A great insight of MySQL server execution",
+    "track": {
+      "id": 9,
+      "name": "Databases"
+    },
+    "start_time": "2016-03-20T02:00:00+00:00",
+    "session_id": "DB-20",
+    "end_time": "2016-03-20T02:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 97,
+        "name": "Ricky Setyawan"
+      }
+    ],
+    "description": "As Big Data and the Internet of Things generate significant transformations in the way organizations capture and analyze new and diverse data streams, find out how using MySQL solutions with Hadoop can enable you to yield more insight than was ever previously imaginable. MySQL is the leading open source database for Web-based and Cloud-based applications; and is integrated within numerous Big Data platforms.",
+    "title": "Unlocking New Big Data Insights with Hadoop & MySQL ",
+    "track": {
+      "id": 9,
+      "name": "Databases"
+    },
+    "start_time": "2016-03-20T02:30:00+00:00",
+    "session_id": "DB-21",
+    "end_time": "2016-03-20T03:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 98,
+        "name": "Manish Kumar"
+      }
+    ],
+    "description": "MySQL Replication provides a solution for High Availability and Read Scale-Out. Replication ensures that data written on one MySQL server is made available on other MySQL servers at run time in a fast, consistent and fault tolerant manner with minimal impact to the overall performance of the server.  Traditionally, MySQL Replication supports a single master and many slaves, and it is either asynchronous or semi-synchronous. A new replication plugin for MySQL has been around for some time and this is named MySQL Group Replication. This plugin provides multi-master update everywhere capabilities, making it possible to update data, concurrently, on any server in a group. It provides additional synchronization between servers that makes them coordinate regarding transactions that are committed in the group.  This talk explains how MySQL Group Replication facilitates and improves High Availability and simplifies replication and application management - it will also include a demo.  Takeaways: - What's MySQL Group Replication and its evolution. - Understanding the architecture of MySQL Group Replication. - Demo on how to use MySQL Group replication for improved High   Availability.",
+    "title": "Enhanced High Availability using MySQL Group Replication",
+    "track": {
+      "id": 9,
+      "name": "Databases"
+    },
+    "start_time": "2016-03-20T03:00:00+00:00",
+    "session_id": "DB-22",
+    "end_time": "2016-03-20T03:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 99,
+        "name": "Abhishek Ranjan"
+      }
+    ],
+    "description": "Storage of database metadata has always been a very interesting problem involving database design. For a long time MySQL was using file based system for metadata storage. MySQL is designing and implementing a new and improved data dictionary for MySQL. Main goals of Data dictionary is :  - Store dictionary information in transactional storage. - Consolidate distributed dictionary information for the server into a unified dictionary - Store all dictionary information in a uniform way, with uniform APIs for all dictionary objects - Get rid of filesystem-property induced problems ",
+    "title": "Metadata Storage for Transacition Databases",
+    "track": {
+      "id": 9,
+      "name": "Databases"
+    },
+    "start_time": "2016-03-20T03:30:00+00:00",
+    "session_id": "DB-23",
+    "end_time": "2016-03-20T04:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 100,
+        "name": "Oren Golan"
+      }
+    ],
+    "description": "Graph databases are the future. Many organizations adopted graph databases - IoT, health care, financial services, telecommunications and governments. What are the reason for this trend? What are the use cases and what are the Open Source databases you should look into for your scenario? We'll dive into a few of them and equip the attendees with everything they need to start using a graph database. This workshop is based on our research and implementation of a graph database at Sanguine, a medical startup from LA.",
+    "title": "Crash course in Graph Databases",
+    "track": {
+      "id": 9,
+      "name": "Databases"
+    },
+    "start_time": "2016-03-20T05:00:00+00:00",
+    "session_id": "DB-24",
+    "end_time": "2016-03-20T06:00:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 97,
+        "name": "Ricky Setyawan"
+      }
+    ],
+    "description": "JSON is deemed to be the most widely used format for the Internet of Things. MySQL 5.7, launched October last year, has incorporated a native JSON support into its very popular RDBMS.  With the advancement of JSON in MySQL 5.7, and the growth of Big Data, we are sure to witness many new breathtaking innovations in this area.",
+    "title": "Powering IoT with MySQL & JSON",
+    "track": {
+      "id": 9,
+      "name": "Databases"
+    },
+    "start_time": "2016-03-20T06:30:00+00:00",
+    "session_id": "DB-25",
+    "end_time": "2016-03-20T07:30:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 101,
+        "name": "Cl\u00e9ment Renaud"
+      }
+    ],
+    "description": "Topogram is an open-source web toolkit to map social, semantic and spatio-temporal dynamics. It answers the growing need for interactive mapping of complex online and offline interactions. The software is divided into 2 parts : 1) a Python mining library and webserver to extract networks of words, citations and places from text data and 2) a collaborative visualization interface to edit, annotate and publish graphs. ",
+    "title": "Topogram: Social network analysis for humans",
+    "track": {
+      "id": 10,
+      "name": "Big Data/Open Data"
+    },
+    "start_time": "2016-03-18T05:30:00+00:00",
+    "session_id": "D-01",
+    "end_time": "2016-03-18T06:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 102,
+        "name": "Ankita Shukla"
+      }
+    ],
+    "description": "I developed an extension - Collaborative Spelling Dictionary, during my intern with the Wikimedia Foundation under the Outreach program of Gnome. After my intern, I created issues in the same extension for newbies to fix and guided them constantly giving them an easy and smooth entry into the open source community. I also mentored the extension's issues in Google Code In this year and had several students submitting their patches for the same, successfully closing number of the open issues.  I'll use the opportunity to explain and demonstrate this extension to the FOSSASIA attendees and talk about the step by step process involved in building an extension. This would particularly be useful for anyone aiming to work on and develop extensions to be used for any wiki-project (which are already quite popular these days).    Moreover, the extension still has scope for further development. In order to be able to contribute to the extension, it is important to understand how the extension works currently, so I would like to explain about this project and its code architecture and also discuss the possible features and their implementations during my talk. I also plan on giving a demo of my work on my laptop (if time allows) so that the audience gets a better idea about the project.",
+    "title": "Collaborative Spelling Dictionary",
+    "track": {
+      "id": 10,
+      "name": "Big Data/Open Data"
+    },
+    "start_time": "2016-03-18T06:00:00+00:00",
+    "session_id": "D-02",
+    "end_time": "2016-03-18T06:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 103,
+        "name": "Errazudin Ishak"
+      }
+    ],
+    "description": "Logstash and Fluentd are widely used open source data collectors, to unify data aggregation and utilization, analyze or understanding of data for a better use. This talk will try to uncover Fluentd and Logstash goodness as supreme data collectors to transport data from multiple servers to a centralized location. A working sample together with Elasticsearch and Kibana might be demoed to prove some love/points. ",
+    "title": "The Battle of Logs Transporter",
+    "track": {
+      "id": 10,
+      "name": "Big Data/Open Data"
+    },
+    "start_time": "2016-03-18T06:30:00+00:00",
+    "session_id": "D-03",
+    "end_time": "2016-03-18T07:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 104,
+        "name": "Fibish Madathil"
+      }
+    ],
+    "description": "Harnessing New Technologies for Business Growth and Transformation",
+    "title": "Harnessing New Technologies for Business Growth and Transformation",
+    "track": {
+      "id": 10,
+      "name": "Big Data/Open Data"
+    },
+    "start_time": "2016-03-18T07:00:00+00:00",
+    "session_id": "D-04",
+    "end_time": "2016-03-18T07:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 105,
+        "name": "Marco A.  Guti\u00e9rrez"
+      }
+    ],
+    "description": "Open Detection (OD) is a novel standalone open source project for object detection and recognition in images and 3D point clouds. Open Detection is released under the terms of the BSD license, and thus free for commercial and research use. The project was originated under Google Summer of Code 2015 with the aim of having a vision tool for robotics (in particular for Robocomp, an open source robotics framework). The library is built with a very specific goal - to answer the fundamental problem of Computer Vision - Object Recognition and Detection. We make available to everyone the existing solution in this direction in a common, intuitive and user-friendly APIs. Our simple and user-friendly APIs make this a great tool for Robotics Applications and robots and Computer Vision beginners and enthusiasts. And of course, the method dependent parameters to fine-tune detections to the limit, makes this a great tool for Computer Vision researchers and experts.",
+    "title": "opendetection.com",
+    "track": {
+      "id": 10,
+      "name": "Big Data/Open Data"
+    },
+    "start_time": "2016-03-18T07:30:00+00:00",
+    "session_id": "D-05",
+    "end_time": "2016-03-18T08:00:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 106,
+        "name": "Satdeep Gill"
+      }
+    ],
+    "description": "Regional folklores are dying in today's world and we need to save it. Wikilore is a proposed project that will focus on collecting folklores from around the world. It will help to preserve folk songs, folk narratives, folk wisdom, folk medicine, folk customs, folk music, child lore, folk art, folk foodways and a lot more.",
+    "title": "Wikilore",
+    "track": {
+      "id": 10,
+      "name": "Big Data/Open Data"
+    },
+    "start_time": "2016-03-19T02:00:00+00:00",
+    "session_id": "D-06",
+    "end_time": "2016-03-19T02:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 107,
+        "name": "Alexander Bezzubov"
+      }
+    ],
+    "description": "There are plenty of public datasets out there available, in this talk we will showcase opensource tools from BigData ecosystem available for practitioner to mine them, at scale and on a budget.",
+    "title": "Mining public large-scale datasets \\w open-source tools: Apache Zeppelin (incubating), Spark and Juju",
+    "track": {
+      "id": 10,
+      "name": "Big Data/Open Data"
+    },
+    "start_time": "2016-03-19T02:30:00+00:00",
+    "session_id": "D-07",
+    "end_time": "2016-03-19T03:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 108,
+        "name": "Mhairi O'Hara"
+      }
+    ],
+    "description": "The Humanitarian OpenStreetMap Team (HOT) assists with the creation and  distribution of OpenStreetMap (OSM) data in support of humanitarian relief efforts. OSM is the Free Wiki World Map \u2013 an openly licensed map of the world being created by volunteers using local knowledge, GPS tracks and donated sources.   One of the online tools developed by HOT to assist this effort is the Export Tool, which creates custom OSM downloads in a number of file formats for various regions around the world. The user can simply choose an area of geographic interest, select the OSM features they wish to export and specify a file format. This export can then be used on a variety of GIS tools such as ArcMap, QGIS, Google Earth, the OsmAnd mobile app and the Garmin GPS device.   The ability to easily obtain updated OSM data can greatly contribute to relief efforts on the ground, as well as being used for personal interests, business ventures and research purposes. In the case of the devastating earthquake that shook Nepal in April 2015, post-disaster road and building data from OSM was used to manoeuvre people and supplies to where they were most needed. ",
+    "title": "HOT Export Tool",
+    "track": {
+      "id": 10,
+      "name": "Big Data/Open Data"
+    },
+    "start_time": "2016-03-19T03:00:00+00:00",
+    "session_id": "D-08",
+    "end_time": "2016-03-19T03:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 109,
+        "name": "Thanh Son Le"
+      }
+    ],
+    "description": "Solr is highly reliable, scalable and fault tolerant, providing distributed indexing, replication and load-balanced querying, automated failover and recovery, centralized configuration and more. Solr powers the search and navigation features of many of the world's largest internet sites. In 20 minutes, I will give an introduction about Solr to help you understand and how to customize it to build a search engine of your own. In the last part, I will cover one of its implementation in IBM Watson Retrieve & Rank API",
+    "title": "Introduction about Apache Solr, standalone enterprise search server with a REST-like API",
+    "track": {
+      "id": 10,
+      "name": "Big Data/Open Data"
+    },
+    "start_time": "2016-03-19T03:30:00+00:00",
+    "session_id": "D-09",
+    "end_time": "2016-03-19T04:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 110,
+        "name": "Akshai M"
+      }
+    ],
+    "description": "CoW Mesh is a community owned wireless network, based on Wi-fi .It enables  local communities to collaborate on matters of local/regional/national visibility. CoW Mesh also forms the backend for communication with Government Representatives and also  in the event of a natural disasters/ failure of the local communication network.",
+    "title": "COWMesh",
+    "track": {
+      "id": 10,
+      "name": "Big Data/Open Data"
+    },
+    "start_time": "2016-03-19T05:30:00+00:00",
+    "session_id": "D-10",
+    "end_time": "2016-03-19T06:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 111,
+        "name": "Ganeshkumar Shanmugam"
+      }
+    ],
+    "description": "Open source geospatial software is lesser known application stack to governments. This talk intended to introduce the stack and the application possibilities with FOSS4G. The talk will focus on GeoServer, PostGIS, QGIS and Mapbox technologies",
+    "title": "Open Source Geospatial - Projects and Possibilities",
+    "track": {
+      "id": 10,
+      "name": "Big Data/Open Data"
+    },
+    "start_time": "2016-03-19T06:00:00+00:00",
+    "session_id": "D-11",
+    "end_time": "2016-03-19T06:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 112,
+        "name": "Aneesh Devasthale"
+      }
+    ],
+    "description": "This workshop will enable participants to build client apps by consuming an open source Twitter API from the Loklak server. The workshop will help participants install and setup the Loklak server on their systems.  Once setup is complete, there will be a hands-on tutorial on how to consume the Loklak API to build client apps on various devices and languages. This will cover an overview and short tutorial of using the API wrappers and a thorough walk-through of the API methods. There will be demos of apps made for web, mobile and IOT. By the end of the workshop, participants will be ready with their own app consuming the Loklak API on a device and language of their choice. We can then have a short presentation session by the participants showcasing the apps they built during the workshop.",
+    "title": "How to setup, make and build clients for open Twitter data",
+    "track": {
+      "id": 10,
+      "name": "Big Data/Open Data"
+    },
+    "start_time": "2016-03-19T06:30:00+00:00",
+    "session_id": "D-12",
+    "end_time": "2016-03-19T08:00:00+00:00",
+    "type": "Workshop of 1.5 hours"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 113,
+        "name": "Philips Kokoh Prasetyo"
+      }
+    ],
+    "description": "Elasticsearch is an open source, distributed search and analytics engine under the Apache License version 2, designed for horizontal scalability, reliability, and easy management. It combines the speed of search with power of analytics via a developer-friendly query language covering structured, unstructured, geo-spatial and time-series data. In this workshop, we introduce Elasticsearch and its ecosystem. We share how to get started utilizing Elasticsearch for search and analytics. We also share our experience in using Elasticsearch for research in Living Analytics Research Centre. At the end of the workshop, you will have basic understanding of Elasticsearch and immediately can start using Elasticsearch to power up your search and analytics.",
+    "title": "Elasticsearch: You know, for search! and more!",
+    "track": {
+      "id": 10,
+      "name": "Big Data/Open Data"
+    },
+    "start_time": "2016-03-19T08:00:00+00:00",
+    "session_id": "D-13",
+    "end_time": "2016-03-19T09:00:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 106,
+        "name": "Satdeep Gill"
+      }
+    ],
+    "description": "Content Translation is a tool that has used to translate more than 50,000 Wikipedia articles worldwide till date. It makes it easy to create new articles on Wikipedia that already exist on other language Wikipedia. With this tool categories, references and interwiki links are added by themselves and all you need to do is to translate the text.",
+    "title": "Content Translation on Wikipedia",
+    "track": {
+      "id": 10,
+      "name": "Big Data/Open Data"
+    },
+    "start_time": "2016-03-20T02:00:00+00:00",
+    "session_id": "D-14",
+    "end_time": "2016-03-20T03:00:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 114,
+        "name": "Rafal Kowalski"
+      }
+    ],
+    "description": "The FOSSASIA Open Event Project aims to make it easier for events, conferences, tech summits (maybe more types in future) to easily create Web and Mobile (only Android right now) micro Apps. The project comprises of a data schema for easily storing event details, a server and web frontend that are used to view, modify, update this data easily by the event organisers, a mobile-friendly webapp client to show the event data to attendees, an Android app template which will be used to generate specific apps for each event. I made this with arnav, rafal, mohit, mario and duke as part of my GSoC project",
+    "title": "",
+    "track": {
+      "id": 10,
+      "name": "Big Data/Open Data"
+    },
+    "start_time": "2016-03-20T03:00:00+00:00",
+    "session_id": "D-15",
+    "end_time": "2016-03-20T03:30:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 115,
+        "name": "Rishi Shah"
+      }
+    ],
+    "description": "The talk is based upon the quick introduction to Docker. This talk covers what Docker is, why you might want to use it, how it works, as well as explaining some key terminology. The key idea is to show how Docker helps for the DevOps and how one can use it for the deployment & productions. The talk finishes up with a few demos demonstrating the functionality of Docker. This talk is also useful to quick start with Docker system.",
+    "title": "Introduction to Modern DevOps with Docker",
+    "track": {
+      "id": 11,
+      "name": "DevOps"
+    },
+    "start_time": "2016-03-18T05:30:00+00:00",
+    "session_id": "DO-01",
+    "end_time": "2016-03-18T06:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 116,
+        "name": "Chris Van Tuin"
+      }
+    ],
+    "description": "A DevOps State of Mind  Rapid innovation, changing business landscapes, and new IT demands force businesses to make changes quickly. The DevOps approach is a way to increase business agility through collaboration, communication, and integration across different teams in the IT organization.  In this presentation, you\u2019ll learn about:             \u2022 The acceleration of Application Delivery for the Business with DevOps            \u2022 The transformation of IT to a DevOps, Microservices, and Container based Cloud Architecture            \u2022 How DevOps practices can operate in a Docker and Kubernetes, enabled environment.            \u2022 Docker, Kubernetes and DevOps, used together, can reduce software delivery cycle times, drive automation, and increase efficiency.            \u2022 How other organizations are using DevOps and how to replicate their success   Join Chris Van Tuin, Chief Technologist, West at Red Hat, as he walks through how DevOps can accelerate application delivery for the Business.",
+    "title": "A DevOps State of Mind",
+    "track": {
+      "id": 11,
+      "name": "DevOps"
+    },
+    "start_time": "2016-03-18T06:00:00+00:00",
+    "session_id": "DO-02",
+    "end_time": "2016-03-18T06:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 117,
+        "name": "Sameer Kumar"
+      }
+    ],
+    "description": "Businesses demand fast paced development of highly scalable, web centric applications. This puts lot of pressure on developers and then scalability, higher throughput, UI etc becomes their focus points. At the same time DBA & Ops team too are accountable for robustness and performance. Both the teams approach same applications with different perspective and it creates some challenges. For example while DBA team is concerned about consistency of data, developers are more often concerned about ease of development.   How do we address these challenges and work together. As a DB Architect for a solutions company I have been interacting with various customer\u2019s development teams and getting to know their views on how they use databases. In the process, I have shared some inputs with them which they have found quite useful and in turn I have picked up a few tips from them.   During my presentation I would like to share about 7 such important lessons that should be pinned to every developer\u2019s and data architect\u2019s desk while developing a web-scale app. These tips are about improvement in the application design and architecture but they come from a Database Architect\u2019s perspective. To illustrate these tips I would be using popular features of an open source database \u2013 PostgreSQL.",
+    "title": "7 Tips to design  web-centric, high performance applications: A DB Architect\u2019s Perspective",
+    "track": {
+      "id": 11,
+      "name": "DevOps"
+    },
+    "start_time": "2016-03-18T06:30:00+00:00",
+    "session_id": "DO-03",
+    "end_time": "2016-03-18T07:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 118,
+        "name": "Udayan Tandon"
+      }
+    ],
+    "description": "coala provides an abstraction for static code analysis that is useful while still applicable to any text based language. It also provides a convenient user interface which takes away a lot of common tasks from the developer. In this process coala makes research available for production use. coala also facilitates people entering the world of open source by providing them valuable feedback on coding standards and formatting.  This talk features a short introduction into the thoughts behind coala, its ability to speed up research as well as increase productivity and a demonstration of our command line and other interfaces.",
+    "title": "coala - Code Analysis Made Simple",
+    "track": {
+      "id": 11,
+      "name": "DevOps"
+    },
+    "start_time": "2016-03-18T07:30:00+00:00",
+    "session_id": "DO-04",
+    "end_time": "2016-03-18T08:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 119,
+        "name": "Amit Shah"
+      }
+    ],
+    "description": "Containers and Docker are quite the rage, and people are comparing to the their lightweight approach compared with traditional virtualization (e.g. with KVM).  This talk will dispel some myths, and introduce the concepts of hardware- and operating-system- level virtualization.  Will also list pros and cons of both the approaches.",
+    "title": "Comparing virtualization and containers",
+    "track": {
+      "id": 11,
+      "name": "DevOps"
+    },
+    "start_time": "2016-03-19T02:00:00+00:00",
+    "session_id": "DO-05",
+    "end_time": "2016-03-19T02:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 14,
+        "name": "Lennart Poettering"
+      }
+    ],
+    "description": "Containers are a hot topic on Linux. In this talk I'd like to give a quick overview what systemd provides in the area of containers, how it integrates with the various container managers, and how to use systemd's own minimal container manager systemd-nspawn. I'd like to specifically focus on the more recent changes in the area, and how this functionality has been adopted by the rkt container runtime.",
+    "title": "Containers and systemd",
+    "track": {
+      "id": 11,
+      "name": "DevOps"
+    },
+    "start_time": "2016-03-19T02:30:00+00:00",
+    "session_id": "DO-06",
+    "end_time": "2016-03-19T03:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 120,
+        "name": "Anisha Narang"
+      }
+    ],
+    "description": "Jenkins easily allows you to build and test your projects continuously. But creating similar Jenkins jobs could be boring sometimes, how about automating that part with Jenkins Job Builder by writing JJB configuration files for creating a number of Jenkins Jobs at once. One can keep job descriptions in human readable text format in a version control system. Creating a bunch of similarly configured jobs is also easy with templating. In this talk we will also see a small demo about JJB configurations being helpful creating Jenkins jobs with just one command. ",
+    "title": "Jenkins Job Builder",
+    "track": {
+      "id": 11,
+      "name": "DevOps"
+    },
+    "start_time": "2016-03-19T03:00:00+00:00",
+    "session_id": "DO-07",
+    "end_time": "2016-03-19T03:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 121,
+        "name": "Yaniv Bronhaim"
+      }
+    ],
+    "description": "Yaniv will present overview of oVirt, Foreman and Katello, then will dive into how oVirt integrates with Foreman and Katello to ease different flows in variant systems and data-centers. oVirt 3.5 integration with Foreman allows us to bring new bare-metal hardware to a fully operational hypervisor in one click. In oVirt 3.6 we introduce an integration with Katello to allow oVirt users to see available updates (ERRATA) on hosts and VMs that are managed by Foreman, and in addition on the oVirt engine machine itself. This gives oVirt users a wider view of the updates available for both the virtualized and infrastructure resources. The integration between the projects is still in progress and we plan add functionality to it for better management options for various entities in the data-center hardware - such as provision phase, package management, configurations control and upgrade flows.",
+    "title": "oVirt Integration With Foreman And Katello - Bringing Your Virtualized Data-Center Into The Next Level",
+    "track": {
+      "id": 11,
+      "name": "DevOps"
+    },
+    "start_time": "2016-03-19T03:30:00+00:00",
+    "session_id": "DO-08",
+    "end_time": "2016-03-19T04:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 122,
+        "name": "Parag Ashok Nemade"
+      }
+    ],
+    "description": "Globalization is a collaborative work done by internationalizing, localizing your software. Most developers write software code but they used to forgot to internationalize their software. This talk will present what is mean by Globalization, why is it important. Then we will look at what Localization is and how to add internationalization in your code by showing some code examples. We will look into what translation platforms are available which is also important part of Globalization.",
+    "title": "Globalizing your software",
+    "track": {
+      "id": 11,
+      "name": "DevOps"
+    },
+    "start_time": "2016-03-19T05:00:00+00:00",
+    "session_id": "DO-09",
+    "end_time": "2016-03-19T05:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 123,
+        "name": "Liron Aravot"
+      }
+    ],
+    "description": "oVirt is management software for server and desktop virtualization, as such it to manage shared storage used by the system managed VMs which can run on different hypervisors. The challange to do so increases as the demand for high performance rises as well as the number of managed hypervisors/vms and the potential number point of failures. This session will focus in the different approaches taken in oVirt to manage shared storage in the virtualization world, the pros of each approach and its drawbacks",
+    "title": "oVirt - Development of shared storage management system in the virualization world",
+    "track": {
+      "id": 11,
+      "name": "DevOps"
+    },
+    "start_time": "2016-03-19T06:00:00+00:00",
+    "session_id": "DO-10",
+    "end_time": "2016-03-19T06:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 121,
+        "name": "Yaniv Bronhaim"
+      }
+    ],
+    "description": "In the session Yaniv will present \"The oVirt Way\" - What hides behind virtualization management, how great community with strong developers can build an open source project which looks and feels awesome, comfortable, stable and full of great features. oVirt provides an alternative for other projects and products that aim to manage complex virtualized environments, and can help you empower your data-center. In the session Yaniv will show how various management flows can be done easily with oVirt such as network configurations, new servers deployment, enhanced storage manipulations, enhanced live flows, QoS and many more. Yaniv will discuss what currently possible to do with oVirt, and what the oVirt road-map for future versions... and in addition how you, audience, can contribute to oVirt!",
+    "title": "The oVirt Way - General Product Overview",
+    "track": {
+      "id": 11,
+      "name": "DevOps"
+    },
+    "start_time": "2016-03-19T06:30:00+00:00",
+    "session_id": "DO-11",
+    "end_time": "2016-03-19T07:30:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 120,
+        "name": "Anisha Narang"
+      }
+    ],
+    "description": "Jenkins easily allows you to build and test your projects continuously. But creating similar Jenkins jobs could be mundane sometimes, how about automating that part with Jenkins Job Builder by writing JJB configuration files for creating a number of Jenkins Jobs at once. One can keep job descriptions in human readable text format in a version control system to make changes and auditing easier. Creating a bunch of similarly configured jobs is also easy with templating. In this workshop, I 'll start with a brief introduction to Jenkins (if required) and Jenkins Job Builder. We shall do a hands-on session with writing JJB configuration files and see how the jobs are created in jenkins, how can we create multiple jobs and manage them.",
+    "title": "Let Builder write the Jenkins Jobs (JJB)",
+    "track": {
+      "id": 11,
+      "name": "DevOps"
+    },
+    "start_time": "2016-03-19T07:30:00+00:00",
+    "session_id": "DO-12",
+    "end_time": "2016-03-19T08:30:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 124,
+        "name": "Vincent De Smet"
+      }
+    ],
+    "description": "In this workshop we will take a look at how Kubernetes (k8s) simplifies application deployment and management in distributed environments. We will introduce the basic concepts of Pods, Replication Controllers and Services and show how these concepts decouple the applications from the distribution. ",
+    "title": "Introduction to Kubernetes",
+    "track": {
+      "id": 11,
+      "name": "DevOps"
+    },
+    "start_time": "2016-03-19T08:30:00+00:00",
+    "session_id": "DO-13",
+    "end_time": "2016-03-19T09:30:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 125,
+        "name": "Hunter Nield"
+      },
+      {
+        "id": 126,
+        "name": "Nils Magnus"
+      }
+    ],
+    "description": "Docker and other container technologies have exploded recently as a way to improve Application delivery and DevOps processes. This talk will introduce the open-source technologies and tools available now and where they are heading in the near future.",
+    "title": "Agile Application delivery with Containers & Cloud-Native tools",
+    "track": {
+      "id": 11,
+      "name": "DevOps"
+    },
+    "start_time": "2016-03-20T02:00:00+00:00",
+    "session_id": "DO-14",
+    "end_time": "2016-03-20T04:00:00+00:00",
+    "type": "20min talk or 1hr workshop"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 127,
+        "name": "Swapneel Patnekar"
+      }
+    ],
+    "description": "A hands-on workshop on using Ansible to manage configurations/software on remote appliances/boxes ",
+    "title": "Ansible 101",
+    "track": {
+      "id": 11,
+      "name": "DevOps"
+    },
+    "start_time": "2016-03-20T05:00:00+00:00",
+    "session_id": "DO-15",
+    "end_time": "2016-03-20T06:00:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 128,
+        "name": "Huzaifa  Sidhpurwala"
+      }
+    ],
+    "description": "It\u2019s been almost a year since the OpenSSL Heartbleed vulnerability, a flaw which started a trend of the branded vulnerability, changing the way security vulnerabilities affecting open-source software are being reported and perceived. Vulnerabilities are found and fixed all the time, and just because a vulnerability gets a name and a fancy logo doesn\u2019t mean it is of real risk to users. This talk is about these branded security flaws and talk about the ones which matter.",
+    "title": "Not all security flaws are born equal",
+    "track": {
+      "id": 12,
+      "name": "Privacy and Security"
+    },
+    "start_time": "2016-03-20T02:30:00+00:00",
+    "session_id": "SEC-02",
+    "end_time": "2016-03-20T03:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 129,
+        "name": "Sambuddha Basu"
+      }
+    ],
+    "description": "Privly extensions help in viewing and posting encrypted information through social media and email.",
+    "title": "Privly - Share Privately",
+    "track": {
+      "id": 12,
+      "name": "Privacy and Security"
+    },
+    "start_time": "2016-03-20T03:00:00+00:00",
+    "session_id": "SEC-03",
+    "end_time": "2016-03-20T03:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 130,
+        "name": "Alexandre Lision"
+      }
+    ],
+    "description": "Ring, a project from Savoir-faire Linux, creators of SFLphone, uses a distributed hash table instead of a central SIP server to find other users. This peer-to-peer network is also accessible from other applications using the project's OpenDHT library.  Signaling protocols, like SIP, XMPP and IAX, typically rely on central servers to help users locate each other and initiate sessions. Ring is an evolved version of the SFLphone SIP client adding support for true peer-to-peer calling without any central server.  The peer-to-peer network transport is implemented using the OpenDHT library, making it a universal solution that can be used for any arbitrary real-time signalling requirement from any application.",
+    "title": "Ring a decentralized and secure communication platform",
+    "track": {
+      "id": 12,
+      "name": "Privacy and Security"
+    },
+    "start_time": "2016-03-20T05:00:00+00:00",
+    "session_id": "SEC-04",
+    "end_time": "2016-03-20T06:00:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 131,
+        "name": "Michael Rebultan"
+      }
+    ],
+    "description": "With the emerging security threats on this age, it is wiser to have an integrity checker on a daily basis to audit the system. And in my workshop, I will showcase the implementation and use of AIDE.  AIDE (Advanced Intrusion Detection Enviornment) is a tool to check the file integrity. It is an opensource substitute for commercial tool TRIPWIRE. It allows to take snapshots of all the major configuration files, binaries as well as libraries stats. And helps to find which binaries have been changed in case of compromisation of the system.",
+    "title": "Intrusion Detection with AIDE",
+    "track": {
+      "id": 12,
+      "name": "Privacy and Security"
+    },
+    "start_time": "2016-03-20T06:00:00+00:00",
+    "session_id": "SEC-05",
+    "end_time": "2016-03-20T07:00:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 132,
+        "name": "Tobias Mueller"
+      }
+    ],
+    "description": "The Web of Trust is the decentralised PKI in the OpenPGP world. It depends on people participating by signing other people's keys. However, when following best practises, the act of signing a key involves secure transfer of the OpenPGP key which contemporary casual key signing protocols for small groups address by exchanging the fingerprint of the key to be signed. The key will then be downloaded over an untrusted channel and the key obtained needs to be manually verified.  This presentation shows a novel approach to signing keys which makes it easy to sign a person's key. It enables very small groups of people to casually hold very small key signing parties. The key idea is to automatically authenticate the key material before the transfer via a secure audible or visual channel. A Free Software implementation of the protocol will be shown and people are invited to sign their keys :-) ",
+    "title": "Functionality, Security, Usability: Choose any two. Or GNOME. ",
+    "track": {
+      "id": 12,
+      "name": "Privacy and Security"
+    },
+    "start_time": "2016-03-20T07:00:00+00:00",
+    "session_id": "SEC-06",
+    "end_time": "2016-03-20T07:30:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [],
+    "description": "",
+    "title": "",
+    "track": {
+      "id": 12,
+      "name": "Privacy and Security"
+    },
+    "start_time": "2016-03-20T07:30:00+00:00",
+    "session_id": "SEC-07",
+    "end_time": "2016-03-20T08:00:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 133,
+        "name": "Herr Fluke"
+      }
+    ],
+    "description": "As the internet trickles through society it starts to transform the very places where people live. Some think it can change cities in this century as much as electricity did in the last one. The governments of the world, the weary giants of flesh and steel, also tap into this new home.  This talk will step away from the computer screen to look at the design patterns of current toolchains for the so-called \"smart city\" and their implications. Is there a way the free/libre open (source software) spirit can be baked into the infrastructure that society runs on?",
+    "title": "The Smart City - Where mammals and computers live together in mutually programming harmony like pure water touching clear sky",
+    "track": {
+      "id": 13,
+      "name": "Internet, Society, Community"
+    },
+    "start_time": "2016-03-18T05:30:00+00:00",
+    "session_id": "ISC-01",
+    "end_time": "2016-03-18T06:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 134,
+        "name": "Alexander Couzens"
+      }
+    ],
+    "description": "Who controls the hardware own's the hardware! Vendors taking more and more power of our devices with no return for us - the end user. They want to decide what software it runs on the hardware they sell to us. Why? Because of security. Security means to prevent the user from owning the device and gives the vendor more power to feel good. This security also restricts the usage of hardware to a certain use case. The open source world has shown there are a lot more use cases than advertised with any given hardware. The talk also gives a short overview of coreboot and how coreboot can solve some problems.",
+    "title": "Who owns my notebook? or why I want to run coreboot on every device",
+    "track": {
+      "id": 13,
+      "name": "Internet, Society, Community"
+    },
+    "start_time": "2016-03-18T06:00:00+00:00",
+    "session_id": "ISC-02",
+    "end_time": "2016-03-18T06:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 135,
+        "name": "Norvan Vogt"
+      }
+    ],
+    "description": "Organisational budgets are shrinking and stakeholders are putting increasing pressure on public sector organisations to be efficient without jeopardising service delivery. There is a multitude of ways to share and reuse software amongst organisations and the public sector employs (and has employed) a variety of different approaches. This session will specifically focus on open source software and the factors influencing the adoption of open source software within public sector organisations. The primary objective of the session is to explore open source software benefits for public sector organisations, discuss the current state of adoption, and review the motivators and a-motivators affecting adoption. A secondary objective of the session is to investigate where organisations are utilising open source software and whether organisations consider open source software as a means of achieving business goals.",
+    "title": "Adoption of open standards and FLOS Software in the public sector",
+    "track": {
+      "id": 13,
+      "name": "Internet, Society, Community"
+    },
+    "start_time": "2016-03-18T06:30:00+00:00",
+    "session_id": "ISC-03",
+    "end_time": "2016-03-18T07:30:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 136,
+        "name": "Syah Dwi Prihatmoko"
+      }
+    ],
+    "description": "This presentation will present to the audience about how the Indonesian government using FOSS in conducting the election. Anything that is used in the election. How FOSS help elections. What is achieved by the use of FOSS. What can be done with FOSS to improve governance.",
+    "title": "FOSS in Indonesia Election",
+    "track": {
+      "id": 13,
+      "name": "Internet, Society, Community"
+    },
+    "start_time": "2016-03-18T07:30:00+00:00",
+    "session_id": "ISC-05",
+    "end_time": "2016-03-18T08:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 137,
+        "name": "Zion Ng"
+      }
+    ],
+    "description": "This talk is about the speaker's journey as he ventured into the world of freelancing, the ups & downs, the lessons learnt and most of all, the support he got from his local IT community in Singapore.",
+    "title": "Journey as a Freelance Web Developer",
+    "track": {
+      "id": 13,
+      "name": "Internet, Society, Community"
+    },
+    "start_time": "2016-03-19T02:00:00+00:00",
+    "session_id": "ISC-06",
+    "end_time": "2016-03-19T02:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 138,
+        "name": "Huiren Woo"
+      }
+    ],
+    "description": "Change the mindset of proprietary software users and the stereotypical idea of contributing to free and open-source software.",
+    "title": "Opening up yourself",
+    "track": {
+      "id": 13,
+      "name": "Internet, Society, Community"
+    },
+    "start_time": "2016-03-19T02:30:00+00:00",
+    "session_id": "ISC-07",
+    "end_time": "2016-03-19T03:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 139,
+        "name": "Sagar Pandey"
+      }
+    ],
+    "description": "The hackathon cult is already setting deep roots in today's programming arena. Hacking has earned itself a recognised, positive and encouraged definition. But the question is: What should you actually do with your hacks? What Next? What exactly to take back from hackathons? And how one may find a very subtle entry into the Open Source world through Hacking.",
+    "title": "From Hacks to Products",
+    "track": {
+      "id": 13,
+      "name": "Internet, Society, Community"
+    },
+    "start_time": "2016-03-19T03:00:00+00:00",
+    "session_id": "ISC-08",
+    "end_time": "2016-03-19T03:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 140,
+        "name": "Menghsuan Tsai"
+      }
+    ],
+    "description": "As a student, we want to raise the awareness of using open source software online for free. The environment of using the open source software in Taiwan is monopolized by expensive software, such as Microsoft series, Adobe and Photoshop. People seldom get a chance to realize that they actually have easy access to resources online which is free and much more convenient. Moreover, most of the budget of our country is used to buy the copyrights of software packages, but in practice we only use the basic functions of them. Simply put, we waste a lot of money buying something which is unnecessary. We discover it is the language barrier that makes people in Taiwan less likely to use open source software programs. Getting the deeper understanding of the serious problem we faced with, we come up with some solutions. Using big data to analyze vocabularies which are used frequently, we gather the information to indicate language barriers. Moreover, we can list out all the words which is hard for people, so that engineers can use the software and check the vocabularies at the same time. By using methods to remember the vocabularies, engineers can easily use the software. We can even use big data to analyze the steps which are used frequently and visualize them as a report. Like, we make a brief introduction to summarize the basic functions. So people only need to recognize the steps and check it through the introduction when they need. We launch a workshop to teach them step by step in English how to use the open source software. By enhancing engineers\u2019 English ability, now we can create a community to start influencing the general public. We create a community to overcome the language barrier and to change the habits of Taiwanese for using software. We start from NCKU and share with other schools. We create a platform for sharing the information of updated software. By translating the information from the internet like opensource.com, we provide not only the materials for target group, but also chances to the general public to know the advantages of open source software.  On the other hand, we translate the video of \u201copensoucephysics\u201d to use the materials in our education system. By using the interesting videos and materials, teachers can inspire students to think outside the box and use their imagination to understand some difficult science concepts in classes. Furthermore, we can integrate the education materials with \u201cezgo\u201d and provide a chance for students to begin self-learning. We use three main methods to promote the use of open source software. First, we are going to launch a program which is composed of different schools such as NCKU, NCTU and NTU to create an engineering social media. Second, we cooperate with the professors and schools to open a course to invite students to join our translating program. Third, we create a social media and launch \u201chour of translate\u201d and invite friends to join us. Furthermore, we cooperate with the summer and winter camps to share our passion for open source software. To promote our ideas, we submit the application to teach for classes in other level of schools, such as elementary schools, junior schools and high schools.  It is necessary a waste that we seldom make the most of free resources online. We spend a lot of budget buying the software which is replaceable and deal with problems in an ineffective way. That is why we start this project to help others in an efficient way. ",
+    "title": "How to Share Open Source",
+    "track": {
+      "id": 13,
+      "name": "Internet, Society, Community"
+    },
+    "start_time": "2016-03-19T05:30:00+00:00",
+    "session_id": "ISC-09",
+    "end_time": "2016-03-19T06:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 141,
+        "name": "Sayanee Basu"
+      }
+    ],
+    "description": "The developer, design and maker community in Singapore is young, but growing rapidly. Through the automatic curation of open events and open data at https://webuild.sg and collecting the data trends at http://data.webuild.sg, we see some exciting works of this community that we can all learn from. What else can be done to support and promote this open community? We would love to share and hear from you!",
+    "title": "Curating the open community of developers, designers and makers",
+    "track": {
+      "id": 13,
+      "name": "Internet, Society, Community"
+    },
+    "start_time": "2016-03-19T06:00:00+00:00",
+    "session_id": "ISC-10",
+    "end_time": "2016-03-19T06:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 142,
+        "name": "Anivar Ammanath Aravind"
+      }
+    ],
+    "description": "India's #Netneutrality campaign generated over a million comments following one of the most extensive public campaigns on the Web in recent history. The session discusses how India's Internet users, open web advocates, internet startups and FOSS activists run a campaign for #netneutrality and open Internet  and what it means for asian countries, since this discussion is shaping up the global south discourse around this topic.  ",
+    "title": "India's fight for Netneutrality and Open Internet",
+    "track": {
+      "id": 13,
+      "name": "Internet, Society, Community"
+    },
+    "start_time": "2016-03-19T06:30:00+00:00",
+    "session_id": "ISC-11",
+    "end_time": "2016-03-19T07:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 143,
+        "name": "Keith Bergelt"
+      }
+    ],
+    "description": "In an era increasingly marked by project-based innovation, the modality that Open Source has ushered in is creating unprecedented levels of innovation.  As participants in global projects build upon each others ideas and inventions to be able to innovate in an iterative manner, a culture of co-opetition is emerging which allows companies to successfully collaborate and compete at the same time.   As part of this evolution from silo'd invention inside individual companies to collaborative project-based innovation, a parallel culture of patent non-aggression has developed through the creation of the Open Invention Network (OIN) which over the last 10 years has grown into the largest patent non-aggression community in the history of technology.     Keeping pace with the growth and proliferation of Linux and other OSS-based platforms into key markets such as mobile, home, auto and finance, OIN has doubled in size twice over the past 36 months and now is a community of over 2,000 entities and individuals explicitly committed to patent non-aggression in core technologies that enable innovation in these new markets/sectors.   The how and why of OIN's successful expansion and the benefits of participation in this free community will be discussed.",
+    "title": "Ensuring Patent Non-Aggression in Linux and OSS Projects",
+    "track": {
+      "id": 13,
+      "name": "Internet, Society, Community"
+    },
+    "start_time": "2016-03-19T07:00:00+00:00",
+    "session_id": "ISC-12",
+    "end_time": "2016-03-19T07:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 144,
+        "name": "Anwesha Das"
+      }
+    ],
+    "description": "Software patent, a pdf file containing large amount of texts, piles of sections, drawings. Software Patents turns out to be very difficult and vague to many of the developers. In this talk we will go through a software patent, and try to identify the key parts and the legal aspect of the same. Intellectual Property and different kinds of the same. When one can acquire different types of intellectual property rights at the same time for the different parts of the same property.  * Face of a patent (the metadata legal department cares a lot about) * Inventor, and inventorship * Can we destroy a patent? (Hint: talk to the owner) * Synopsis of the Patent * Title, abstract, and figures * The thick part (the body of the patent, or as we call it \"specification\") * The claims (Heart of the patent) * Indentation :) Unless and until a software patent is tested, in a court of law, by running of it, it is impossible to say if something matches with the claim of the patent or not. At the end of the talk we will go through various other resources which one can visit from where one can learn more.",
+    "title": "Anatomy of a Software Patent for a foss developer",
+    "track": {
+      "id": 13,
+      "name": "Internet, Society, Community"
+    },
+    "start_time": "2016-03-19T07:30:00+00:00",
+    "session_id": "ISC-13",
+    "end_time": "2016-03-19T08:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 145,
+        "name": "Kevin Huang"
+      }
+    ],
+    "description": "Open Invention Network is a consortium who is dedicated to protecting a mode of collaborative invention. Specifically, it tries to safeguard the Linux open-source software ecosystem.  It is time we work together to expand the safeguard.",
+    "title": "How we work together to reduce the patent risk on open source",
+    "track": {
+      "id": 13,
+      "name": "Internet, Society, Community"
+    },
+    "start_time": "2016-03-19T08:00:00+00:00",
+    "session_id": "ISC-14",
+    "end_time": "2016-03-19T08:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 146,
+        "name": "Amita Sharma"
+      }
+    ],
+    "description": "1. How to contribute in improving quality of open source software 2. Get inspiration how to create test harness for your application 3. How to alter your software development model to produce bug-free code. 4. Altering your development model to match SW quality standards.  5. Study the technology, know the feature well and use your experience 6. Know the point when it is time to report a bug 7. How to troubleshoot the issues. ",
+    "title": "Testing - Best Practices in Open Souce World",
+    "track": {
+      "id": 13,
+      "name": "Internet, Society, Community"
+    },
+    "start_time": "2016-03-19T08:30:00+00:00",
+    "session_id": "ISC-15",
+    "end_time": "2016-03-19T09:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [],
+    "description": "",
+    "title": "Registration and Breakfast",
+    "track": {
+      "id": 14,
+      "name": "Science Hack Day"
+    },
+    "start_time": "2016-03-19T01:00:00+00:00",
+    "session_id": "SH-01",
+    "end_time": "2016-03-19T02:00:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 147,
+        "name": "Eileen/Kiruthika"
+      }
+    ],
+    "description": "",
+    "title": "Welcome and Introduction from Science Centre",
+    "track": {
+      "id": 14,
+      "name": "Science Hack Day"
+    },
+    "start_time": "2016-03-19T01:45:00+00:00",
+    "session_id": "SH-02",
+    "end_time": "2016-03-19T02:15:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 17,
+        "name": "Cat Allman"
+      }
+    ],
+    "description": "",
+    "title": "Google Science",
+    "track": {
+      "id": 14,
+      "name": "Science Hack Day"
+    },
+    "start_time": "2016-03-19T02:00:00+00:00",
+    "session_id": "SH-03",
+    "end_time": "2016-03-19T02:30:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 148,
+        "name": "Science Hacks and Science Hackers"
+      }
+    ],
+    "description": "",
+    "title": "Lightning talks - Participants present their hacking ideas and call for co-workers",
+    "track": {
+      "id": 14,
+      "name": "Science Hack Day"
+    },
+    "start_time": "2016-03-19T02:30:00+00:00",
+    "session_id": "SH-04",
+    "end_time": "2016-03-19T03:00:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 149,
+        "name": "Barry Threw Jon Phillips"
+      }
+    ],
+    "description": "HELP US PRESERVE THE ENDANGERED CULTURAL HERITAGE OF SYRIA BY CREATING A VIRTUAL #NEWPALMYRA DIGITAL TOOLS TO BUILD THE FUTURE FROM THE PAST  #NEWPALMYRA is: * A Digital Archaeology project, collecting data from international partners, analyzing it, creating a reconstruction of Palmyra in virtual space, and sharing the models and data in the public domain. We are using digital tools to preserve the heritage sites being actively deleted by ISIS. * A Cultural Development project, hosting live workshops and building a network of artists, technologists, archaeologists, architects, and others to research, construct models, and create artistic works. * A Curatorial project, creating exhibitions and experiences in museums and institutions globally, celebrating the cultural heritage of Syria and the world through the lens of architecture embodying culture and power.  Together with our international affiliates, #NEWPALMYRA sources archaeological and historical data, shares it with the community, and outputs art exhibitions, salons, and creative works using this data to carry the rich history of Palmyra forward to new generations.",
+    "title": "Rebuildling Cultural Heritage with #NEWPALMYRA",
+    "track": {
+      "id": 14,
+      "name": "Science Hack Day"
+    },
+    "session_id": "SH-05",
+    "type": "Workshop of 2 hours"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 150,
+        "name": "Susan Spencer"
+      }
+    ],
+    "description": "Creating patterns is like mapping the night sky. Constellations and clothing patterns are mathematically difficult to construct. This talk begins with the origins of the project and explains the challenges posed by the data, the data structures, and the user workflow.  The revolutionary nature of this open source fashion design tool is revealed in social, political, ecological and technical terms.",
+    "title": "Creating patterns is like mapping the night sky",
+    "track": {
+      "id": 14,
+      "name": "Science Hack Day"
+    },
+    "session_id": "SH-06",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 151,
+        "name": "Leon Lim"
+      }
+    ],
+    "description": "It is possible to create and make your own PCB without the use of dangerous chemicals. Simply by using Vineger, Hydrogen Peroxide and Salt you are able to make fairly complex PCB boards. The process is simple and fast and gives you the flexibility to make 1 single board or multiple different prototype boards for testing.  This workshop will introduce participants to the process of making PCB boards using a laser printer, transfer media paper and a heat press machine. Participants will get to make and assemble a working PCB board.",
+    "title": "DIY Circuit Board Workshop",
+    "track": {
+      "id": 14,
+      "name": "Science Hack Day"
+    },
+    "session_id": "SH-07",
+    "type": "Workshop of 2 hours"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 148,
+        "name": "Science Hacks and Science Hackers"
+      }
+    ],
+    "description": "",
+    "title": "Hack Begins",
+    "track": {
+      "id": 14,
+      "name": "Science Hack Day"
+    },
+    "start_time": "2016-03-19T05:30:00+00:00",
+    "session_id": "SH-08",
+    "end_time": "2016-03-19T09:30:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [],
+    "description": "",
+    "title": "Breakfast",
+    "track": {
+      "id": 14,
+      "name": "Science Hack Day"
+    },
+    "start_time": "2016-03-20T01:00:00+00:00",
+    "session_id": "SH-09",
+    "end_time": "2016-03-20T01:30:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 148,
+        "name": "Science Hacks and Science Hackers"
+      }
+    ],
+    "description": "",
+    "title": "Hack continues",
+    "track": {
+      "id": 14,
+      "name": "Science Hack Day"
+    },
+    "start_time": "2016-03-20T01:30:00+00:00",
+    "session_id": "SH-10",
+    "end_time": "2016-03-20T06:30:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 148,
+        "name": "Science Hacks and Science Hackers"
+      }
+    ],
+    "description": "",
+    "title": "Hack stops",
+    "track": {
+      "id": 14,
+      "name": "Science Hack Day"
+    },
+    "start_time": "2016-03-20T06:30:00+00:00",
+    "session_id": "SH-11",
+    "end_time": "2016-03-20T07:00:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 148,
+        "name": "Science Hacks and Science Hackers"
+      }
+    ],
+    "description": "",
+    "title": "Hack demos begin",
+    "track": {
+      "id": 14,
+      "name": "Science Hack Day"
+    },
+    "start_time": "2016-03-20T06:45:00+00:00",
+    "session_id": "SH-12",
+    "end_time": "2016-03-20T08:00:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 148,
+        "name": "Science Hacks and Science Hackers"
+      }
+    ],
+    "description": "",
+    "title": "Winning teams announced & given awards/medals in main hall",
+    "track": {
+      "id": 14,
+      "name": "Science Hack Day"
+    },
+    "start_time": "2016-03-20T08:00:00+00:00",
+    "session_id": "SH-13",
+    "end_time": "2016-03-20T08:30:00+00:00",
+    "type": ""
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 152,
+        "name": "Chris Lamb"
+      }
+    ],
+    "description": "Whilst anyone can inspect the source code of free software for malicious flaws, most Linux distributions provide binary (or \"compiled\") packages to end users.  The motivation behind \"reproducible\" builds is to allow verification that no flaws have been introduced during this compilation process by promising identical binary packages are always generated from a given source.  This prevents against the installation of backdoor-introducing malware on developers' machines - an attacker would need to simultaneously infect all developers attempting to reproduce the build.  Furthermore, a reproducible build has a wide variety technical advantages, including implicitly removing non-deterministic or unsafe behaviour (such as downloading third-party code from the internet), detecting corrupted build environments, reducing time-to-detection of a build host compromise, as well as numerous other debugging and testing advantages.  In this sense, reproducible builds are finally fulfilling the original promise of free software  - that you have actual control over what is being run on your computers.",
+    "title": "Reproducible Builds - fulfilling the original promise of free software",
+    "track": {
+      "id": 15,
+      "name": "Linux and MiniDebConf"
+    },
+    "start_time": "2016-03-20T02:00:00+00:00",
+    "session_id": "TUX-01",
+    "end_time": "2016-03-20T02:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 153,
+        "name": "Philip Ballew"
+      }
+    ],
+    "description": "This talk will go over the practical and unique ways to customize the Ubuntu Unity desktop. Ways to break away from the normal default desktop and add customizations. The talk will go over the ways to customize such as the applications available in the software center, to editing system files to create the perfect set up for each person. This talk will include live demos. ",
+    "title": "Customize your Ubuntu desktop",
+    "track": {
+      "id": 15,
+      "name": "Linux and MiniDebConf"
+    },
+    "start_time": "2016-03-20T02:30:00+00:00",
+    "session_id": "TUX-02",
+    "end_time": "2016-03-20T03:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 154,
+        "name": "Derek Dai"
+      }
+    ],
+    "description": "Performance in desktop environment is challenging. In order to prevent visual glitch, you have to minimize the latency and to know where comes the latency. A good tool is what we need.",
+    "title": "Monitoring Deepin Performance",
+    "track": {
+      "id": 15,
+      "name": "Linux and MiniDebConf"
+    },
+    "start_time": "2016-03-20T03:00:00+00:00",
+    "session_id": "TUX-03",
+    "end_time": "2016-03-20T03:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 155,
+        "name": "Anand Jain"
+      }
+    ],
+    "description": "An overview of Linux Btrfs and its recent development.",
+    "title": "Linux Btrfs",
+    "track": {
+      "id": 15,
+      "name": "Linux and MiniDebConf"
+    },
+    "start_time": "2016-03-20T03:30:00+00:00",
+    "session_id": "TUX-04",
+    "end_time": "2016-03-20T04:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 14,
+        "name": "Lennart Poettering"
+      }
+    ],
+    "description": "Let's talk systemd in this BoF-like workshop. If you have any question regarding systemd, about using it, about hacking on it, about its future and our plans, then come this session. If you'd like to know more about the any facet of systemd, and never dared to ask, this is the place to come!  The idea of this session is that we discuss whatever interests you, the audience! Hence, please come up with good topics!",
+    "title": "Let's talk systemd!",
+    "track": {
+      "id": 15,
+      "name": "Linux and MiniDebConf"
+    },
+    "start_time": "2016-03-20T05:00:00+00:00",
+    "session_id": "TUX-05",
+    "end_time": "2016-03-20T06:00:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 14,
+        "name": "Lennart Poettering"
+      }
+    ],
+    "description": "At this workshop we want to dive into the systemd journal, and how to use it for your daily devops or administrator work. The systemd journal is systemd's logging infrastructure and hence a core component of pretty much all modern Linux systems.   Specifically, we'll play around with \"journalctl\" and related tools and what they can do for you. We'll particularly focus in filtering log output and structured logging, and everything else that makes the journal more powerful than \"cat /var/log/syslog\". Please bring your own laptop to this workshop. Please install a major distribution (Fedora, Ubuntu, \u2026), that has adopted systemd (which is pretty much any, as long as it is somewhat recent). Some of the features we'll show rely on very new features of the systemd journal, hence the newer version you pick the better. But even if you don't want to bring your own laptop, it should still be useful to follow this workshop without any.",
+    "title": "Using the systemd Journal for Your Daily Work",
+    "track": {
+      "id": 15,
+      "name": "Linux and MiniDebConf"
+    },
+    "start_time": "2016-03-20T06:00:00+00:00",
+    "session_id": "TUX-07",
+    "end_time": "2016-03-20T07:00:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 156,
+        "name": "Umair Khan"
+      }
+    ],
+    "description": "Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts.",
+    "title": "Processing - Learn to code by art",
+    "track": {
+      "id": 16,
+      "name": "Design, VR, 3D"
+    },
+    "start_time": "2016-03-20T02:00:00+00:00",
+    "session_id": "D-01",
+    "end_time": "2016-03-20T02:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 157,
+        "name": "Owais Zahid"
+      }
+    ],
+    "description": "My interpretation of future of User Interface (UI). The user interface of the future will be better, more engaging but above all, it will be aware of your surrounding, usage habits and even your psychology. I will also share my open source project (AwareUI) and how it can be used to make your user interface more intelligent and awesome! ",
+    "title": "Aware User Interface",
+    "track": {
+      "id": 16,
+      "name": "Design, VR, 3D"
+    },
+    "start_time": "2016-03-20T02:30:00+00:00",
+    "session_id": "D-02",
+    "end_time": "2016-03-20T03:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 40,
+        "name": "Sudheesh Singanamalla"
+      }
+    ],
+    "description": "Game Automators is an effort that's made to automate android games using Matlab, OpenCV, PIL etc.., Using these we are automating the games with the adb tools. The talk will focus on what the project is all about, the community to automate mobile gaming using image processing, the possible academic research areas and the future of gaming with game automation. It's also an exciting effort to build algorithms to focus on solving larger and more dynamic mobile games. We are currently putting all the findings and the tutorials into a book and FOSSASIA would be a great platform to showcase and reach out to other researchers, students and enthusiasts about the ongoing work.",
+    "title": "Automating android games using image processing",
+    "track": {
+      "id": 16,
+      "name": "Design, VR, 3D"
+    },
+    "start_time": "2016-03-20T03:00:00+00:00",
+    "session_id": "D-03",
+    "end_time": "2016-03-20T03:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 158,
+        "name": "Jan-Christoph Borchardt"
+      }
+    ],
+    "description": "Traditionally open source projects are not very famous for their good design. But there\u2019s a new generation of modern, well-designed and widely used open source apps. There\u2019s also a few more designers working in open soure now and an upcoming Open Source Design movement. But we still need to improve, and we need to collaborate! I worked as designer with lots of open source software projects and will present the methods I use every day at ownCloud to drive forward open source design. Some topics I will cover: - how to establish a design culture in your project - how to work together with developers - making designers develop and developers design - getting university students involved - the importance of cross-project collaboration - the Open Source Design movement in general",
+    "title": "Open Source Design \u2013 how we do it in ownCloud",
+    "track": {
+      "id": 16,
+      "name": "Design, VR, 3D"
+    },
+    "start_time": "2016-03-20T03:30:00+00:00",
+    "session_id": "D-04",
+    "end_time": "2016-03-20T04:00:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 159,
+        "name": "Sher Minn Chong"
+      },
+      {
+        "id": 160,
+        "name": "Jia Hen Tee"
+      }
+    ],
+    "description": "You love code. You also love art. You want to merge the two wonderful worlds, but it can be hard. How can we create art with code and make writing code an art? In comes generative art! Generative art is art created by an independent, non-human system, for example, art generated by algorithms. Remember screensavers from the 90s? Yeah, something along those lines. You'll learn how to create art in the browser with Processing.js. I'll demo the basics of animation and we'll explore how algorithmic and mathematical concepts such as recursion, tiling, and geometry can result in unexpectedly beautiful visuals.",
+    "title": "Generative art algorithms",
+    "track": {
+      "id": 16,
+      "name": "Design, VR, 3D"
+    },
+    "start_time": "2016-03-20T05:30:00+00:00",
+    "session_id": "D-05",
+    "end_time": "2016-03-20T06:30:00+00:00",
+    "type": "Talk of 20 minutes"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 161,
+        "name": "Moe Zidan"
+      }
+    ],
+    "description": "How to design a pageless website using open design to get a wonderful user experience. ",
+    "title": "Pageless",
+    "track": {
+      "id": 16,
+      "name": "Design, VR, 3D"
+    },
+    "start_time": "2016-03-20T06:30:00+00:00",
+    "session_id": "D-07",
+    "end_time": "2016-03-20T07:30:00+00:00",
+    "type": "Workshop of 1 hour"
+  },
+  {
+    "py/object": "models.Session",
+    "speakers": [
+      {
+        "id": 162,
+        "name": "Victoria Bondarchuk"
+      }
+    ],
+    "description": "Following FOSDEM \"Open Source Design devroom Room\" experience, why don't we also get together and think how to make FOSS environment more welcoming for designers. There are many designers (in broad sense of the word) out there who use FOSS  and want to contribute but aren't sure where to start. The goal of the panel will be to give the audience some beginning steps to make a start in contributing to OSS projects. The discussion will focus on: How to choose what project you want to work on? Where to find a project? What you have to know to make your first contribution? This panel is for everyone (designers, researchers, developers) and will be in a format of open discussion. ",
+    "title": "Exploring how designer can contribute to Open Source",
+    "track": {
+      "id": 16,
+      "name": "Design, VR, 3D"
+    },
+    "start_time": "2016-03-20T07:30:00+00:00",
+    "session_id": "D-08",
+    "end_time": "2016-03-20T08:30:00+00:00",
+    "type": "Discussion / Panel Discussion "
   }
 ]}
