@@ -112,7 +112,7 @@
       elem = clone(tpl)
       elem.setAttribute('data-session-id', params.session_id)
       elem.querySelector('.session-title').textContent = params.title
-      elem.querySelector('.session-type').textContent = params.type
+      elem.querySelector('.session-location').textContent = params.location
       elem.querySelector('.session-speakers').textContent = speakers.join(', ')
       elem.querySelector('.session-start').textContent = params.start_time.format('h:mm a')
       elem.querySelector('.session-end').textContent = params.end_time.format('h:mm a')
