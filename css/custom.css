@@ -109,3 +109,8 @@ as width of images is 300x300px
   max-width: 280px;
   color: #fff;
 }
+
+.speaker .hover-state .social-links {
+  position: absolute;
+  top: 80%;
+}
