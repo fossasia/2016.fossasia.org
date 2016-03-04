@@ -100,3 +100,12 @@ as width of images is 300x300px
 .speaker .hover-state {
   max-width: 300px;
 }
+
+
+/*Bio on speaker hover*/
+.speaker .hover-state .bio {
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 280px;
+  color: #fff;
+}
