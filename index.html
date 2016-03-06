@@ -1283,31 +1283,31 @@
 	            for (var nameValue = 0; nameValue < names.length; nameValue++) {
 	            	testIndex++;
 	            	if(names[nameValue].id == testIndex && testIndex <= lastSpeakerId){
-	            	var x = names[nameValue].name;
-	            	x = x.replace(/ /g,'')+'.jpg';
-	            	var found = blockNameList.indexOf(names[nameValue].name);
-	            	console.log(found + ' ' + names[nameValue].name);
-	            	if(found === -1) {
-		            	speakerString += "<div class=\"col-md-3 col-sm-6 speaker-column\">"+
-										 "<div class=\"speaker\">"+
-									     "<div class=\"image-holder\">"+
-									     "<img class=\"background-image\" height=\"300\" width=\"300\" alt=\""+x+"\" src=\"img\/"+x+"\" onerror=\"imgError(this)\">"+
-									     "<div class=\"hover-state text-center preserve3d\">"+
-											"<div class=\"social-links vertical-align\">"+
-												"<a href=\""+names[nameValue].twitter+"\"><i class=\"icon social_twitter\"></i></a>"+
-												"<a href=\""+names[nameValue].linkedin+"\"><i class=\"icon social_linkedin\"></i></a>"+
-											"</div>"+
-										"</div>"+
-									"</div>"+
-									"<span class=\"speaker-name\">"+names[nameValue].name+"</span>"+
-									"<span>"+names[nameValue].organisation+"</span>"+
-								"</div>"+
-							"</div>";
+	            		var x = names[nameValue].name;
+	            		x = x.replace(/ /g,'')+'.jpg';
+	            		var found = blockNameList.indexOf(names[nameValue].name);
+	            		console.log(found + ' ' + names[nameValue].name);
+	            		if(found === -1) {
+		            		speakerString += "<div class=\"col-md-3 col-sm-6 speaker-column\">"+
+										 		"<div class=\"speaker\">"+
+									    			"<div class=\"image-holder\">"+
+									    				"<img class=\"background-image\" height=\"300\" width=\"300\" alt=\""+x+"\" src=\"img\/"+x+"\" onerror=\"imgError(this)\">"+
+									     				"<div class=\"hover-state text-center preserve3d\">"+
+															"<div class=\"social-links vertical-align\">"+
+																"<a href=\""+names[nameValue].twitter+"\"><i class=\"icon social_twitter\"></i></a>"+
+																"<a href=\""+names[nameValue].linkedin+"\"><i class=\"icon social_linkedin\"></i></a>"+
+															"</div>"+
+														"</div>"+
+													"</div>"+
+													"<span class=\"speaker-name\">"+names[nameValue].name+"</span>"+
+													"<span>"+names[nameValue].organisation+"</span>"+
+												"</div>"+
+											"</div>";
+	            		}
 	            	}
-	            }
-	        }
+	        	}
 	            $('#speakersList').append(speakerString);
-	        } 
+	        }	 
 	    });
 		function imgError(image) {
  		    image.onerror = "";
