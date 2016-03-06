@@ -1,5 +1,6 @@
 (function() {
-  var dataUrl = './sessions.json'
+
+  var dataUrl = 'https://raw.githubusercontent.com/fossasia/open-event-scraper/master/out/sessions.json'
 
   function clone(node) {
     var elem = node.cloneNode(true)
@@ -125,14 +126,14 @@
       elem.setAttribute('data-session-id', params.session_id)
       setContent('.session-title', params.title)
       setContent('.session-location', params.location || 'TBA')
-      setContent('.session-speakers', speakers.join(', '))
       setContent('.session-start', params.start_time.format('h:mm a'))
       setContent('.session-end', params.end_time.format('h:mm a'))
-      if (params.type) {
-        setContent('.session-type', params.type)
-      } else {
-        hide('.session-type-cell')
-      }
+
+      if (params.speakers.length > 0) setContent('.session-speakers', speakers.join(', '))
+      else hide('.session-speakers-cell')
+
+      if (params.type) setContent('.session-type', params.type)
+      else hide('.session-type-cell')
 
       return elem
     }
