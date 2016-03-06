@@ -540,8 +540,8 @@
 			<a id="speakers" class="in-page-link"></a>
 			
 			<section class="speakers duplicatable-content">
-					<div class="row speakers-row">
-						<div class="col-md-3 col-sm-6 speaker-column">
+					<div class="row speakers-row" id="speakersList">
+						<!-- <div class="col-md-3 col-sm-6 speaker-column">
 							<div class="speaker">
 								<div class="image-holder">
 									<img class="background-image" alt="Sebastian Deckers" src="img/sebastiandeckers.jpg">
@@ -594,7 +594,9 @@
 								<span class="speaker-name">William Hooi</span>
 								<span>OneMakerGroup</span>
 							</div>
-						</div><div class="col-md-3 col-sm-6 speaker-column">
+						</div>
+
+						<div class="col-md-3 col-sm-6 speaker-column">
 							<div class="speaker">
 								<div class="image-holder">
 									<img class="background-image" alt="Michael Christen" src="img/MichaelChristen.jpg">
@@ -611,7 +613,9 @@
 								<span class="speaker-name">Michael Christen</span>
 								<span>Founder yacy.net/loklak</span>
 							</div>
-						</div><div class="col-md-3 col-sm-6 speaker-column">
+						</div>
+
+						<div class="col-md-3 col-sm-6 speaker-column">
 							<div class="speaker">
 								<div class="image-holder">
 									<img class="background-image" alt="Soares Chen" src="img/soareschen.jpg">
@@ -648,7 +652,8 @@
 								<span>ExpEYES</span>
 							</div>
 						</div>
-					<div class="col-md-3 col-sm-6 speaker-column">
+
+						<div class="col-md-3 col-sm-6 speaker-column">
 							<div class="speaker">
 								<div class="image-holder">
 									<img class="background-image" alt="Michael Cannon" src="img/michaelcannon.jpg">
@@ -665,7 +670,9 @@
 								<span class="speaker-name">Michael Cannon</span>
 								<span>Axelerant</span>
 							</div>
-						</div><div class="col-md-3 col-sm-6 speaker-column">
+						</div>
+
+						<div class="col-md-3 col-sm-6 speaker-column">
 							<div class="speaker">
 								<div class="image-holder">
 									<img class="background-image" alt="Sudheesh Singanamella" src="img/sudheeshsinganamalla.jpg">
@@ -682,7 +689,8 @@
 								<span class="speaker-name">Sudheesh Singanamella</span>
 								<span>loklak</span>
 							</div>
-						</div></div>
+						</div> -->
+					</div>
 				</div>
 			
 			</section>
@@ -1259,6 +1267,54 @@
         <script src="js/tweetsfetcher.js"></script>
         <script src="js/placeholders.min.js"></script>
         <script src="js/scripts.js"></script>
+        <script>
+        $.ajax({
+	        type : 'GET',
+	        dataType : 'json',
+	        url: 'schedule/speakers.json',
+	        success : function(data) {
+	            // console.log(data);
+	            var names = data.speakers;
+	            var lastSpeakerId = names[names.length - 1].id;
+	            //console.log(lastSpeakerId);
+	            var testIndex = 0;
+	            var speakerString = "";
+	            var blockNameList = ['End of Sessions', 'Lunch', 'Group Photo', 'Social Event', 'Hong Phuc Dang, Justin Lee', '', 'Lightning Talks', 'Science Hacks and Science Hackers']
+	            for (var nameValue = 0; nameValue < names.length; nameValue++) {
+	            	testIndex++;
+	            	if(names[nameValue].id == testIndex && testIndex <= lastSpeakerId){
+	            		var x = names[nameValue].name;
+	            		x = x.replace(/ /g,'')+'.jpg';
+	            		var found = blockNameList.indexOf(names[nameValue].name);
+	            		console.log(found + ' ' + names[nameValue].name);
+	            		if(found === -1) {
+		            		speakerString += "<div class=\"col-md-3 col-sm-6 speaker-column\">"+
+										 		"<div class=\"speaker\">"+
+									    			"<div class=\"image-holder\">"+
+									    				"<img class=\"background-image\" height=\"300\" width=\"300\" alt=\""+x+"\" src=\"img\/"+x+"\" onerror=\"imgError(this)\">"+
+									     				"<div class=\"hover-state text-center preserve3d\">"+
+															"<div class=\"social-links vertical-align\">"+
+																"<a href=\""+names[nameValue].twitter+"\"><i class=\"icon social_twitter\"></i></a>"+
+																"<a href=\""+names[nameValue].linkedin+"\"><i class=\"icon social_linkedin\"></i></a>"+
+															"</div>"+
+														"</div>"+
+													"</div>"+
+													"<span class=\"speaker-name\">"+names[nameValue].name+"</span>"+
+													"<span>"+names[nameValue].organisation+"</span>"+
+												"</div>"+
+											"</div>";
+	            		}
+	            	}
+	        	}
+	            $('#speakersList').append(speakerString);
+	        }	 
+	    });
+		function imgError(image) {
+ 		    image.onerror = "";
+		    image.src = "https://placeholdit.imgix.net/~text?txtsize=28&txt=300%C3%97300&w=300&h=300";;
+		    return true;
+        }
+        </script>
     </body>
 </html>
 				
