@@ -1,0 +1,32 @@
+
+.session-type-cell {
+  display: none;
+}
+
+.session-list .label {
+  font-size: 80%;
+  margin-left: -8px;
+}
+
+.session-title-cell {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (min-width: 500px) {
+  .session-list .label {
+    font-size: 90%;
+  }
+}
+
+@media (min-width: 768px) {
+  .session-location-cell {
+    text-align: right;
+  }
+  .session-label-sm {
+    display: none;
+  }
+  .session-type-cell {
+    display: block;
+  }
+}

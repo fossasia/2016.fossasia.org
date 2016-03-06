@@ -17,6 +17,7 @@
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
       integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" 
       crossorigin="anonymous">
+    <link rel="stylesheet" href="./custom.css">
 
     <!-- Custom styles for this template -->
     <style type="text/css">     
@@ -69,24 +70,49 @@
       <div id="session-list-per-track-tpl" class="row">
         <div class="col-md-12">
           <h2 class="track-title">$track-title</h2>
-          <table class="table">
-            <thead>
-            <th style="width: 45%">Title</th>
-            <th style="width: 20%">Type</th>
-            <th style="width: 21%">Speaker</th>
-            <th style="width: 7%">Start</th>
-            <th style="width: 7%">End</th>
-            </thead>
-            <tbody class="session-list">
-              <tr class="session-tpl" data-session-id="XYZ">
-                <td class="session-title">$session-title</td>
-                <td class="session-location">$session-location</td>
-                <td class="session-speakers">$session-speakers</td>
-                <td class="session-start">$session-start</td>
-                <td class="session-end">$session-end</td>
-              </tr>
-            </tbody>
-          </table>
+          <!-- <div class="container session-list"> -->
+          <ul class="list-group session-list">
+            <li class="list-group-item session-tpl" data-session-id="XYZ">
+              <div class="row">
+                <div class="col-xs-2 col-md-1">
+                  <p class="session-start label label-primary">$session-start</p>
+                </div>
+                <!-- <div class="col-xs-10 col-sm-11 col-md-11"> -->
+                  <div class="col-xs-10 col-sm-6 col-md-7">
+                    <p class="session-title-cell">
+                      <!-- <span class="session-label-sm">Title:</span> -->
+                      <span class="session-title">$session-title</span>
+                    </p>
+                  </div>
+                  <div class="col-xs-10 col-xs-offset-2 col-sm-4 col-sm-offset-0">
+                    <p class="session-location-cell">
+                      <span class="session-label-sm">Location:</span>
+                      <span class="session-location">$session-location</span>
+                    </p>
+                  </div>
+
+                  <div class="col-xs-10 col-sm-10 col-xs-offset-2 col-sm-offset-2 col-md-offset-1">
+                    <p class="session-speaker-cell">
+                      <span class="session-label">Speaker: </span>
+                      <span class="session-speakers">$session-speaker</span>
+                    </p>
+                    <p class="session-type-cell">
+                      <span class="session-label">Type: </span>
+                      <span class="session-type">$session-type</span>
+                    </p>
+                  </div>
+
+                </div>
+
+
+
+              </div>
+<!--               <div class="row">
+
+              </div> -->
+            </li>
+          </ul>
+          <!-- </div> -->
         </div>
       </div>
     </div>

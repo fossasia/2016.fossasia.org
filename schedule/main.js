@@ -108,14 +108,32 @@
       params.speakers.forEach(function(speaker) {
         speakers.push(speaker.name)
       })
+
+      function setContent(selector, value) {
+        var node = elem.querySelector(selector)
+        if (!node) return
+        else node.textContent = value
+      } 
+
+      function hide(selector) {
+        var node = elem.querySelector(selector)
+        if (!node) return
+        else node.style.display = 'none'
+      }
       
       elem = clone(tpl)
       elem.setAttribute('data-session-id', params.session_id)
-      elem.querySelector('.session-title').textContent = params.title
-      elem.querySelector('.session-location').textContent = params.location
-      elem.querySelector('.session-speakers').textContent = speakers.join(', ')
-      elem.querySelector('.session-start').textContent = params.start_time.format('h:mm a')
-      elem.querySelector('.session-end').textContent = params.end_time.format('h:mm a')
+      setContent('.session-title', params.title)
+      setContent('.session-location', params.location || 'TBA')
+      setContent('.session-speakers', speakers.join(', '))
+      setContent('.session-start', params.start_time.format('h:mm a'))
+      setContent('.session-end', params.end_time.format('h:mm a'))
+      if (params.type) {
+        setContent('.session-type', params.type)
+      } else {
+        hide('.session-type-cell')
+      }
+
       return elem
     }
   }
