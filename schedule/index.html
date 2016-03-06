@@ -123,8 +123,8 @@
       integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" 
       crossorigin="anonymous"></script>
     <script type="text/javascript">
-      var version = 1457248204790
-      document.write('<script src="./main.js?v=' + version + '"><\/script>')
+      var ts = new Date().valueOf() // cache breaker
+      document.write('<script src="./main.js?t=' + ts + '"><\/script>')
     </script>
   </body>
 </html>
