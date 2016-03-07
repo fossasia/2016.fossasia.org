@@ -114,14 +114,14 @@
         var node = elem.querySelector(selector)
         if (!node) return
         else node.textContent = value
-      } 
+      }
 
       function hide(selector) {
         var node = elem.querySelector(selector)
         if (!node) return
         else node.style.display = 'none'
       }
-      
+
       elem = clone(tpl)
       elem.setAttribute('data-session-id', params.session_id)
       setContent('.session-title', params.title)
@@ -200,8 +200,8 @@
 
       // data[yyyy-mm-dd][track][session]
       _data.sessions.forEach(function(session) {
-        session.start_time = session.start_time ? moment(session.start_time) : undefined
-        session.end_time = session.end_time ? moment(session.end_time) : undefined
+        session.start_time = session.start_time ? moment(session.start_time).utcOffset(8) : undefined
+        session.end_time = session.end_time ? moment(session.end_time).utcOffset(8) : undefined
 
         if (!session.start_time)
           return
@@ -209,10 +209,10 @@
         var strDay = session.start_time.format('YYYY-MM-DD')
         var trackName = session.track.name
 
-        if (!sessionData[strDay]) 
+        if (!sessionData[strDay])
           sessionData[strDay] = {}
 
-        if (!sessionData[strDay][trackName]) 
+        if (!sessionData[strDay][trackName])
           sessionData[strDay][trackName] = {title: trackName, sessions: []}
 
         sessionData[strDay][trackName].sessions.push(session)
