@@ -2351,5 +2351,18 @@
     "photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAIRAAAAJGUyNWI2NjgxLWE1NzMtNGI4MC1hYTQxLWFkOGVkZGRkYTdlZg.jpg",
     "organisation": "Seoul Tech Society, Dmajor",
     "biography": "UX Researcher from Seoul. Interested in Open Source and Open Fashion. "
+  },
+  {
+    "py/object": "models.Speaker",
+    "web": "http://dilumn.github.io/",
+    "github": "https://github.com/dilumn",
+    "name": "Dilum Navanjana",
+    "country": "Sri Lanka",
+    "twitter": "https://twitter.com/dilumn_",
+    "linkedin": "https://lk.linkedin.com/in/dilumnavanjana",
+    "id": 182,
+    "photo": "",
+    "organisation": "99x Technology",
+    "biography": "Ruby Open Source Contributor, wants to change the world with Open Source Softwares"
   }
 ]}
