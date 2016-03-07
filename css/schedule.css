@@ -1,4 +1,9 @@
 
+.navbar-toggle {
+  padding: 6px 10px;
+  color: #777;
+}
+
 .time-alert {
   background: #e12b00;
   border-color: #ebccd1;
