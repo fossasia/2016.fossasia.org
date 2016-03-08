@@ -107,7 +107,7 @@
 
       var speakers = []
       params.speakers.forEach(function(speaker) {
-        speakers.push(speaker.name)
+        speakers.push(speaker.name + ' (' + speaker.organisation + ')')
       })
 
       function setContent(selector, value) {
