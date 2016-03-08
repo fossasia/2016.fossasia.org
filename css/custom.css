@@ -113,3 +113,8 @@ as width of images is 300x300px
   position: absolute;
   top: 80%;
 }
+
+.background-image {
+  height: 300px;
+  width: 300px;
+}
