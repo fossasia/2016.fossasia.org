@@ -1,13 +1,23 @@
 
+body {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: #777777;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+  color: #333333;
+  font-weight: 300;
+}
+
+.logo {
+  max-width: 110px;
+  max-height: 45px;
+}
+
 .navbar-toggle {
   padding: 6px 10px;
   color: #777;
-}
-
-.time-alert {
-  background: #e12b00;
-  border-color: #ebccd1;
-  color: #ffff;
 }
 
 .session-type-cell {
@@ -17,6 +27,10 @@
 .session-list .label {
   font-size: 80%;
   margin-left: -8px;
+  background: #e12b00;
+  border-color: #ebccd1;
+  color: #ffff;
+  font-weight: 500;
 }
 
 .session-title-cell {
@@ -31,6 +45,10 @@
 }
 
 @media (min-width: 768px) {
+  /*.logo {
+
+  }
+  */
   .session-location-cell {
     text-align: right;
   }
