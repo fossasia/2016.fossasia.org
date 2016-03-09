@@ -100,7 +100,7 @@
    * [SessionCtrl description]
    */
   function SessionCtrl(params) {
-    var tpl = document.querySelector('.session-tpl')
+    var tpl = document.getElementById('session-tpl')
     var elem = null
 
     this.render = function() {
@@ -123,6 +123,7 @@
       }
 
       elem = clone(tpl)
+
       elem.setAttribute('data-session-id', params.session_id)
       setContent('.session-title', params.title)
       setContent('.session-location', params.location || 'TBA')
@@ -131,6 +132,8 @@
 
       if (params.speakers.length > 0) setContent('.session-speakers', speakers.join(', '))
       else hide('.session-speakers-cell')
+
+      // console.log(elem.querySelector('.session-type-cell').style.display)
 
       if (params.type) setContent('.session-type', params.type)
       else hide('.session-type-cell')
