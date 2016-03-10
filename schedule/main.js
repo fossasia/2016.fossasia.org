@@ -166,6 +166,8 @@
         error: onDataError,
         method: 'GET',
         dataType: 'json'
+      }).done(function(){
+        $('#loading').hide()
       })
     }
 
