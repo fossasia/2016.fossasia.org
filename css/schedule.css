@@ -59,3 +59,7 @@ body {
     display: block;
   }
 }
+
+li:hover{
+    cursor: pointer;
+}
