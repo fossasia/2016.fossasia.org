@@ -88,33 +88,33 @@
   height: 0;
 }
 
-/*
+/* 
 speaker hover-state max widths
-as width of images is 240x240px
- */
-  .speaker .social-links {
-    max-width: 240px;
-  }
+as width of images is 300x300px
+*/
+.speaker .social-links {
+  max-width: 300px;
+}
 
-  .speaker .hover-state {
-    max-width: 240px;
-  }
+.speaker .hover-state {
+  max-width: 300px;
+}
 
 
-  /*Bio on speaker hover*/
-  .speaker .hover-state .bio {
-    margin-left: 10px;
-    margin-right: 10px;
-    max-width: 220px;
-    color: #fff;
-  }
+/*Bio on speaker hover*/
+.speaker .hover-state .bio {
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 280px;
+  color: #fff;
+}
 
-  .speaker .hover-state .social-links {
-    position: absolute;
-    top: 80%;
-  }
+.speaker .hover-state .social-links {
+  position: absolute;
+  top: 80%;
+}
 
-  .background-image {
-    height: 240px;
-    width: 240px;
-  }
+.background-image {
+  height: 300px;
+  width: 300px;
+}
