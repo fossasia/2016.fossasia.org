@@ -1,0 +1,4 @@
+language: node_js
+script:
+  - cd schedule && npm run render-html
+
