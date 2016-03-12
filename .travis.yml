@@ -1,4 +1,8 @@
 language: node_js
 script:
   - cd schedule && npm run render-html
+# gh-pages is ignored by default, so whitelist it
+branches:
+  only:
+    - /.*/
 
