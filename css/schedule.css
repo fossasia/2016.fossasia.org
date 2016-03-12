@@ -47,7 +47,7 @@ body {
 
 .session-list .session-title {
   margin-top: 0.1em;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* Adjustments for smaller screens */
@@ -84,4 +84,23 @@ body {
     width: 25%;
     text-align: right;
   }
+}
+.widget {
+  position: absolute;
+  margin-bottom: 24px;
+  right : 350px;
+  float: right;
+  top: 30%;
+}
+.widget .social-profiles li {
+  margin-right: 24px;
+  float:left;
+  list-style: none;
+}
+.widget .social-profiles li a {
+  color: #fff;
+}
+.social{
+  width: 25px;
+  height: 25px;
 }
