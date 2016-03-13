@@ -1,0 +1,8 @@
+{
+  "name": "fossasia-schedule-render",
+  "version": "0.1.0",
+  "scripts": {
+    "render-html": "echo 'all ok'"
+  }
+}
+
