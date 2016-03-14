@@ -22,6 +22,23 @@ body {
   font-weight: 300;
 }
 
+a {
+  color: #777;
+}
+
+a:hover {
+  color: #e12b00;
+}
+
+/* Social media icons for speakers */
+a.speaker-social {
+  margin-right: 0.3em;
+}
+
+a.speaker-social:hover {
+  text-decoration: none;
+}
+
 /* Navbar adjustments */
 .logo {
   max-width: 110px;
