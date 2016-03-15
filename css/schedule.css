@@ -62,6 +62,11 @@ a.speaker-social:hover {
   font-weight: 500;
 }
 
+.session-list .session-link {
+  padding-top: 60px;
+  margin-top: -60px;
+}
+
 .session-list .session-title {
   margin-top: 0.1em;
   text-decoration: underline;
@@ -89,6 +94,11 @@ body {
   .session-list .label {
     font-size: 90%;
     padding: .2em .6em .3em;
+  }
+
+  .session-link {
+    float: left;
+    width: 1em;
   }
 
   .session-title {
