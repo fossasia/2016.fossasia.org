@@ -137,6 +137,17 @@
       if (params.speakers.length > 0) setContent('.session-speakers', speakers.join(', '))
       else hide('.session-speakers-cell')
 
+      var SEL_DESCRIPTION = '.session-description';
+      setContent(SEL_DESCRIPTION, params.description);
+      var descriptionShown = true;
+      var descriptionElem = elem.querySelector(SEL_DESCRIPTION);
+      var descriptionToggle = function() {
+        descriptionShown = !descriptionShown;
+        descriptionElem.style.display = descriptionShown ? '' : 'none';
+      };
+      descriptionToggle(); // call toggle once to hide it
+      elem.addEventListener('click', descriptionToggle);
+
       // console.log(elem.querySelector('.session-type-cell').style.display)
 
       if (params.type) setContent('.session-type', params.type)
