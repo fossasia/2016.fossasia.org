@@ -1,0 +1,395 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<!-- 
+  ^ You can control a few things with the <html> element's classes:
+
+  "fade"      - smooth fade between slides
+  "nonumbers" - remove the slide numbering after the progress bar
+-->
+
+<head>
+  <title>My incredible presentation</title>
+  <!-- 
+    ^ Don't forget a good title - they show up as bookmarks and in Google 
+  -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1274, user-scalable=no">
+  <link rel="stylesheet" href="themes/mozilla/styles/style.css">
+  <style type="text/css">
+  /* Extra styles */
+  </style>
+</head>
+<body class="list">
+
+  <header class="caption">
+    <h1>Your presentation title</h1>
+    <p class="footer">{author}, <a href="{url}">{url}</a></p>
+  </header>
+  <aside class="talkdescription">
+    <p>This slide deck is using the shower system - roll over the previews to see the notes and click any slide to go into presentation mode. Then use keys to navigate.</p>
+  </aside>
+
+<!-- 
+  The following is a slide, it needs a class of "slide" and it doesn't 
+  hurt to keep the right semantic elements in there, too.
+  IMPORTANT: each slide needs its own unique ID - this will become its
+  URL and this is how this slide system works!
+-->
+
+  <div id="cover" class="slide cover h"><div>
+    <!-- 
+      Slides with the class of cover don't show the Mozilla logo 
+      or the progress bar. they are meant for full-screen display
+      and have headings with half-transparent black background.
+      You can stretch the image to the full screen by height or
+      width using the h or w class.
+     -->
+    <section>
+      <header>
+        <h2>Awesome slide title</h2>
+      </header>
+      <img src="pictures/apps.jpg" alt="apps">
+      <small class="byline">
+        {author}, {conference}, {location}, {date} 
+      </small>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="imagewithcreditsfull" class="slide cover h"><div>
+    <section>
+      <header>
+        <h2>Image slide with credits - full screen</h2>
+      </header>
+      <img src="pictures/otoro.jpg" 
+           alt="Open Web Device"
+           class="middle shadow">
+      <small class="credits">
+        <a href="{url}">Photo by {maker}</a>
+      </small>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="imagewithcredits" class="slide"><div>
+    <section>
+      <header>
+        <h2>Image slide with credits</h2>
+      </header>
+      <img src="pictures/redpanda.jpg" 
+           alt="Red Panda"
+           class="middle">
+      <small class="credits">
+        <a href="{url}">Photo by {maker}</a>
+      </small>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="rightimage" class="slide"><div>
+    <section>
+      <header>
+        <h2>Image right</h2>
+      </header>
+      <img src="pictures/redpanda.jpg" 
+           alt="Red Panda"
+           class="right">
+      <blockquote>
+        Be water, my friend!
+        <p class="quotesource">
+          <a href="http://www.youtube.com/watch?v=9pc1pbCMRSU">Bruce Lee</a>
+        </p>
+      </blockquote>
+      <small class="credits">
+        <a href="{url}">Photo by {maker}</a>
+      </small>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="leftimage" class="slide"><div>
+    <section>
+      <header>
+        <h2>Image left</h2>
+      </header>
+      <img src="pictures/redpanda.jpg" 
+           alt="Red Panda"
+           class="left">
+      <blockquote>
+        Be water, my friend!
+        <p class="quotesource">
+          <a href="http://www.youtube.com/watch?v=9pc1pbCMRSU">Bruce Lee</a>
+        </p>
+      </blockquote>
+      <small class="credits">
+        <a href="{url}">Photo by {maker}</a>
+      </small>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="shadowimage" class="slide"><div>
+    <section>
+      <header>
+        <h2>Image with shadow</h2>
+      </header>
+      <img src="pictures/redpanda.jpg" 
+           alt="Red Panda"
+           class="middle shadow">
+      <small class="credits">
+        <a href="{url}">Photo by {maker}</a>
+      </small>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="frameshadow" class="slide"><div>
+    <section>
+      <header>
+        <h2>Image with frame</h2>
+      </header>
+      <figure class="shadow frame middle">
+      <img src="pictures/redpanda.jpg" 
+           alt="Red Panda">
+      </figure>
+      <small class="credits">
+        <a href="{url}">Photo by {maker}</a>
+      </small>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="frameanimation" class="slide"><div>
+    <section>
+      <header>
+        <h2>Image with frame animation</h2>
+      </header>
+      <figure class="shadow frame middle swing">
+      <img src="pictures/redpanda.jpg" 
+           alt="Red Panda">
+      </figure>
+      <small class="credits">
+        <a href="{url}">Photo by {maker}</a>
+      </small>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="screenshot" class="slide"><div>
+    <section>
+      <header>
+        <h2>Screenshot with URL</h2>
+      </header>
+      <img src="pictures/marketplace.jpg" 
+           alt="Marketplace"
+           class="middle shadow">
+      <p class="demourl">
+        <a href="{url}">{url}</a>
+      </p>     
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+ <div id="list" class="slide"><div>
+    <section>
+      <header>
+        <h2>Unordered List</h2>
+      </header>
+      <ul>
+        <li>Tigers</li>
+        <li>Elephants</li>
+        <li>Bears
+          <ul>
+            <li>Koalas</li>
+            <li>Polar</li>
+            <li>Panda</li>
+          </ul>
+        </li>
+        <li>Oh my&hellip;</li>
+      </ul>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+ <div id="orderedlist" class="slide"><div>
+    <section>
+      <header>
+        <h2>Ordered List</h2>
+      </header>
+      <ol>
+        <li>Tigers</li>
+        <li>Elephants</li>
+        <li>Bears
+          <ol>
+            <li>Koalas</li>
+            <li>Polar</li>
+            <li>Panda</li>
+          </ol>
+        </li>
+        <li>Oh my&hellip;</li>
+      </ol>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+ <div id="longlist" class="slide"><div>
+    <section>
+      <header>
+        <h2>Long List</h2>
+      </header>
+      <ol class="longlist">
+        <li>Tigers</li>
+        <li>Elephants</li>
+        <li>Bears
+          <ol>
+            <li>Koalas</li>
+            <li>Polar</li>
+            <li>Panda</li>
+          </ol>
+        </li>
+        <li>Hedgehogs</li>
+        <li>Opossums</li>
+        <li>Hyrax</li>
+        <li>Capybara</li>
+        <li>Oh my&hellip;</li>
+      </ol>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+ <div id="inlinelist" class="slide"><div>
+    <section>
+      <header>
+        <h2>Inline List</h2>
+      </header>
+      <ul class="inline">
+        <li>Tigers</li>
+        <li>Elephants</li>
+        <li>Bears</li>
+        <li>Hedgehogs</li>
+        <li>Opossums</li>
+        <li>Hyrax</li>
+        <li>Capybara</li>
+        <li>Oh my&hellip;</li>
+      </ul>
+      <footer class="notes">
+      </footer>
+    </section>
+ </div></div>
+
+ <div id="animatedlist" class="slide"><div>
+    <section>
+      <header>
+        <h2>Animated List</h2>
+      </header>
+      <ul class="inner">
+        <li class="active">Tigers</li>
+        <li>Elephants</li>
+        <li>Bears</li>
+        <li>Hedgehogs</li>
+        <li>Opossums</li>
+        <li>Hyrax</li>
+        <li>Capybara</li>
+        <li>Oh my&hellip;</li>
+      </ul>
+      <footer class="notes">
+      </footer>
+    </section>
+ </div></div>
+
+ <div id="quote" class="slide"><div>
+    <section>
+      <header>
+        <h2>Quote</h2>
+      </header>
+      <blockquote>
+        <p>
+          Empty your mind, be formless, shapeless — like water. Now you put water in a cup, it becomes the cup; You put water into a bottle it becomes the bottle; You put it in a teapot it becomes the teapot. Now water can flow or it can crash. Be water, my friend.
+        </p>
+        <p class="quotesource">
+          <a href="http://www.youtube.com/watch?v=9pc1pbCMRSU">Bruce Lee</a>
+        </p>
+      </blockquote>
+      <footer class="notes">
+      </footer>
+    </section>
+  </div></div>
+
+  <div id="code" class="slide"><div>
+    <section>
+      <header>
+        <h2>Code</h2>
+      </header>
+      <pre>
+        <code>/* CSS: */</code>
+        <code>.item { transition: .5s;</code>
+        <code>        max-height: 200px;</code>
+        <code>        overflow: hidden;}</code>
+        <code>.item.hidden { max-height: 0; }</code>
+        <code>/* JS: *</code>
+        <code>results.addEventListener('transitionend', function(ev) {</code>
+        <code>  results.removeChild(ev.target);</code>
+        <code>}, false);</code>
+      </pre>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="livecode" class="slide"><div>
+    <section>
+      <header>
+        <h2>Live code</h2>
+      </header>
+      <div id="demodiv"></div>
+<style contenteditable>#demodiv {
+  width: 200px;
+  height: 200px;
+  background: green;
+}</style>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div id="thanks" class="slide"><div>
+    <section>
+      <header>
+        <h2>Thanks</h2>
+      </header>
+        <figure class="frame middle swing">
+        <img src="pictures/redpanda.jpg"
+             alt="that's all firefox">
+        </figure>
+      <ul class="oneline demourl">
+        <li>{author}</li>
+        <li><a href="{authorurl}">{authorurl}</a></li>
+        <li><a href="{slideurl}">
+          {slideurl}
+        </a></li>
+      </ul>
+    <footer class="notes">
+    </footer>
+    </section>
+  </div></div>
+
+  <div class="progress"><div></div></div>
+  <!-- 
+    ^ don't like a progress bar? just delete this DIV
+  -->
+  <script src="scripts/script.js"></script>
+  <!-- Copyright © 2010–2012 Vadim Makeev — pepelsbey.net -->
+</body>
+</html>
