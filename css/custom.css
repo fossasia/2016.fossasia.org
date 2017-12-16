@@ -117,3 +117,7 @@ as width of images is 300x300px
 .background-image {
   width: 300px;
 }
+
+.sidebar-menu .social-profiles li a i::before {
+  font-size: 22px;
+}
