@@ -2297,3 +2297,18 @@ footer.classic .social-profiles {
   color: #333333;
   font-size: 20px;
 }
+
+.contact-tweets {
+  padding: 0;
+}
+
+.contact-tweets .vertical-align {
+  height: 100%;
+  width: 100%;
+}
+
+.contact-tweets .vertical-align .col-md-5 {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+}
