@@ -128,3 +128,22 @@ as width of images is 300x300px
   margin-top: 2px;
   margin-bottom: 2px;
 }
+/* hover for social icons in side menu*/
+i.icon.fa.fa-twitter:hover {
+  color:gray;
+}
+i.icon.fa.fa-facebook:hover {
+  color:gray;
+}
+i.icon.fa.fa-youtube-play:hover {
+  color:gray;
+}
+i.icon.fa.fa-flickr:hover {
+  color:gray;
+}
+i.icon.fa.fa-instagram:hover {
+  color:gray;
+}
+i.icon.fa.fa-github:hover {
+  color:gray;
+}
