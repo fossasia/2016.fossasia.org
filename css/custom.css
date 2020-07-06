@@ -147,3 +147,26 @@ i.icon.fa.fa-instagram:hover {
 i.icon.fa.fa-github:hover {
   color:gray;
 }
+
+@media screen and (min-width: 375px) and (max-width: 812px)       
+{
+  
+  .schedule-with-text .btn,
+  
+  .contained-gallery .btn 
+  {
+    margin-bottom: 15px;
+  }
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 568px)       
+{
+  
+  .schedule-with-text .btn,
+  
+  .contained-gallery .btn {
+    margin-bottom: 12px;
+  }
+
+}
