@@ -249,7 +249,7 @@ nav {
 }
 body {
   font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-smoothing: antialiased;
+  font-smooth: antialiased;
   -webkit-font-smoothing: antialiased;
   color: #777777;
   font-size: 14px;
@@ -358,7 +358,9 @@ p a,
   color: #fff;
   display: inline-block;
   border-bottom: 4px solid #fff;
+  
   padding-bottom: 6px;
+  
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -367,7 +369,7 @@ span a,
 p a,
 .text-link a {
   padding-bottom: 4px;
-  border-bottom: 3px solid #fff;
+  border-bottom: 2px solid #fff;
 }
 span a:hover {
   color: #fff;
@@ -574,7 +576,7 @@ nav .container {
 .has-dropdown:before {
   display: inline-block;
   font-family: 'Pe-icon-7-stroke';
-  speak: none;
+  speak-as: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2204,7 +2206,7 @@ form .field-error {
   font-size: 14px;
 }
 .footer .menu li a {
-  diplay: inline-block;
+  display: inline-block;
   position: relative;
   border: none;
 }

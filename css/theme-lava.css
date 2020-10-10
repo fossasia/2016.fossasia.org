@@ -248,7 +248,7 @@ nav {
 }
 body {
   font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-smoothing: antialiased;
+  font-smooth: antialiased;
   -webkit-font-smoothing: antialiased;
   color: #777777;
   font-size: 14px;
@@ -494,7 +494,20 @@ nav .container {
   height: 2px;
   background: rgba(255, 255, 255, 0.3);
 }
+.top-border {
+  position: absolute;
+  bottom: 2px;
+  width: 100%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.3);
+}
 .sidebar-menu .bottom-border {
+  position: relative;
+  bottom: 0px;
+  background: rgba(255, 255, 255, 0.2);
+  display: block !important;
+}
+.sidebar-menu .top-border {
   position: relative;
   bottom: 0px;
   background: rgba(255, 255, 255, 0.2);
@@ -532,6 +545,9 @@ nav .container {
 }
 .menu li a:hover {
   border-bottom: 2px solid #fff;
+  border-top: 2px solid #fff;
+  padding-bottom: 2px;
+  border-radius: 8px;
 }
 .nav-dropdown {
   position: absolute;
@@ -541,7 +557,7 @@ nav .container {
   min-width: 200px;
   overflow: hidden;
   margin-top: -2px;
-  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .projects{
    min-height:525px;
@@ -556,7 +572,7 @@ nav .container {
   opacity: 0;
   margin-right: 0px;
   float: none;
-  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 .nav-dropdown li a {
   width: 100%;
@@ -564,7 +580,7 @@ nav .container {
   padding-bottom: 9px;
   padding-left: 2px;
   color: #333333;
-  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
 }
 .nav-dropdown li a:hover {
   border-color: rgba(0, 0, 0, 0);
@@ -597,7 +613,7 @@ nav .container {
 .has-dropdown:before {
   display: inline-block;
   font-family: 'Pe-icon-7-stroke';
-  speak: none;
+  speak-as: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -2236,7 +2252,7 @@ form .field-error {
   font-size: 14px;
 }
 .footer .menu li a {
-  diplay: inline-block;
+  display: inline-block;
   position: relative;
   border: none;
 }
