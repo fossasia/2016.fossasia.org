@@ -248,7 +248,6 @@ nav {
 }
 body {
   font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-smoothing: antialiased;
   -webkit-font-smoothing: antialiased;
   color: #777777;
   font-size: 14px;
@@ -531,8 +530,13 @@ nav .container {
   -moz-transition: all 0.3s ease-out;
 }
 .menu li a:hover {
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid black;
 }
+a:hover{
+  color:red;
+}
+
+
 .nav-dropdown {
   position: absolute;
   z-index: 1;
@@ -2322,6 +2326,11 @@ footer.classic .social-profiles {
   float: left;
   margin-right: 36px;
 }
+.social-profiles li:hover{
+  width: 40px;
+  border:2px solid black;
+  border-radius: 50%;
+}
 .social-profiles li:last-child {
   margin-right: 0px;
 }
@@ -2340,4 +2349,10 @@ footer.classic .social-profiles {
   position: absolute;
   top: 15%;
   left: 5%;
+}
+.lead.color-heading a{
+  text-decoration: none;
+  color:#777777;
+  font-size:30px;
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
